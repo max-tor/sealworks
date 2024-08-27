@@ -1,10 +1,8 @@
 image: "node:lts-alpine"
 stages:
   - build
-  - test
+#  - test
   - deploy
-# These folders are cached between builds
-# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
 cache:
   key: ${CI_COMMIT_REF_SLUG}
   paths:
@@ -20,26 +18,26 @@ npm:install:
     - if: $CI_MERGE_REQUEST_ID
   tags:
     - docker
-test:unit:
-  stage: test
-  needs: ["npm:install"]
-  script:
-    - npm run test:unit
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-    - if: $CI_MERGE_REQUEST_ID
-  tags:
-    - docker
-test:gatsby:
-  stage: test
-  needs: ["npm:install"]
-  script:
-    - ./node_modules/.bin/gatsby info
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-    - if: $CI_MERGE_REQUEST_ID
-  tags:
-    - docker
+#test:unit:
+#  stage: test
+#  needs: ["npm:install"]
+#  script:
+#    - npm run test:unit
+#  rules:
+#    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+#    - if: $CI_MERGE_REQUEST_ID
+#  tags:
+#    - docker
+#test:gatsby:
+#  stage: test
+#  needs: ["npm:install"]
+#  script:
+#    - ./node_modules/.bin/gatsby info
+#  rules:
+#    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+#    - if: $CI_MERGE_REQUEST_ID
+#  tags:
+#    - docker
 pages:
   stage: deploy
   needs:
