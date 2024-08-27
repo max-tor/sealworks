@@ -1,0 +1,18 @@
+import React from 'react';
+export const DiscussChallengeSection = () => {
+    return (React.createElement("div", { className: "w-[1230px] h-[358px] relative" },
+        React.createElement("div", { className: "w-[1230px] h-[358px] left-0 top-0 absolute bg-[#f7d900]" }),
+        React.createElement("div", { className: "w-[343px] h-[54px] left-[500px] top-[229px] absolute" },
+            React.createElement("div", { className: "w-[341.05px] h-[54px] left-0 top-0 absolute bg-[#002d9a] rounded-[32.59px]" }),
+            React.createElement("div", { className: "w-[339.47px] h-[26px] left-[3.53px] top-[14px] absolute text-center text-white text-[23px] font-bold font-['Helvetica']" }, "book a project jam session")),
+        React.createElement("div", { className: "w-[678px] left-[500px] top-[41px] absolute text-black text-[40px] font-normal font-['Helvetica'] leading-[48px]" }, "let\u2019s discuss your challenge and create a solution today."),
+        React.createElement("div", { className: "w-[236px] left-[520px] top-[151px] absolute text-[#002d9a] text-lg font-normal font-['Helvetica'] leading-loose" },
+            "30-min ",
+            React.createElement("br", null),
+            "define your needs"),
+        React.createElement("div", { className: "w-[236px] left-[763px] top-[151px] absolute text-[#002d9a] text-lg font-normal font-['Helvetica'] leading-loose" },
+            "discuss ideas",
+            React.createElement("br", null),
+            "define next steps"),
+        React.createElement("img", { className: "w-[469px] h-[333px] left-[3px] top-[16px] absolute", src: "https://via.placeholder.com/469x333" })));
+};
