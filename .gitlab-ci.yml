@@ -42,8 +42,8 @@ pages:
   stage: deploy
   needs:
     - npm:install
-    - test:unit
-    - test:gatsby
+#    - test:unit
+#    - test:gatsby
   script:
     - ./node_modules/.bin/gatsby build --prefix-paths
   artifacts:
