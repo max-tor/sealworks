@@ -45,7 +45,12 @@ pages:
 #    - test:unit
 #    - test:gatsby
   script:
+    - echo "Pages accessible through ${CI_PAGES_URL}/${PAGES_PREFIX}"
     - ./node_modules/.bin/gatsby build --prefix-paths
+  variables:
+    PAGES_PREFIX: ""  # No prefix by default (master)
+  pages:
+    path_prefix: "$PAGES_PREFIX"
   artifacts:
     paths:
       - public
