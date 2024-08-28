@@ -4,42 +4,48 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className="h-[84px] relative">
-      <div className="w-[1280px] h-[84px] left-0 top-0 absolute bg-white" />
-      <div className="w-[462px] h-[31px] left-[804px] top-[27px] absolute">
-        <Link
-          to="/"
-          className="left-0 top-[5px] absolute text-[#002d9a] text-lg font-normal font-['Helvetica']"
-        >
-          welcome
-        </Link>
-        <Link
-          to="/process"
-          className="left-[123px] top-[5px] absolute text-[#002d9a] text-lg font-normal font-['Helvetica']"
-        >
-          the process
-        </Link>
-        <Link
-          to="/work"
-          className="left-[258px] top-[5px] absolute text-center text-[#002d9a] text-lg font-normal font-['Helvetica']"
-        >
-          our work
-        </Link>
-        <Link
-          to="/connect"
-          className="h-[31px] px-2.5 py-[5px] left-[372px] top-0 absolute bg-white rounded-[57px] justify-start items-start gap-2.5 inline-flex"
-        >
-          <div className="text-center text-black text-lg font-bold font-['Helvetica']">
-            connect
-          </div>
-        </Link>
-      </div>
+    <header className="flex content-center items-center justify-between mb-8 mt-3">
       <StaticImage
-        className="w-[351px] h-[71px] left-[20px] top-[13px] absolute"
-        src="../../../images/logo.png"
+        className="w-auto my-2"
+        src="../../../images/sealworks_logo.svg"
         alt="Sealworks Interactive Studios"
       />
-      <div className="w-[84px] h-[9px] left-[1179px] top-0 absolute bg-[#cc0000]" />
+      <nav>
+        <ul className="main-nav list-none flex gap-12">
+          <li>
+            <Link
+              to="/"
+              className="text-blue text-lg font-normal font-roboto hover:text-black hover:font-bold"
+            >
+              welcome
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/process"
+              className="text-blue text-lg font-normal font-roboto hover:text-black hover:font-bold"
+            >
+              the process
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/work"
+              className="text-blue text-lg font-normal font-roboto hover:text-black hover:font-bold"
+            >
+              our work
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/connect"
+              className="text-blue text-lg font-normal font-roboto hover:text-black hover:font-bold"
+            >
+              connect
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 };

@@ -24,10 +24,10 @@ export const ConnectBanner: React.FC = () => {
         <div className="w-[15px] h-[15px] left-[-0px] top-[15px] absolute origin-top-left rotate-90 bg-[#f7d900]" />
         <div className="w-[15px] h-[15px] left-[-163px] top-[60px] absolute origin-top-left rotate-90 bg-[#f7d900]" />
       </div>
-      <div className="w-[482px] left-[67px] top-[127px] absolute text-[#cc0000] text-[66px] font-normal font-['Helvetica'] leading-[70px]">
+      <div className="w-[482px] left-[67px] top-[127px] absolute text-[#cc0000] text-[66px] font-normal font-roboto leading-[70px]">
         let’s connect.
       </div>
-      <div className="w-[482px] left-[67px] top-[49px] absolute text-[#cc0000] text-[66px] font-normal font-['Helvetica'] leading-[70px]">
+      <div className="w-[482px] left-[67px] top-[49px] absolute text-[#cc0000] text-[66px] font-normal font-roboto leading-[70px]">
         ready or not,
       </div>
       <div className="w-[482px] left-[67px] top-[230px] absolute">
@@ -36,7 +36,7 @@ export const ConnectBanner: React.FC = () => {
           launch, scale and enhance an existing digital experience, or simply
           brainstorm and workshop together,
         </span>
-        <span className="text-black text-[15px] font-bold font-['Helvetica'] leading-normal">
+        <span className="text-black text-[15px] font-bold font-roboto leading-normal">
           {' '}
           let’s connect.
         </span>
