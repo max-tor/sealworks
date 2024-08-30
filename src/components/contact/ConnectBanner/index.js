@@ -1,1 +1,0 @@
-export { ConnectBanner } from './ConnectBanner';

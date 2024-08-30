@@ -1,1 +1,0 @@
-export { DiscussChallengeSection } from './DiscussChallengeSection';

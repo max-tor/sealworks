@@ -10,9 +10,10 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:import/typescript', // Use import/export rules that are specific to TypeScript
     'plugin:prettier/recommended', // Use recommended Prettier rules
+    'plugin:tailwindcss/recommended',
     'prettier', // Disable ESLint rules that would conflict with Prettier
   ],
-  plugins: ['simple-import-sort'],
+  plugins: ['simple-import-sort', 'tailwindcss'],
   parserOptions: {
     ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
@@ -93,5 +94,7 @@ module.exports = {
     ],
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
+    'tailwindcss/no-custom-classname': 'off',
+    'tailwindcss/classnames-order': 'error',
   },
 };
