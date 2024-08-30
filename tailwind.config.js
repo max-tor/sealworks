@@ -4,6 +4,15 @@ module.exports = {
     './src/pages/**/*.{js,jsx,ts,tsx}',
     './src/components/**/*.{js,jsx,ts,tsx}',
   ],
+  mode: 'all',
+  safelist: [
+    {
+      pattern: /bg-(red|yellow|blue)/,
+    },
+    {
+      pattern: /text-*/,
+    },
+  ],
   theme: {
     extend: {
       colors: {
