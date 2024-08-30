@@ -1,0 +1,30 @@
+/* menu */
+.main-nav {
+  @apply max-h-0 transition-[max-height] duration-[0.2s] ease-[ease-out] overflow-hidden list-none flex flex-col absolute w-full left-0 items-start bg-white items-center px-4 lg:px-0 lg:border-0 lg:gap-12 lg:relative lg:flex-row lg:overflow-visible lg:max-h-[none];
+}
+.main-nav .active {
+  @apply relative font-bold text-black before:content-[''] before:absolute before:w-full before:h-1 lg:before:h-2 before:bg-red before:left-0 before:top-9 lg:before:top-1;
+}
+
+/* menu icon */
+.menu-icon .navicon {
+  @apply block h-0.5 relative transition-[background] duration-[0.2s] ease-[ease-out] w-8 before:top-2 after:-top-2 bg-[#3669E4];
+}
+.menu-icon .navicon:before,
+.menu-icon .navicon:after {
+  @apply content-[''] block h-full absolute transition-all duration-[0.2s] ease-[ease-out] w-full bg-[#3669E4];
+}
+
+/* menu btn */
+.menu-btn {
+  @apply hidden;
+}
+.menu-btn:checked ~ .main-nav {
+  @apply max-h-full border-blue border-b-2;
+}
+.menu-btn:checked ~ .menu-icon .navicon {
+  @apply bg-transparent before:-rotate-45 after:rotate-45;
+}
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon {
+  @apply before:top-0 after:top-0;
+}
