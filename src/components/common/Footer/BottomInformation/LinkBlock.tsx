@@ -1,8 +1,8 @@
 import { Link, Script } from 'gatsby';
 import React from 'react';
 
-import { useSiteMetadata } from '../../../../hooks/useSiteMetadata';
-import { Dot } from '../../Dot';
+import { Dot } from '@/components/common/Dot';
+import { useSiteMetadata } from '@/hooks/useSiteMetadata';
 
 interface SocialLink {
   name: string;

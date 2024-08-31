@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { Pages } from '../../../configs';
+import { Pages } from '@/configs';
+
 import { BottomInformation } from './BottomInformation/LinkBlock';
 import { LinkBlock } from './LinkBlock/LinkBlock';
 import { FooterProps } from './PageLayoutProps';

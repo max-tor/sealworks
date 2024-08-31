@@ -7,7 +7,7 @@ const Navigation: React.FC = () => {
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label
         htmlFor="menu-btn"
-        className="menu-icon cursor-pointer block relative select-none px-5 py-7 lg:hidden text-transparent text-0"
+        className="menu-icon text-0 relative block cursor-pointer select-none px-5 py-7 text-transparent lg:hidden"
       >
         Menu<span className="navicon"></span>
       </label>
@@ -15,7 +15,7 @@ const Navigation: React.FC = () => {
         <li className="pb-10 lg:pb-0">
           <Link
             to="/"
-            className="text-blue lg:pt-8 text-3xl lg:text-lg font-normal font-roboto hover:text-black"
+            className="font-roboto text-3xl font-normal text-blue hover:text-black lg:pt-8 lg:text-lg"
             activeClassName="active"
           >
             welcome
@@ -24,7 +24,7 @@ const Navigation: React.FC = () => {
         <li className="pb-10 lg:pb-0">
           <Link
             to="/process"
-            className="text-blue lg:pt-8 text-3xl lg:text-lg font-normal font-roboto hover:text-black"
+            className="font-roboto text-3xl font-normal text-blue hover:text-black lg:pt-8 lg:text-lg"
             activeClassName="active"
           >
             the process
@@ -33,7 +33,7 @@ const Navigation: React.FC = () => {
         <li className="pb-10 lg:pb-0">
           <Link
             to="/work"
-            className="text-blue lg:pt-8 text-3xl lg:text-lg font-normal font-roboto hover:text-black"
+            className="font-roboto text-3xl font-normal text-blue hover:text-black lg:pt-8 lg:text-lg"
             activeClassName="active"
           >
             our work
@@ -42,7 +42,7 @@ const Navigation: React.FC = () => {
         <li className="pb-10 lg:pb-0">
           <Link
             to="/connect"
-            className="text-blue lg:pt-8 text-3xl lg:text-lg font-normal font-roboto hover:text-black"
+            className="font-roboto text-3xl font-normal text-blue hover:text-black lg:pt-8 lg:text-lg"
             activeClassName="active"
           >
             connect
