@@ -39,6 +39,14 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
+    {
+      resolve: 'gatsby-plugin-alias-imports',
+      options: {
+        alias: {
+          '@': 'src',
+        },
+      },
+    },
     'gatsby-plugin-postcss',
     'gatsby-plugin-styled-components',
     // "gatsby-plugin-google-gtag",

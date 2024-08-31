@@ -13,7 +13,7 @@ module.exports = {
     'plugin:tailwindcss/recommended',
     'prettier', // Disable ESLint rules that would conflict with Prettier
   ],
-  plugins: ['simple-import-sort', 'tailwindcss'],
+  plugins: ['simple-import-sort', 'import-alias', 'tailwindcss'],
   parserOptions: {
     ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
@@ -25,11 +25,16 @@ module.exports = {
     react: {
       version: 'detect', // Automatically detect the React version
     },
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
     'import/resolver': {
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
-      typescript: {}, // This will make eslint-plugin-import resolve imports using TypeScript's config
+      typescript: {
+        map: [['@', './src']],
+      }, // This will make eslint-plugin-import resolve imports using TypeScript's config
     },
   },
   env: {
@@ -69,6 +74,15 @@ module.exports = {
         'newlines-between': 'always',
       },
     ], // Ensure consistent import order
+    'import-alias/import-alias': [
+      'error',
+      {
+        relativeDepth: 0,
+        aliases: [
+          { alias: '@', matcher: '^src' }, // src/modules/app/test -> @src/modules/app/test
+        ],
+      },
+    ],
     'react/jsx-filename-extension': [
       'warn',
       {

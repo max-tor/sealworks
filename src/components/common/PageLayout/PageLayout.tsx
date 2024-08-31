@@ -1,7 +1,8 @@
 import * as React from 'react';
 
-import { Footer } from '../Footer';
-import Header from '../Header/Header';
+import { Footer } from '@/components/common/Footer';
+import Header from '@/components/common/Header/Header';
+
 import { PageLayoutProps } from './PageLayoutProps';
 
 export const PageLayout = ({ children, location }: PageLayoutProps) => (

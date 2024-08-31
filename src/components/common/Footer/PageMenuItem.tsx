@@ -1,4 +1,4 @@
-import { Pages } from '../../../configs';
+import { Pages } from '@/configs';
 
 export interface PageMenuItem {
   link: string;
