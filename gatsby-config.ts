@@ -50,6 +50,7 @@ const config: GatsbyConfig = {
     'gatsby-plugin-postcss',
     'gatsby-plugin-styled-components',
     // "gatsby-plugin-google-gtag",
+    'gatsby-plugin-breakpoints',
     'gatsby-plugin-image',
     'gatsby-plugin-sitemap',
     'gatsby-omni-font-loader',
@@ -100,7 +101,7 @@ const config: GatsbyConfig = {
         web: [
           {
             name: 'Roboto',
-            file: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap',
+            file: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap',
           },
           {
             name: 'BioRhyme',

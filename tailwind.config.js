@@ -36,6 +36,7 @@ module.exports = {
         red: '#CC0000',
         redSticky: '#FFC8C8',
         redDark: '#A20000',
+        gray: '#F5F5F5',
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
