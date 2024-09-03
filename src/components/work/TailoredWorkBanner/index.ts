@@ -1,0 +1,1 @@
+export { TailoredWorkBanner } from './TailoredWorkBanner';
