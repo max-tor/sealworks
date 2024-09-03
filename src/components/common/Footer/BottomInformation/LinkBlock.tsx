@@ -30,7 +30,7 @@ export const BottomInformation = () => {
 
   return (
     <>
-      <div className="m-5 flex justify-between gap-10 rounded-none font-roboto text-sm lg:my-14">
+      <div className="my-5 flex justify-between gap-10 rounded-none font-roboto text-sm lg:my-14">
         <div className="basis-auto max-md:max-w-full">
           <span>
             ©{years} {copy}

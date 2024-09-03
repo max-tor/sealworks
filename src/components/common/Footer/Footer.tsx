@@ -58,7 +58,7 @@ export const Footer = ({ location }: FooterProps) => {
 
   return (
     <footer className="relative" role="contentinfo">
-      <div className="my-6 grid gap-x-4 gap-y-8 md:m-6 md:grid-cols-3">
+      <div className="my-6 grid gap-x-4 gap-y-8 md:my-6 md:grid-cols-3">
         {card.map(renderCard)}
       </div>
 
