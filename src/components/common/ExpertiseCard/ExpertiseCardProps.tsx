@@ -1,4 +1,4 @@
 export interface ExpertiseCardProps {
-  image: string;
+  children: React.ReactNode;
   color: 'blue' | 'yellow' | 'red';
 }

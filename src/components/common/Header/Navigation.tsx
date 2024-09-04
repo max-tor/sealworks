@@ -1,5 +1,6 @@
 import { Link } from 'gatsby';
 import React from 'react';
+
 import { Pages } from '@/configs';
 
 const Navigation: React.FC = () => {
@@ -8,9 +9,9 @@ const Navigation: React.FC = () => {
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label
         htmlFor="menu-btn"
-        className="menu-icon text-[0] relative block cursor-pointer select-none px-5 py-7 text-transparent lg:hidden"
+        className="menu-icon relative block cursor-pointer select-none px-5 py-7 text-[0] text-transparent lg:hidden"
       >
-        Menu<span className="navicon"></span>
+        Toggle Menu<span className="navicon"></span>
       </label>
       <ul className="main-nav">
         <li className="pb-10 lg:pb-0">

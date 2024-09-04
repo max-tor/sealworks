@@ -2,15 +2,15 @@ import React from 'react';
 
 import { TileCardProps } from './TileCardProps';
 
-export const TileCard = ({
-  title,
-  text,
-}: TileCardProps) => {
-
+export const TileCard = ({ title, text }: TileCardProps) => {
   return (
-    <div className="min-h-[382px] lg:min-h-[200px] lg:h-[200px] bg-blue text-center pt-[135px] lg:pt-[50px] pb-9 hover:bg-white group cursor-default">
-      <h3 className="font-roboto font-bold text-[26px] leading-normal text-white px-4 group-hover:text-black">{title}</h3>
-      <p className="mt-[6px] px-[10px] font-roboto text-white font-normal text-base leading-5 text-center group-hover:text-black">{text}</p>
+    <div className="group min-h-[382px] cursor-default bg-blue pb-9 pt-[90px] text-center hover:bg-white md:pt-[135px] lg:h-[200px] lg:min-h-[200px] lg:pt-[50px]">
+      <h3 className="px-4 font-roboto text-5xl font-bold leading-normal text-white group-hover:text-black md:text-[26px]">
+        {title}
+      </h3>
+      <p className="mt-[6px] px-[10px] text-center font-roboto text-[26px] font-normal text-white group-hover:text-black md:text-base">
+        {text}
+      </p>
     </div>
   );
 };
