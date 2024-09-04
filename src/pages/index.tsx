@@ -27,13 +27,13 @@ const IndexPage = ({ location }: PageProps) => {
         </div>
         <div className="tags">
           <StaticImage
-            className="mx-11 mb-3 max-w-[580px] lg:mx-10 lg:my-3"
+            className="animate__animated animate__zoomIn mx-11 mb-3 max-w-[580px] lg:mx-10 lg:my-3"
             src="../images/tags.png"
             alt="Tags"
           />
         </div>
       </div>
-      <div className="mb-9 flex flex-col items-center gap-5 lg:mb-[70px] lg:flex-row lg:justify-between lg:gap-7">
+      <div className="mb-9 flex flex-col items-stretch gap-5 lg:mb-[70px] lg:flex-row lg:justify-between lg:gap-7">
         <div className="flex min-h-[350px] w-full flex-col items-center justify-center bg-blue px-10 lg:w-1/3 lg:max-w-[400px]">
           <p className="mb-3 font-roboto text-[23px] font-normal leading-8 text-white">
             we believe in the power of technology to connect, inspire, and make
@@ -117,9 +117,9 @@ const IndexPage = ({ location }: PageProps) => {
         <h2 className="font-roboto text-[35px] font-normal leading-[48px] lg:text-[40px]">
           decades at the forefront of
         </h2>
-        <h3 className="font-roboto text-[50px] font-normal leading-[62px] lg:text-[66px] lg:leading-[72px]">
+        <h2 className="font-roboto text-[50px] font-normal leading-[62px] lg:text-[66px] lg:leading-[72px]">
           crafting innovative solutions
-        </h3>
+        </h2>
       </div>
       <div className="relative flex flex-col-reverse lg:flex-col">
         <div className="relative mt-8 bg-blue p-8 font-roboto text-[15px] leading-[23px] text-white before:absolute before:-top-[55px] before:left-[27px] before:border-b-[76px] before:border-r-[44px] before:border-b-blue before:border-r-transparent before:content-[''] lg:absolute lg:top-2/4 lg:z-10 lg:mt-0 lg:max-w-[356px] lg:-translate-y-1/2 lg:pt-[52px]">
@@ -178,9 +178,9 @@ const IndexPage = ({ location }: PageProps) => {
         </span>
         <Like className="ml-auto lg:absolute lg:right-[45px] lg:top-[60px]" />
       </div>
-      <h2 className="mb-4 font-roboto text-5xl lg:mb-9 lg:text-[66px]">
+      <h3 className="mb-4 font-roboto text-5xl lg:mb-9 lg:text-[66px]">
         excellence bolstered by expertise
-      </h2>
+      </h3>
       <div className="mb-20 flex flex-col gap-5 md:mb-[60px] lg:mb-[92px] lg:flex-row lg:gap-12">
         <div className="grid gap-5 md:grid-cols-[repeat(2,1fr)] lg:w-2/3 lg:grid-cols-[repeat(3,1fr)]">
           <ExpertiseCard color={'yellow'}>
@@ -258,9 +258,9 @@ const IndexPage = ({ location }: PageProps) => {
             never settle for anything less than the best to ensure that every
             project is a smashing success.
           </p>
-          <h2 className="mb-[30px] text-[26px] font-bold leading-9 text-red">
+          <h3 className="mb-[30px] text-[26px] font-bold leading-9 text-red">
             Get started creating your award-winning experience.
-          </h2>
+          </h3>
           <CustomButton
             linkTo={'/work'}
             linkText={'let’s play'}
@@ -292,9 +292,9 @@ const IndexPage = ({ location }: PageProps) => {
         </p>
         <Rectangle className="absolute top-0 hidden h-full md:right-0 lg:-right-[60px] lg:block" />
       </div>
-      <h3 className="mb-1 font-roboto text-3xl font-normal leading-[53px] md:text-[40px]">
+      <h2 className="mb-1 font-roboto text-3xl font-normal leading-[53px] md:text-[40px]">
         some of the amazing teams
-      </h3>
+      </h2>
       <h2 className="mb-6 font-roboto text-5xl font-normal leading-[53px] md:text-[60px]">
         we’ve been lucky to partner with:
       </h2>

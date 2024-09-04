@@ -17,6 +17,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "animate.css": "4.1.1",
     "babel-plugin-styled-components": "^2.1.4",
     "gatsby": "^5.13.5",
     "gatsby-omni-font-loader": "2.0.2",
