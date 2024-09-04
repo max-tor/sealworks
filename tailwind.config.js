@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     './src/pages/**/*.{js,jsx,ts,tsx}',
@@ -51,6 +50,9 @@ module.exports = {
         craftygirls: ['Crafty Girls', 'cursive'],
         dotgothic16: ['DotGothic16', 'sans-serif'],
         bubblerone: ['Bubbler One', 'sans-serif'],
+      },
+      width: {
+        'underlined-text': 'calc(100% + 6px)',
       },
       spacing: {
         128: '32rem',
