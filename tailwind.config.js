@@ -10,7 +10,7 @@ module.exports = {
       pattern: /bg-(red|yellow|blue)/,
     },
     {
-      pattern: /text-*/,
+      pattern: /(text|font)-*/,
     },
   ],
   theme: {

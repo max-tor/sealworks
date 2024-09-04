@@ -160,7 +160,7 @@ const config: GatsbyConfig = {
             file: 'https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap',
           },
           {
-            name: 'Annie Use Your Telescope',
+            name: 'Annie',
             file: 'https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap',
           },
         ],
