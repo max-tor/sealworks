@@ -4,7 +4,7 @@ import { ExpertiseCardProps } from './ExpertiseCardProps';
 import { StaticImage } from 'gatsby-plugin-image';
 
 export const ExpertiseCard = ({
-  image,
+  children,
   color,
 }: ExpertiseCardProps) => {
   const colorVariants = {
@@ -12,14 +12,10 @@ export const ExpertiseCard = ({
     blue: 'after:bg-blue',
     red: 'after:bg-red',
   }
+
   return (
     <div className={`relative after:content-[''] after:absolute after:w-full after:h-full after:-left-2 after:top-2 after:-z-[1] after:rounded-lg ${colorVariants[color]}`}>
-      <StaticImage
-        className="relative w-full"
-        // src={`../../../images/${image}`}
-        src={`../../../images/expertise1.jpg`}
-        alt="Expertise"
-      />
+      {children}
     </div>
   );
 };
