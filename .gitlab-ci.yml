@@ -20,7 +20,6 @@ npm:install:
 
 deploy_to_s3:
   stage: deploy
-  image: amazon/aws-cli
   needs:
     - npm:install
   script:
