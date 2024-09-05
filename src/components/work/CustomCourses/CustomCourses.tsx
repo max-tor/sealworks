@@ -8,67 +8,67 @@ const description =
 
 export const CustomCourses: React.FC = () => {
   return (
-    <section className="my-5 flex flex-row-reverse gap-5 max-md:flex-col md:gap-[116px]">
-      <div className="ml-5 flex w-[36%] flex-col max-md:ml-0 max-md:w-full">
-        <section className="flex flex-col text-black max-md:mt-10">
-          <h2 className="w-[400px] text-7xl leading-[70px] max-md:text-4xl max-md:leading-10">
+    <section className="my-5 flex max-w-full flex-row-reverse gap-5 max-lg:flex-col lg:gap-[40px] xl:gap-[116px]">
+      <div className="flex-[1_1_36%] flex-col max-lg:ml-0 max-lg:w-full">
+        <div className="text-black max-lg:mt-10">
+          <h2 className="text-6xl leading-[70px] max-lg:text-4xl max-lg:leading-10">
             <UnderlinedText color="blueSticky">custom</UnderlinedText>{' '}
             <UnderlinedText color="blueSticky">courses</UnderlinedText>
           </h2>
           <p className="mt-10 text-base leading-6">{description}</p>
-        </section>
+        </div>
       </div>
-      <aside className="max-md:gr relative mx-auto grid w-full gap-4 max-md:ml-0 max-md:mt-10 max-md:w-full max-md:max-w-full md:mb-[10px] md:mt-[30px] md:h-[636px] md:w-[64%] md:flex-col md:bg-blue">
-        <div className="md:absolute md:left-[40px] md:top-[48px] md:h-[312px] md:w-[472px]">
+      <aside className="relative mx-auto grid w-full flex-[1_0_712px] gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:mb-[10px] lg:mt-[30px] lg:h-[636px] lg:w-[64%] lg:flex-col lg:bg-blue">
+        <div className="lg:absolute lg:left-[40px] lg:top-[48px] lg:h-[312px] lg:w-[472px]">
           <StaticImage
-            className="md:h-[312px] md:w-[472px] md:object-cover md:shadow-lg"
-            imgClassName="h-auto max-w-full md:object-top"
+            className="lg:h-[312px] lg:w-[472px] lg:object-cover lg:shadow-lg"
+            imgClassName="h-auto max-w-full lg:object-top"
             alt="Interactive training module featuring a floor plan and a family scenario for childcare, showing rooms with Click n' Learn and scenario activities."
             src="images/young-family-scenario.png"
-            breakpoints={[472, 768]}
-            sizes="(min-width: 768px) 472px, 100vw"
+            breakpoints={[472, 1024]}
+            sizes="(min-width: 1024px) 472px, 100vw"
           />
         </div>
-        <div className="hidden md:absolute md:left-[8px] md:top-[36px] md:block md:h-[340px] md:w-[103px]">
+        <div className="hidden lg:absolute lg:left-[8px] lg:top-[36px] lg:block lg:h-[340px] lg:w-[103px]">
           <StaticImage
-            className="md:h-[340px] md:w-[103px] md:shadow-lg"
-            imgClassName="h-auto max-w-full md:object-top"
+            className="lg:h-[340px] lg:w-[103px] lg:shadow-lg"
+            imgClassName="h-auto max-w-full lg:object-top"
             alt=""
             src="images/girl.png"
-            breakpoints={[103, 768]}
-            sizes="(min-width: 768px) 103px, 100vw"
+            breakpoints={[103, 1024]}
+            sizes="(min-width: 1024px) 103px, 100vw"
           />
         </div>
-        <div className="md:absolute md:left-[456px] md:top-[-30px] md:h-[177px] md:w-[242px]">
+        <div className="lg:absolute lg:left-[456px] lg:top-[-30px] lg:h-[177px] lg:w-[242px]">
           <StaticImage
-            className="md:h-[177px] md:w-[242px] md:object-cover md:shadow-lg"
-            imgClassName="h-auto max-w-full md:object-top"
+            className="lg:h-[177px] lg:w-[242px] lg:object-cover lg:shadow-lg"
+            imgClassName="h-auto max-w-full lg:object-top"
             alt="Childcare training module featuring a child with a list of actions to handle a temper tantrum."
             src="images/childcare-scenario-action.png"
-            breakpoints={[242, 768]}
-            sizes="(min-width: 768px) 242px, 100vw"
+            breakpoints={[242, 1024]}
+            sizes="(min-width: 1024px) 242px, 100vw"
           />
         </div>
-        <div className="md:absolute md:left-[91px] md:top-[408px] md:h-[238px] md:w-[400px]">
+        <div className="lg:absolute lg:left-[91px] lg:top-[408px] lg:h-[238px] lg:w-[400px]">
           <StaticImage
-            className="md:h-[238px] md:w-[400px] md:object-cover md:shadow-lg"
-            imgClassName="h-auto max-w-full md:object-top"
+            className="lg:h-[238px] lg:w-[400px] lg:object-cover lg:shadow-lg"
+            imgClassName="h-auto max-w-full lg:object-top"
             alt="Module on reflecting on privilege, showing questions about family background and a mountain graphic illustrating privilege levels."
             src="images/reflecting-on-privilege.png"
           />
         </div>
-        <div className="md:absolute md:left-[15px] md:top-[383px] md:h-[206px] md:w-[100px]">
+        <div className="lg:absolute lg:left-[15px] lg:top-[383px] lg:h-[206px] lg:w-[100px]">
           <StaticImage
-            className="md:h-[206px] md:w-[100px] md:object-cover md:shadow-lg"
-            imgClassName="h-auto max-w-full md:object-top"
+            className="lg:h-[206px] lg:w-[100px] lg:object-cover lg:shadow-lg"
+            imgClassName="h-auto max-w-full lg:object-top"
             alt="Diversity training module defining diversity with various interactive elements and definitions."
             src="images/defining-diversity-module.png"
           />
         </div>
-        <div className="md:absolute md:left-[412px] md:top-[312px] md:h-[256px] md:w-[325px]">
+        <div className="lg:absolute lg:left-[412px] lg:top-[312px] lg:h-[256px] lg:w-[325px]">
           <StaticImage
-            className="md:h-[256px] md:w-[325px] md:object-cover md:shadow-lg"
-            imgClassName="h-auto max-w-full md:object-top"
+            className="lg:h-[256px] lg:w-[325px] lg:object-cover lg:shadow-lg"
+            imgClassName="h-auto max-w-full lg:object-top"
             alt="Interactive module showing common uses of credit with options to select different real-life scenarios."
             src="images/credit-uses-example.png"
           />
