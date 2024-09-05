@@ -12,7 +12,8 @@ export const CustomCourses: React.FC = () => {
       <div className="flex-[1_1_36%] flex-col max-lg:ml-0 max-lg:w-full">
         <div className="text-black max-lg:mt-10">
           <h2 className="text-6xl leading-[70px] max-lg:text-4xl max-lg:leading-10">
-            <UnderlinedText color="blueSticky">custom</UnderlinedText>{' '}
+            <UnderlinedText color="blueSticky">custom</UnderlinedText>
+            <br />
             <UnderlinedText color="blueSticky">courses</UnderlinedText>
           </h2>
           <p className="mt-10 text-base leading-6">{description}</p>
