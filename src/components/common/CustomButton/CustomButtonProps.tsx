@@ -3,6 +3,4 @@ export interface CustomButtonProps {
   linkText: string;
   bgColor: 'blue' | 'yellow';
   textColor?: string;
-  blue: string;
-  yellow: string;
 }
