@@ -47,11 +47,13 @@ const config: GatsbyConfig = {
         },
       },
     },
+
     'gatsby-plugin-postcss',
     'gatsby-plugin-styled-components',
+    'gatsby-plugin-image',
     // "gatsby-plugin-google-gtag",
     'gatsby-plugin-breakpoints',
-    'gatsby-plugin-image',
+
     'gatsby-plugin-sitemap',
     'gatsby-omni-font-loader',
     {
