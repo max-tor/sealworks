@@ -66,8 +66,6 @@ const IndexPage = ({ location }: PageProps) => {
               linkTo="/work"
               linkText="view our work"
               bgColor="blue"
-              blue=""
-              yellow=""
             />
           </div>
         </div>
@@ -193,56 +191,56 @@ const IndexPage = ({ location }: PageProps) => {
           <ExpertiseCard color={'blue'}>
             <StaticImage
               className="relative z-[1]"
-              src="../images/expertise1.jpg"
+              src="../images/expertise2.jpg"
               alt="Expertise"
             />
           </ExpertiseCard>
           <ExpertiseCard color={'yellow'}>
             <StaticImage
               className="relative z-[1]"
-              src="../images/expertise1.jpg"
+              src="../images/expertise3.jpg"
               alt="Expertise"
             />
           </ExpertiseCard>
           <ExpertiseCard color={'blue'}>
             <StaticImage
               className="relative z-[1]"
-              src="../images/expertise1.jpg"
+              src="../images/expertise4.jpg"
               alt="Expertise"
             />
           </ExpertiseCard>
           <ExpertiseCard color={'red'}>
             <StaticImage
               className="relative z-[1]"
-              src="../images/expertise1.jpg"
+              src="../images/expertise5.jpg"
               alt="Expertise"
             />
           </ExpertiseCard>
           <ExpertiseCard color={'blue'}>
             <StaticImage
               className="relative z-[1]"
-              src="../images/expertise1.jpg"
+              src="../images/expertise6.jpg"
               alt="Expertise"
             />
           </ExpertiseCard>
           <ExpertiseCard color={'red'}>
             <StaticImage
               className="relative z-[1]"
-              src="../images/expertise1.jpg"
+              src="../images/expertise7.jpg"
               alt="Expertise"
             />
           </ExpertiseCard>
           <ExpertiseCard color={'yellow'}>
             <StaticImage
               className="relative z-[1]"
-              src="../images/expertise1.jpg"
+              src="../images/expertise8.jpg"
               alt="Expertise"
             />
           </ExpertiseCard>
           <ExpertiseCard color={'red'}>
             <StaticImage
               className="relative z-[1]"
-              src="../images/expertise1.jpg"
+              src="../images/expertise9.jpg"
               alt="Expertise"
             />
           </ExpertiseCard>
@@ -266,17 +264,17 @@ const IndexPage = ({ location }: PageProps) => {
             linkText={'let’s play'}
             bgColor={'yellow'}
             textColor={'black'}
-            blue={''}
-            yellow={''}
           />
         </div>
       </div>
       <div className="relative mb-8 bg-blue px-4 pb-5 text-white md:mb-20 md:ml-20 md:py-8 md:pl-[200px] md:pr-5 lg:pr-[120px]">
-        <StaticImage
-          className="relative z-[1] -mt-20 md:absolute md:-left-[113px] md:-top-[30px] md:mt-0 lg:-top-[73px]"
-          src="../images/award.png"
-          alt="Award"
-        />
+        <div className="relative z-[1] md:absolute md:-left-[113px] md:-top-[30px] lg:-top-[73px]">
+          <StaticImage
+            className="-mt-20 md:mt-0"
+            src="../images/award.png"
+            alt="Award"
+          />
+        </div>
         <h2 className="mb-4 max-w-[800px] font-roboto text-[26px] font-bold leading-9">
           In 2016, Sealworks founder Nick Floro was awarded the Guild Master
           Award.{' '}
@@ -290,7 +288,9 @@ const IndexPage = ({ location }: PageProps) => {
           quantity and quality of content — and thus helped make the community a
           vibrant center for learning while pushing the industry forward.
         </p>
-        <Rectangle className="absolute top-0 hidden h-full md:right-0 lg:-right-[60px] lg:block" />
+        <div className="absolute top-0 hidden h-full md:right-0 lg:-right-[60px] lg:block">
+          <Rectangle />
+        </div>
       </div>
       <h2 className="mb-1 font-roboto text-3xl font-normal leading-[53px] md:text-[40px]">
         some of the amazing teams
