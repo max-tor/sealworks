@@ -26,7 +26,7 @@ deploy_to_s3:
   script:
     - echo "Deploy to aws S3"
     - ./node_modules/.bin/gatsby build --prefix-paths
-    - ./node_modules/.bin/gatsby-plugin-s3 deploy
+    - ./node_modules/.bin/gatsby-plugin-s3 deploy --yes
   variables:
     PAGES_PREFIX: ""  # No prefix by default (master)
 
