@@ -30,20 +30,25 @@ export const BottomInformation = () => {
 
   return (
     <>
-      <div className="my-5 flex justify-between gap-10 rounded-none font-roboto text-sm lg:my-14">
-        <div className="basis-auto max-md:max-w-full">
+      <div className="my-5 flex flex-wrap justify-between gap-10 rounded-none font-roboto text-sm lg:my-14">
+        <div className="max-w-full lg:flex-[1_1_700px]">
           <span>
             ©{years} {copy}
           </span>
           <Dot />
-          <span>{address}</span> <Dot />
-          <a className="font-bold text-blue" href={`tel:${contactPhone}`}>
+          <span>{address}</span>
+          <Dot />
+          <a
+            className="whitespace-nowrap font-bold text-blue"
+            href={`tel:${contactPhone}`}
+          >
             {contactPhone}
           </a>
           <Dot />
-          <span className="font-bold text-blue">{email}</span>
+          <span className="whitespace-nowrap font-bold text-blue">{email}</span>
         </div>
-        <nav className="basis-auto" aria-label="Footer navigation">
+
+        <nav className="shrink grow" aria-label="Footer navigation">
           {social.map(({ url, name, ariaLabel }, index) => (
             <React.Fragment key={url}>
               {index > 0 && <Dot />}
