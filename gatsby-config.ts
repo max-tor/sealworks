@@ -166,6 +166,14 @@ const config: GatsbyConfig = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-s3',
+      options: {
+        bucketName: 'sealworks-st-bucket',
+        protocol: 'https',
+        hostname: 'sealworks-st-bucket.s3.amazonaws.com',
+      },
+    },
   ],
 };
 
