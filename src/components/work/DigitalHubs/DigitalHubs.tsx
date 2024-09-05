@@ -9,7 +9,7 @@ const description =
 export const DigitalHubs: React.FC = () => {
   return (
     <section className="md:my-5">
-      <div className="relative flex flex-row-reverse gap-5 max-md:flex-col md:gap-[116px] md:pb-[60px]  md:pt-[17px]">
+      <div className="relative flex flex-row-reverse gap-5 max-md:flex-col md:gap-[116px] md:pb-[60px] md:pt-[17px]">
         <div className="ml-5 flex w-[36%] flex-col max-md:ml-0 max-md:w-full">
           <div className="flex flex-col text-black max-md:mt-10">
             <h2 className="w-[400px] text-7xl leading-[70px] max-md:text-4xl max-md:leading-10">

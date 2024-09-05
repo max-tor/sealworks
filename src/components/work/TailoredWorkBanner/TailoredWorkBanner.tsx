@@ -24,7 +24,7 @@ export const TailoredWorkBanner: React.FC = () => {
       />
       <div className="flex md:absolute md:left-[945px] md:top-[15px] md:h-[130px] md:w-[262px] md:overflow-hidden">
         <StaticImage
-          className=" md:mt-[-57px]"
+          className="md:mt-[-57px]"
           imgClassName="h-auto max-w-full rounded-lg"
           alt="E-learning module from the American Red Cross showing steps to protect against bloodborne pathogens, with progress indicators and action buttons"
           src="images/red-cross.png"
@@ -39,7 +39,7 @@ export const TailoredWorkBanner: React.FC = () => {
       />
       <div className="relative md:absolute md:bottom-0 md:left-[1075px] md:h-[228px] md:w-[139px] md:rotate-[-180.00deg]">
         <StaticImage
-          className=" md:absolute md:left-[17px] md:top-[17px] md:h-[203px] md:w-24 md:rotate-[180.00deg] md:object-cover"
+          className="md:absolute md:left-[17px] md:top-[17px] md:h-[203px] md:w-24 md:rotate-[180.00deg] md:object-cover"
           imgClassName="h-auto max-w-full rounded-lg"
           alt="Nielsen mountain"
           src="images/nielsen-mountain-toggle.png"
