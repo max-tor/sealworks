@@ -5,7 +5,7 @@
   "description": "sealworks-interactive-studios",
   "scripts": {
     "develop": "gatsby develop --https",
-    "tailwind-theme": "npx tailwind-config-viewer",
+    "tailwind-theme": "npx --yes tailwind-config-viewer",
     "debuf": "DEBUG=* gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",

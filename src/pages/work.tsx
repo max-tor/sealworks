@@ -12,8 +12,8 @@ const WorkPage = ({ location }: PageProps) => {
   return (
     <PageLayout location={location}>
       <TailoredWorkBanner />
-      <Experience />
       <UniqueRecipeSection />
+      <Experience />
       <CustomCourses />
       <DigitalHubs />
     </PageLayout>

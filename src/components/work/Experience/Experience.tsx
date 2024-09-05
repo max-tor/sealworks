@@ -6,7 +6,7 @@ import StarsImage from './images/stars.inline.svg';
 
 export const Experience = () => {
   return (
-    <section className="relative flex flex-col overflow-x-clip bg-blue p-3 pl-3.5 max-md:pr-5 md:mb-10 md:h-[224px]">
+    <section className="relative my-5 flex flex-col overflow-x-clip bg-blue p-3 pl-3.5 max-md:pr-5 md:mb-10 md:h-[224px]">
       <AstronautImage
         alt="astronaut icon"
         className="md:absolute md:left-3 md:top-3 md:flex md:h-[202px] md:w-[206px]"

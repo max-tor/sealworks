@@ -110,5 +110,7 @@ module.exports = {
     'simple-import-sort/exports': 'error',
     'tailwindcss/no-custom-classname': 'off',
     'tailwindcss/classnames-order': 'error',
+    'tailwindcss/enforces-negative-arbitrary-values': 'off',
+    'tailwindcss/no-unnecessary-arbitrary-value': 'error',
   },
 };

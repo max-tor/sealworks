@@ -20,47 +20,57 @@ export const DigitalHubs: React.FC = () => {
           </div>
         </div>
         <aside className="max-md:gr relative mx-auto grid w-full gap-4 max-md:ml-0 max-md:mt-10 max-md:w-full max-md:max-w-full md:h-[510px] md:w-[64%] md:flex-col md:bg-red">
-          <StaticImage
-            className="md:absolute md:left-[20px] md:top-[-17px] md:h-[189px] md:w-[317px] md:object-cover md:shadow-lg"
-            imgClassName="h-auto max-w-full md:object-top"
-            alt="Career simulation interface showing a student character exploring becoming a geneticist, with starting salary information."
-            src="images/career-simulation-geneticist.png"
-            breakpoints={[317, 768]}
-            sizes="(min-width: 768px) 317px, 100vw"
-          />
-          <StaticImage
-            className="hidden md:absolute md:left-[-25px] md:top-[-26px] md:block md:h-[208px] md:w-[79px]"
-            imgClassName="h-auto max-w-full md:object-top"
-            alt=""
-            src="images/girl.png"
-            breakpoints={[79, 768]}
-            sizes="(min-width: 768px) 103px, 100vw"
-          />
-          <StaticImage
-            className="md:absolute md:left-[20px] md:top-[190px] md:h-[378px] md:w-[317px] md:object-cover md:shadow-lg"
-            imgClassName="h-auto max-w-full md:object-top"
-            alt="ThinkLaw page showing trending lessons like space tourism, Halloween task cards, and what's new in critical thinking"
-            src="images/thinklaw-trending-page.png"
-            breakpoints={[317, 768]}
-            sizes="(min-width: 768px) 317px, 100vw"
-          />
-          <StaticImage
-            className="md:absolute md:left-[358px] md:top-[-15px] md:h-[280px] md:w-[317px] md:object-cover md:shadow-lg"
-            imgClassName="h-auto max-w-full md:object-top"
-            alt="Pack Tracks form for tracking cigarette usage, with inputs for time, place, activity, and mood."
-            src="images/pack-tracks-form.png"
-            breakpoints={[317, 768]}
-            sizes="(min-width: 768px) 317px, 100vw"
-          />
-          <StaticImage
-            className="md:absolute md:left-[358px] md:top-[286px] md:h-[253px] md:w-[317px] md:object-cover md:shadow-lg"
-            imgClassName="h-auto max-w-full md:object-top"
-            alt="Learning Hub dashboard showing a user's progress, featured learning modules, and recommended learning paths."
-            src="images/learning-hub-dashboard.png"
-            breakpoints={[317, 768]}
-            sizes="(min-width: 768px) 317px, 100vw"
-            layout="fullWidth"
-          />
+          <div className="md:absolute md:left-[20px] md:top-[-17px] md:h-[189px] md:w-[317px]">
+            <StaticImage
+              className="md:h-[189px] md:w-[317px] md:object-cover md:shadow-lg"
+              imgClassName="h-auto max-w-full md:object-top"
+              alt="Career simulation interface showing a student character exploring becoming a geneticist, with starting salary information."
+              src="images/career-simulation-geneticist.png"
+              breakpoints={[317, 768]}
+              sizes="(min-width: 768px) 317px, 100vw"
+            />
+          </div>
+          <div className="hidden md:absolute md:left-[-25px] md:top-[-26px] md:block md:h-[208px] md:w-[79px]">
+            <StaticImage
+              className="md:h-[208px] md:w-[79px]"
+              imgClassName="h-auto max-w-full md:object-top"
+              alt=""
+              src="images/girl.png"
+              breakpoints={[79, 768]}
+              sizes="(min-width: 768px) 103px, 100vw"
+            />
+          </div>
+          <div className="md:absolute md:left-[20px] md:top-[190px] md:h-[378px] md:w-[317px]">
+            <StaticImage
+              className="md:h-[378px] md:w-[317px] md:object-cover md:shadow-lg"
+              imgClassName="h-auto max-w-full md:object-top"
+              alt="ThinkLaw page showing trending lessons like space tourism, Halloween task cards, and what's new in critical thinking"
+              src="images/thinklaw-trending-page.png"
+              breakpoints={[317, 768]}
+              sizes="(min-width: 768px) 317px, 100vw"
+            />
+          </div>
+          <div className="md:absolute md:left-[358px] md:top-[-15px] md:h-[280px] md:w-[317px]">
+            <StaticImage
+              className="md:h-[280px] md:w-[317px] md:object-cover md:shadow-lg"
+              imgClassName="h-auto max-w-full md:object-top"
+              alt="Pack Tracks form for tracking cigarette usage, with inputs for time, place, activity, and mood."
+              src="images/pack-tracks-form.png"
+              breakpoints={[317, 768]}
+              sizes="(min-width: 768px) 317px, 100vw"
+            />
+          </div>
+          <div className="md:absolute md:left-[358px] md:top-[286px] md:h-[253px] md:w-[317px]">
+            <StaticImage
+              className="md:h-[253px] md:w-[317px] md:object-cover md:shadow-lg"
+              imgClassName="h-auto max-w-full md:object-top"
+              alt="Learning Hub dashboard showing a user's progress, featured learning modules, and recommended learning paths."
+              src="images/learning-hub-dashboard.png"
+              breakpoints={[317, 768]}
+              sizes="(min-width: 768px) 317px, 100vw"
+              layout="fullWidth"
+            />
+          </div>
         </aside>
       </div>
     </section>
