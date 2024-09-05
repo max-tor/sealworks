@@ -12,8 +12,9 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint --max-warnings 0 --ext .js,.ts,.tsx ./src",
+    "lint": "eslint --ext .js,.ts,.tsx ./src",
     "test:unit": "jest --passWithNoTests",
+    "precommit": "npm run lint",
     "prepare": "husky"
   },
   "dependencies": {

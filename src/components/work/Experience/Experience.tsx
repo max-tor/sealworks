@@ -31,7 +31,7 @@ export const Experience = () => {
         organization.
       </div>
 
-      <div className="bg-blueDusky px-8 py-2 text-4xl text-white max-md:max-w-full max-md:px-5 md:absolute  md:left-[234px] md:top-[190px] md:w-[956px]">
+      <div className="bg-blueDusky px-8 py-2 text-4xl text-white max-md:max-w-full max-md:px-5 md:absolute md:left-[234px] md:top-[190px] md:w-[956px]">
         a peek at the<span className="font-bold"> magic </span>we can help you
         create...
       </div>

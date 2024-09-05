@@ -124,7 +124,7 @@ const IndexPage = ({ location }: PageProps) => {
       <div className="relative flex flex-col-reverse lg:flex-col">
         <div className="relative mt-8 bg-blue p-8 font-roboto text-[15px] leading-[23px] text-white before:absolute before:-top-[55px] before:left-[27px] before:border-b-[76px] before:border-r-[44px] before:border-b-blue before:border-r-transparent before:content-[''] lg:absolute lg:top-2/4 lg:z-10 lg:mt-0 lg:max-w-[356px] lg:-translate-y-1/2 lg:pt-[52px]">
           <strong className="mb-3 inline-block text-lg">
-            Since 1992, we've had the privilege of partnering with diverse
+            Since 1992, we&apos;ve had the privilege of partnering with diverse
             clients.
           </strong>
           <p className="mb-3">
