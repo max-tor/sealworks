@@ -17,7 +17,7 @@ import Video from '@/video/sealworks-video.mp4';
 const IndexPage = ({ location }: PageProps) => {
   return (
     <PageLayout location={location}>
-      <div className="flex flex-col items-center bg-yellow lg:mb-[10px] lg:flex-row lg:justify-between">
+      <div className="-mx-4 flex flex-col items-center bg-yellow md:mx-0 lg:mb-[10px] lg:flex-row lg:justify-between">
         <div className="mx-4 my-3 max-w-[420px] lg:m-0">
           <h2 className="font-roboto text-[40px] font-normal leading-[60px] text-black lg:pl-8 lg:leading-[53px]">
             <span className="bg-white">amazing </span>
@@ -33,7 +33,7 @@ const IndexPage = ({ location }: PageProps) => {
           />
         </div>
       </div>
-      <div className="mb-9 flex flex-col items-stretch gap-5 lg:mb-[70px] lg:flex-row lg:justify-between lg:gap-7">
+      <div className="-mx-4 mb-9 flex flex-col items-stretch gap-5 md:mx-0 lg:mb-[70px] lg:flex-row lg:justify-between lg:gap-7">
         <div className="flex min-h-[350px] w-full flex-col items-center justify-center bg-blue px-10 lg:w-1/3 lg:max-w-[400px]">
           <p className="mb-3 font-roboto text-[23px] font-normal leading-8 text-white">
             we believe in the power of technology to connect, inspire, and make

@@ -36,6 +36,7 @@ module.exports = {
         redSticky: '#FFC8C8',
         redDark: '#A20000',
         gray: '#F5F5F5',
+        grayLight: '#DBD9D9',
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
@@ -63,6 +64,9 @@ module.exports = {
       },
       boxShadow: {
         'outline-yellow': '0 0 0 3px rgba(255, 215, 0, 0.5)', // Example for a yellow outline shadow
+      },
+      dropShadow: {
+        lxl: '-20px 0 15px rgba(0, 0, 0, 0.25)',
       },
     },
   },
