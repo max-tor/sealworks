@@ -26,7 +26,7 @@ export const DigitalHubs: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Career simulation interface showing a student character exploring becoming a geneticist, with starting salary information."
             src="images/career-simulation-geneticist.png"
-            breakpoints={[317, 1024]}
+            breakpoints={[317, 640, 768, 1024]}
             sizes="(min-width: 1024px) 317px, 100vw"
           />
         </div>
@@ -36,7 +36,7 @@ export const DigitalHubs: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt=""
             src="images/girl.png"
-            breakpoints={[79, 1024]}
+            breakpoints={[79, 640, 768, 1024]}
             sizes="(min-width: 1024px) 103px, 100vw"
           />
         </div>
@@ -46,7 +46,7 @@ export const DigitalHubs: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="ThinkLaw page showing trending lessons like space tourism, Halloween task cards, and what's new in critical thinking"
             src="images/thinklaw-trending-page.png"
-            breakpoints={[317, 1024]}
+            breakpoints={[317, 640, 768, 1024]}
             sizes="(min-width: 1024px) 317px, 100vw"
           />
         </div>
@@ -56,7 +56,7 @@ export const DigitalHubs: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Pack Tracks form for tracking cigarette usage, with inputs for time, place, activity, and mood."
             src="images/pack-tracks-form.png"
-            breakpoints={[317, 1024]}
+            breakpoints={[317, 640, 768, 1024]}
             sizes="(min-width: 1024px) 317px, 100vw"
           />
         </div>
@@ -66,7 +66,7 @@ export const DigitalHubs: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Learning Hub dashboard showing a user's progress, featured learning modules, and recommended learning paths."
             src="images/learning-hub-dashboard.png"
-            breakpoints={[317, 1024]}
+            breakpoints={[317, 640, 768, 1024]}
             sizes="(min-width: 1024px) 317px, 100vw"
             layout="fullWidth"
           />

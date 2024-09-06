@@ -26,7 +26,7 @@ export const CustomCourses: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Interactive training module featuring a floor plan and a family scenario for childcare, showing rooms with Click n' Learn and scenario activities."
             src="images/young-family-scenario.png"
-            breakpoints={[472, 1024]}
+            breakpoints={[472, 640, 768, 1024]}
             sizes="(min-width: 1024px) 472px, 100vw"
           />
         </div>
@@ -36,7 +36,7 @@ export const CustomCourses: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt=""
             src="images/girl.png"
-            breakpoints={[103, 1024]}
+            breakpoints={[103, 640, 768, 1024]}
             sizes="(min-width: 1024px) 103px, 100vw"
           />
         </div>
@@ -46,7 +46,7 @@ export const CustomCourses: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Childcare training module featuring a child with a list of actions to handle a temper tantrum."
             src="images/childcare-scenario-action.png"
-            breakpoints={[242, 1024]}
+            breakpoints={[242, 640, 768, 1024]}
             sizes="(min-width: 1024px) 242px, 100vw"
           />
         </div>
