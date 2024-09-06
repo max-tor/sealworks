@@ -34,7 +34,7 @@ const Navigation: React.FC = () => {
         </li>
         <li className="pb-10 lg:pb-0">
           <Link
-            to={Pages.WORK}
+            to={Pages.OUR_WORK}
             className="font-roboto text-3xl font-normal text-blue hover:text-black lg:pt-8 lg:text-lg"
             activeClassName="active"
           >

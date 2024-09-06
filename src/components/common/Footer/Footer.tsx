@@ -23,7 +23,7 @@ const pages: PageMenuItem[] = [
     ariaLabel: 'The Process Page',
   },
   {
-    pathname: Pages.WORK,
+    pathname: Pages.OUR_WORK,
     title:
       'connect with our vision, expertise, and the story of why we do what we do',
     link: 'work',
