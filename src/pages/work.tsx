@@ -2,6 +2,7 @@ import type { PageProps } from 'gatsby';
 import React from 'react';
 
 import { PageLayout } from '@/components/common/PageLayout/PageLayout';
+import { AdaptiveLearning } from '@/components/work/AdaptiveLearning';
 import { CustomCourses } from '@/components/work/CustomCourses';
 import { DigitalHubs } from '@/components/work/DigitalHubs';
 import { Experience } from '@/components/work/Experience';
@@ -23,6 +24,7 @@ const WorkPage = ({ location }: PageProps) => {
       <DigitalHubs />
       <Onboarding />
       <PrototypeFeedback />
+      <AdaptiveLearning />
       <UniqueInteractions />
     </PageLayout>
   );
