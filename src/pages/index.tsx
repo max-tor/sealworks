@@ -7,6 +7,7 @@ import { ExpertiseCard } from '@/components/common/ExpertiseCard/ExpertiseCard';
 import { PageLayout } from '@/components/common/PageLayout/PageLayout';
 import Stories from '@/components/common/Stories/Stories';
 import { TileCard } from '@/components/common/TileCard/TileCard';
+import { Pages } from '@/configs';
 import Rectangle from '@/images/arrow-rectangle.inline.svg';
 import Cursor from '@/images/cursor.inline.svg';
 import Like from '@/images/like.inline.svg';
@@ -63,7 +64,7 @@ const IndexPage = ({ location }: PageProps) => {
           </h2>
           <div className="lg:absolute lg:top-[calc(100%+2.3rem)]">
             <CustomButton
-              linkTo="/work"
+              linkTo={Pages.OUR_WORK}
               linkText="view our work"
               bgColor="blue"
             />
@@ -260,7 +261,7 @@ const IndexPage = ({ location }: PageProps) => {
             Get started creating your award-winning experience.
           </h3>
           <CustomButton
-            linkTo={'/work'}
+            linkTo={Pages.OUR_WORK}
             linkText={'let’s play'}
             bgColor={'yellow'}
             textColor={'black'}

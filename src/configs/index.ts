@@ -1,6 +1,6 @@
 export enum Pages {
   WELCOME = '/',
   PROCESS = '/process/',
-  WORK = '/work/',
+  OUR_WORK = '/our-work/',
   CONNECT = '/connect/',
 }
