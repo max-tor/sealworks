@@ -28,7 +28,7 @@ export const PrototypeFeedback: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Tablet view showing feedback and analysis on learning progress, including a welcome video and integration video with responses."
             src="images/feedback-analysis.png"
-            breakpoints={[297, 1024]}
+            breakpoints={[297, 640, 768, 1024]}
             sizes="(min-width: 1024px) 297px, 100vw"
           />
         </div>
@@ -39,7 +39,7 @@ export const PrototypeFeedback: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Digital sticky notes brainstorming session displaying various topics like search, personalization, and content management"
             src="images/sticky-notes-ideas.svg"
-            breakpoints={[119, 1024]}
+            breakpoints={[119, 640, 768, 1024]}
             sizes="(min-width: 1024px) 119px, 100vw"
           />
         </div>
@@ -50,7 +50,7 @@ export const PrototypeFeedback: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Voting session for ideas with color-coded sticky notes across categories like search, content, personalization, and managing content."
             src="images/voting-ideas-session.png"
-            breakpoints={[266, 1024]}
+            breakpoints={[266, 640, 768, 1024]}
             sizes="(min-width: 1024px) 266px, 100vw"
           />
         </div>
@@ -61,7 +61,7 @@ export const PrototypeFeedback: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="A half-drawn and half-digital interface showing feedback and progress analysis on a learning platform."
             src="images/learning-platform-feedback.png"
-            breakpoints={[299, 1024]}
+            breakpoints={[299, 640, 768, 1024]}
             sizes="(min-width: 1024px) 299px, 100vw"
           />
         </div>
@@ -72,7 +72,7 @@ export const PrototypeFeedback: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Consensus session showing top-voted sticky notes for defining 'MyModerna,' with keywords like 'easy to search' and 'collaboration'."
             src="images/consensus-definition-session.png"
-            breakpoints={[357, 1024]}
+            breakpoints={[357, 640, 768, 1024]}
             sizes="(min-width: 1024px) 357px, 100vw"
           />
         </div>
@@ -83,7 +83,7 @@ export const PrototypeFeedback: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Interactive annotation tool on a tablet, with options for color coding and extra notes, illustrating an educational exercise"
             src="images/interactive-annotation.png"
-            breakpoints={[352, 1024]}
+            breakpoints={[352, 640, 768, 1024]}
             sizes="(min-width: 1024px) 352px, 100vw"
           />
         </div>

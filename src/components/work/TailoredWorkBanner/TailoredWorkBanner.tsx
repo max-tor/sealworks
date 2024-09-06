@@ -27,7 +27,7 @@ export const TailoredWorkBanner: React.FC = () => {
             imgClassName="h-auto max-w-full rounded-lg "
             alt="Raising Critical Thinkers"
             src="images/raising-critical-thinkers.png"
-            breakpoints={[302, 1024]}
+            breakpoints={[302, 640, 768, 1024]}
             sizes="(min-width: 1024px) 302px, 100vw"
           />
         </div>
@@ -37,7 +37,7 @@ export const TailoredWorkBanner: React.FC = () => {
             imgClassName="h-auto max-w-full rounded-lg"
             alt="E-learning module from the American Red Cross showing steps to protect against bloodborne pathogens, with progress indicators and action buttons"
             src="images/red-cross.png"
-            breakpoints={[262, 1024]}
+            breakpoints={[262, 640, 768, 1024]}
             sizes="(min-width: 1024px) 262px, 100vw"
           />
         </div>
@@ -48,7 +48,7 @@ export const TailoredWorkBanner: React.FC = () => {
             imgClassName="h-auto max-w-full rounded-lg"
             alt="Ad(Vantage) Point"
             src="images/dialogues.png"
-            breakpoints={[285, 1024]}
+            breakpoints={[285, 640, 768, 1024]}
             sizes="(min-width: 1024px) 285px, 100vw"
           />
         </div>
@@ -59,7 +59,7 @@ export const TailoredWorkBanner: React.FC = () => {
             imgClassName="h-auto max-w-full rounded-lg"
             alt="Nielsen mountain"
             src="images/nielsen-mountain-toggle.png"
-            breakpoints={[95, 1024]}
+            breakpoints={[95, 640, 768, 1024]}
             sizes="(min-width: 1024px) 95px, 100vw"
           />
         </div>
@@ -70,7 +70,7 @@ export const TailoredWorkBanner: React.FC = () => {
             imgClassName="h-auto max-w-full rounded-lg"
             alt="Interactive module showing privilege reflection on a mountain graphic, with categories like Family Background, Race, and Education."
             src="images/hand-holding-mobile.png"
-            breakpoints={[139, 1024]}
+            breakpoints={[139, 640, 768, 1024]}
             sizes="(min-width: 1024px) 139px, 100vw"
           />
         </div>
@@ -80,7 +80,7 @@ export const TailoredWorkBanner: React.FC = () => {
             imgClassName="h-auto max-w-full rounded-lg"
             alt="think-portal"
             src="images/think-portal.png"
-            breakpoints={[170, 1024]}
+            breakpoints={[170, 640, 768, 1024]}
             sizes="(min-width: 1024px) 170px, 100vw"
           />
         </div>
@@ -89,7 +89,7 @@ export const TailoredWorkBanner: React.FC = () => {
             className="lg:h-[146px] lg:w-[220px] lg:object-cover lg:shadow-lg"
             alt="think-portal: Hand holding mobile"
             src="images/hand-holding-mobile2.png"
-            breakpoints={[220, 1024]}
+            breakpoints={[220, 640, 768, 1024]}
             sizes="(min-width: 1024px) 220px, 100vw"
           />
         </div>
