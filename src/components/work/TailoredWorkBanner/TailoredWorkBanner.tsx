@@ -5,7 +5,7 @@ import UnionImage from '@/images/union.inline.svg';
 
 export const TailoredWorkBanner: React.FC = () => {
   return (
-    <section className="relative my-5 flex max-w-full max-lg:flex-col lg:h-[374px] lg:gap-[50px] lg:bg-[#ba0202]">
+    <section className="relative my-5 flex max-w-full overflow-hidden max-lg:flex-col lg:h-[374px] lg:gap-[50px] lg:bg-[#ba0202]">
       <div className="mb-5 flex w-[36%] flex-1 flex-col justify-center bg-[#ba0202] p-5 font-roboto max-lg:ml-0 max-lg:w-full lg:h-[374px] lg:pr-[50px]">
         <div className="leading-[70px] tracking-normal text-white xl:ml-[72px]">
           <div className="text-[40px] font-normal lg:text-[40px]">

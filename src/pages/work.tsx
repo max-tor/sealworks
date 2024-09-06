@@ -6,6 +6,7 @@ import { CustomCourses } from '@/components/work/CustomCourses';
 import { DigitalHubs } from '@/components/work/DigitalHubs';
 import { Experience } from '@/components/work/Experience';
 import { LearningPlatforms } from '@/components/work/LearningPlatforms';
+import { Onboarding } from '@/components/work/Onboarding';
 import { PrototypeFeedback } from '@/components/work/PrototypeFeedback';
 import { TailoredWorkBanner } from '@/components/work/TailoredWorkBanner';
 import { UniqueInteractions } from '@/components/work/UniqueInteractions';
@@ -20,6 +21,7 @@ const WorkPage = ({ location }: PageProps) => {
       <CustomCourses />
       <LearningPlatforms />
       <DigitalHubs />
+      <Onboarding />
       <PrototypeFeedback />
       <UniqueInteractions />
     </PageLayout>
