@@ -10,7 +10,15 @@ export const UnderlinedText = ({
   children,
   color = 'blueSticky',
 }: UnderlinedTextProps) => {
-  const spanClass = clsx(BASE_CLASS, { [`before:bg-${color}`]: !!color });
+  const colorVariants = {
+    blueSticky: 'before:bg-blueSticky',
+    blueStickyBright: 'before:bg-blueStickyBright',
+    roseSticky: 'before:bg-roseSticky',
+    redSticky: 'before:bg-redSticky',
+    yellowSticky: 'before:bg-yellowSticky',
+    yellowStickyLight: 'before:bg-yellowStickyLight',
+  };
+  const spanClass = clsx(BASE_CLASS, { [`${colorVariants[color]}`]: !!color });
 
   return <span className={spanClass}>{children}</span>;
 };
