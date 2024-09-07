@@ -48,13 +48,12 @@ const config: GatsbyConfig = {
         },
       },
     },
-
-    'gatsby-plugin-postcss',
     'gatsby-plugin-styled-components',
+
+    'gatsby-plugin-minify',
     'gatsby-plugin-image',
     // "gatsby-plugin-google-gtag",
     'gatsby-plugin-breakpoints',
-
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-robots-txt',
@@ -72,12 +71,6 @@ const config: GatsbyConfig = {
             policy: [{ userAgent: '*', allow: '/' }],
           },
         },
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        icon: 'src/images/icon.png',
       },
     },
     {
@@ -122,7 +115,17 @@ const config: GatsbyConfig = {
       },
       __key: 'images',
     },
-    'gatsby-plugin-minify',
+    'gatsby-plugin-postcss',
+    {
+      resolve: 'gatsby-plugin-purgecss',
+      options: {
+        printRejected: true, // Print removed selectors and processed file names
+        tailwind: true, // Enable tailwindcss support
+        // whitelist: ['whitelist'], // Don't remove this selector
+        // ignore: ['/ignored.css', 'prismjs/', 'docsearch.js/'], // Ignore files/folders
+        // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
+      },
+    },
     {
       resolve: 'gatsby-plugin-zopfli',
       options: {
