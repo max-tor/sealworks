@@ -184,6 +184,7 @@ const config: GatsbyConfig = {
         ],
       },
     },
+    'gatsby-plugin-minify',
     {
       resolve: 'gatsby-plugin-zopfli',
       options: {
