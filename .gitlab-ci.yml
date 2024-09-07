@@ -10,8 +10,6 @@ cache:
 
 deploy_to_s3:
   stage: deploy
-  needs:
-    - npm:install
   script:
     - npm ci --cache .npm --prefer-offline
     - echo "Deploy to aws S3"
