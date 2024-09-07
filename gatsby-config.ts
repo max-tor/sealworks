@@ -74,7 +74,6 @@ const config: GatsbyConfig = {
         },
       },
     },
-    'gatsby-omni-font-loader',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -85,11 +84,7 @@ const config: GatsbyConfig = {
       resolve: 'gatsby-plugin-sharp',
       options: {
         defaults: {
-          // formats: ['auto', 'webp'],
           placeholder: 'none',
-          // quality: 90,
-          // breakpoints: [750, 1080, 1366, 1920],
-          // backgroundColor: 'transparent',
           blurredOptions: {},
           jpgOptions: {},
           pngOptions: {},
@@ -139,6 +134,7 @@ const config: GatsbyConfig = {
           {
             name: 'Roboto',
             file: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap',
+            preload: true,
           },
           {
             name: 'BioRhyme',
