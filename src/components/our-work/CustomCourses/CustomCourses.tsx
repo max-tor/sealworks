@@ -76,7 +76,7 @@ export const CustomCourses: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Interactive module showing common uses of credit with options to select different real-life scenarios."
             src="images/credit-uses-example.png"
-            breakpoints={[242, 640, 768, 1024]}
+            breakpoints={[325, 640, 768, 1024]}
             sizes="(min-width: 1024px) 325px, 100vw"
           />
         </div>

@@ -36,8 +36,8 @@ export const DigitalHubs: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt=""
             src="images/girl.png"
-            breakpoints={[79, 640, 768, 1024]}
-            sizes="(min-width: 1024px) 103px, 100vw"
+            breakpoints={[79]}
+            sizes="(min-width: 1024px) 79px, 100vw"
           />
         </div>
         <div className="lg:absolute lg:left-[20px] lg:top-[190px] lg:h-[378px] lg:w-[317px]">
