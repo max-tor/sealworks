@@ -35,7 +35,8 @@ module.exports = {
         red: '#CC0000',
         redSticky: '#FFC8C8',
         redDark: '#A20000',
-        gray: '#F5F5F5',
+        gray: '#F0F0F0',
+        grayDark: '#F5F5F5',
         grayLight: '#DBD9D9',
       },
       fontFamily: {

@@ -61,7 +61,7 @@ const Stories: React.FC = () => {
   );
 
   return (
-    <div className="mx-3 h-full bg-gray p-4 md:mx-0 md:min-h-[350px] md:p-6 md:pt-5 lg:w-2/3">
+    <div className="mx-3 h-full bg-grayDark p-4 md:mx-0 md:min-h-[350px] md:p-6 md:pt-5 lg:w-2/3">
       <div className="m-auto mb-[14px] flex flex-col justify-center gap-2 text-center md:flex-row md:gap-0">
         <span className="px-5 font-roboto text-base font-normal leading-8 text-black">
           Our story is what you make it to be.

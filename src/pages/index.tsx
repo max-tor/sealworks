@@ -55,7 +55,7 @@ const IndexPage = ({ location }: PageProps) => {
         >
           <source src={Video} type="video/mp4" />
         </video>
-        <div className="-mt-6 ml-9 h-[344px] w-[95%] self-end bg-red pb-[22px] pl-[80px] pr-[22px] pt-[74px] lg:absolute lg:right-0 lg:top-0 lg:-mt-10 lg:w-[550px] lg:pl-[275px]">
+        <div className="-mt-6 ml-9 w-[95%] self-end bg-red pb-[22px] pl-[80px] pr-[22px] pt-[74px] md:h-[344px] lg:absolute lg:right-0 lg:top-0 lg:-mt-10 lg:w-[550px] lg:pl-[275px]">
           <span className="mb-2 inline-block font-roboto text-[26px] font-normal leading-8 text-white">
             your award-winning partner for
           </span>
@@ -136,7 +136,7 @@ const IndexPage = ({ location }: PageProps) => {
             ecosystems that reach millions of users, and more.
           </p>
         </div>
-        <div className="relative w-full max-w-[894px] self-end after:absolute after:-top-[15px] after:left-0 after:z-[2] after:size-full after:rounded-4xl after:bg-red after:content-[''] lg:mr-[5.7%] lg:after:-top-[20px] lg:after:left-[60px] lg:after:h-[616px] lg:after:w-[894px]">
+        <div className="relative w-full max-w-[894px] self-end after:absolute after:-top-[15px] after:left-0 after:z-[2] after:size-full after:h-[84%] after:w-full after:rounded-4xl after:bg-red after:content-[''] lg:mr-[5.7%] lg:w-[64%] lg:after:-top-[20px] lg:after:left-[60px] lg:after:w-[98%] xl:w-full xl:after:h-[616px] xl:after:w-[894px]">
           <StaticImage
             className="relative z-[5]"
             src="../images/ipad.png"
