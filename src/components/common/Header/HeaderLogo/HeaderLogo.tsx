@@ -9,7 +9,7 @@ export const HeaderLogo = () => {
   return (
     <Link to="/" className="mt-2 sm:my-2">
       <svg
-        width={breakpoints.sm ? (LogoWidth = 52) : (LogoWidth = 351.741)}
+        width={breakpoints.sm ? (LogoWidth = 52) : (LogoWidth = 352)}
         height="52.75"
         xmlns="http://www.w3.org/2000/svg"
       >

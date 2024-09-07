@@ -5,6 +5,8 @@ import React from 'react';
 import { PageLayout } from '@/components/common/PageLayout/PageLayout';
 import { UnderlinedText } from '@/components/common/UnderlinedText';
 import { CloudObject } from '@/components/process/CloudObject/CloudObject';
+import { Innovation } from '@/components/process/Innovation/Innovation';
+import { Possibilities } from '@/components/process/Possibilities/Possibilities';
 import { ProcessHead } from '@/components/process/ProcessHead/ProcessHead';
 import ArrowFirst from '@/images/vector-red-arrow-down.inline.svg';
 import ArrowSimple from '@/images/vector-red-arrow-simple.inline.svg';
@@ -14,12 +16,12 @@ const ProcessPage = ({ location }: PageProps) => {
     <PageLayout location={location}>
       <ProcessHead />
       <div className="relative -mx-4 mb-[160px] flex flex-col items-center gap-10 bg-grayLight md:mx-0 md:flex-row">
-        <div className="md:min-w-[210px] lg:min-w-[410px]">
-          <StaticImage src="../images/notebook.jpg" alt="Notebook" />
+        <div className="md:max-w-[210px] lg:max-w-[410px]">
+          <StaticImage src="../images/notebook.png" alt="Notebook" />
         </div>
 
         <div className="px-4 md:mr-[20px] md:px-0 lg:mr-[50px]">
-          <h2 className="mb-[26px] font-roboto text-[66px] font-normal leading-[78px] text-red md:mt-[47px]">
+          <h2 className="mb-[26px] font-roboto text-4xl font-normal text-red md:mt-[47px] md:text-[66px] md:leading-[78px]">
             we start every project with a blank slate.
           </h2>
           <p className="mb-5 font-roboto text-base font-normal text-black">
@@ -45,13 +47,13 @@ const ProcessPage = ({ location }: PageProps) => {
           <ArrowFirst className="absolute -bottom-[135px] right-[22px] md:-bottom-[175px] md:left-[94px] md:right-0 lg:-bottom-[168px] lg:left-[158px]" />
         </div>
       </div>
-      <h2 className="font-roboto text-[66px] font-normal leading-[78px]">
+      <h2 className="font-roboto text-4xl font-normal md:text-[66px] md:leading-[78px]">
         we develop amazing experiences that <strong>evolve and scale</strong>{' '}
         with you.
       </h2>
       <div className="flex flex-col-reverse items-center overflow-hidden md:flex-row md:gap-[10px] xl:gap-[52px]">
         <div className="md:mt-[83px] md:w-[35%] xl:w-1/2">
-          <h3 className="font-roboto text-[40px] font-normal leading-[48px] text-blue md:mb-[40px]">
+          <h3 className="mb-4 font-roboto text-[40px] font-normal leading-[48px] text-blue md:mb-[40px]">
             our journey began with a vision to blend{' '}
             <UnderlinedText color="yellowSticky">design</UnderlinedText>,{' '}
             <UnderlinedText color="blueStickyBright">technology</UnderlinedText>
@@ -72,10 +74,12 @@ const ProcessPage = ({ location }: PageProps) => {
           <CloudObject />
         </div>
       </div>
-      <h2 className="mb-[13px] font-roboto text-5xl font-normal text-blue md:text-[66px] md:leading-[78px]">
+      <h2 className="mb-[13px] font-roboto text-4xl font-normal text-blue md:text-[66px] md:leading-[78px]">
         we imagine and <strong>test possibilities</strong> for your audience and
         organization.
       </h2>
+      <Possibilities />
+      <Innovation />
     </PageLayout>
   );
 };
