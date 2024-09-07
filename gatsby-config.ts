@@ -1,5 +1,10 @@
 import type { GatsbyConfig } from 'gatsby';
 
+const fileParams = {
+  ContentEncoding: 'gzip',
+  CacheControl: 'max-age=31536000, public',
+};
+
 const siteMetadata: GatsbyConfig['siteMetadata'] = {
   title: 'Sealworks Interactive Studios',
   description:
@@ -72,12 +77,6 @@ const config: GatsbyConfig = {
             policy: [{ userAgent: '*', allow: '/' }],
           },
         },
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-zopfli',
-      options: {
-        extensions: ['css', 'html', 'json', 'js', 'svg'],
       },
     },
     'gatsby-omni-font-loader',
@@ -194,16 +193,23 @@ const config: GatsbyConfig = {
       },
     },
     {
+      resolve: 'gatsby-plugin-zopfli',
+      options: {
+        extensions: ['css', 'html', 'json', 'js', 'svg'],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-s3',
       options: {
         bucketName: 'sealworks-st-bucket',
         protocol: 'https',
         hostname: 'sealworks-st-bucket.s3.amazonaws.com',
         params: {
-          '**/*.gz': {
-            ContentEncoding: 'gzip', // Set gzipped files to have the right encoding
-            CacheControl: 'max-age=31536000, public', // Cache gzipped files
-          },
+          '**/**.css': fileParams,
+          '**/**.html': fileParams,
+          '**/**.json': fileParams,
+          '**/**.js': fileParams,
+          '**/**.svg': fileParams,
         },
       },
     },
