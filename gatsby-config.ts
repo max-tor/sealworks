@@ -1,42 +1,41 @@
 import type { GatsbyConfig } from 'gatsby';
 
+const siteMetadata: GatsbyConfig['siteMetadata'] = {
+  title: 'Sealworks Interactive Studios',
+  description:
+    'We create interactive experiences by blending creative and technical expertise to develop amazing solutions.',
+  siteUrl: 'https://www.sealworks.com',
+  copy: 'Sealworks, Inc',
+  address: '31 West Ashland Street, Doylestown, PA 18901',
+  contactPhone: '(800) 460-6494', // LocalBusiness schema at the footer
+  contactType: 'Customer Service', // LocalBusiness schema at the footer
+  email: 'info@sealworks.com',
+  social: [
+    {
+      name: 'Client Area',
+      url: 'https://sealworks.launchcycle.com/',
+      ariaLabel: 'Client Area Page', //optional parameter
+    },
+    {
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/nickfloro',
+      ariaLabel: 'Follow us on LinkedIn',
+    },
+    {
+      name: 'Blog',
+      url: 'https://nickfloro.com/',
+      ariaLabel: 'Visit our Blog',
+    },
+    {
+      name: 'X (Twitter)',
+      url: 'https://x.com/nickfloro',
+      ariaLabel: 'Visit our X Twitter',
+    },
+  ],
+};
+
 const config: GatsbyConfig = {
-  siteMetadata: {
-    title: 'Sealworks Interactive Studios',
-    description:
-      'We create interactive experiences by blending creative and technical expertise to develop amazing solutions.',
-    siteUrl: 'https://www.sealworks.com',
-    copy: 'Sealworks, Inc',
-    address: '31 West Ashland Street, Doylestown, PA 18901',
-    contactPhone: '(800) 460-6494', // LocalBusiness schema at the footer
-    contactType: 'Customer Service', // LocalBusiness schema at the footer
-    email: 'info@sealworks.com',
-    social: [
-      {
-        name: 'Client Area',
-        url: 'https://sealworks.launchcycle.com/',
-        ariaLabel: 'Client Area Page', //optional parameter
-      },
-      {
-        name: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/nickfloro',
-        ariaLabel: 'Follow us on LinkedIn',
-      },
-      {
-        name: 'Blog',
-        url: 'https://nickfloro.com/',
-        ariaLabel: 'Visit our Blog',
-      },
-      {
-        name: 'X (Twitter)',
-        url: 'https://x.com/nickfloro',
-        ariaLabel: 'Visit our X Twitter',
-      },
-    ],
-  },
-  // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
-  // If you use VSCode you can also use the GraphQL plugin
-  // Learn more at: https://gatsby.dev/graphql-typegen
+  siteMetadata,
   graphqlTypegen: true,
   plugins: [
     {
@@ -55,6 +54,28 @@ const config: GatsbyConfig = {
     'gatsby-plugin-breakpoints',
 
     'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: siteMetadata.siteUrl,
+        sitemap: `${siteMetadata.siteUrl}/sitemap-index.xml`,
+        resolveEnv: () => process.env.GATSBY_ACTIVE_ENV || 'production',
+        env: {
+          development: {
+            policy: [{ userAgent: '*', disallow: ['/'] }],
+          },
+          production: {
+            policy: [{ userAgent: '*', allow: '/' }],
+          },
+        },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-zopfli',
+      options: {
+        extensions: ['css', 'html', 'json', 'js', 'svg'],
+      },
+    },
     'gatsby-omni-font-loader',
     {
       resolve: 'gatsby-plugin-manifest',
@@ -83,7 +104,7 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Sealworks Interactive Studios',
+        name: siteMetadata.title,
         short_name: 'Sealworks',
         start_url: '/',
         background_color: '#FFFFFF',
