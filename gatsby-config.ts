@@ -132,53 +132,53 @@ const config: GatsbyConfig = {
         ],
         web: [
           {
+            name: 'Annie',
+            file: 'https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap',
+          },
+          {
             name: 'Roboto',
-            file: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap',
+            file: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap&subset=latin',
             preload: true,
           },
           {
-            name: 'BioRhyme',
-            file: 'https://fonts.googleapis.com/css2?family=BioRhyme&display=swap',
-          },
-          {
-            name: 'Readex Pro',
-            file: 'https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap',
-          },
-          {
-            name: 'DM Mono',
-            file: 'https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap',
-          },
-          {
-            name: 'DotGothic16',
-            file: 'https://fonts.googleapis.com/css2?family=DotGothic16&display=swap',
-          },
-          {
             name: 'B612 Mono',
-            file: 'https://fonts.googleapis.com/css2?family=B612+Mono&display=swap',
+            file: 'https://fonts.googleapis.com/css2?family=B612+Mono&display=swap&subset=latin',
           },
           {
             name: 'Beth Ellen',
-            file: 'https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap',
+            file: 'https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap&subset=latin',
           },
           {
-            name: 'Kalam',
-            file: 'https://fonts.googleapis.com/css2?family=Kalam&display=swap',
-          },
-          {
-            name: 'Indie Flower',
-            file: 'https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap',
-          },
-          {
-            name: 'Crafty Girls',
-            file: 'https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap',
+            name: 'BioRhyme',
+            file: 'https://fonts.googleapis.com/css2?family=BioRhyme&display=swap&subset=latin',
           },
           {
             name: 'Bubbler One',
             file: 'https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap',
           },
           {
-            name: 'Annie',
-            file: 'https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap',
+            name: 'Crafty Girls',
+            file: 'https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap',
+          },
+          {
+            name: 'DM Mono',
+            file: 'https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap&subset=latin',
+          },
+          {
+            name: 'DotGothic16',
+            file: 'https://fonts.googleapis.com/css2?family=DotGothic16&display=swap&subset=latin',
+          },
+          {
+            name: 'Indie Flower',
+            file: 'https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap',
+          },
+          {
+            name: 'Kalam',
+            file: 'https://fonts.googleapis.com/css2?family=Kalam&display=swap&subset=latin',
+          },
+          {
+            name: 'Readex Pro',
+            file: 'https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap&subset=latin',
           },
         ],
       },

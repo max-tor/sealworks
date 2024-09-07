@@ -56,6 +56,8 @@ export const CustomCourses: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Module on reflecting on privilege, showing questions about family background and a mountain graphic illustrating privilege levels."
             src="images/reflecting-on-privilege.png"
+            breakpoints={[400, 640, 768, 1024]}
+            sizes="(min-width: 1024px) 400px, 100vw"
           />
         </div>
         <div className="lg:absolute lg:left-[15px] lg:top-[383px] lg:h-[206px] lg:w-[100px]">
@@ -64,6 +66,8 @@ export const CustomCourses: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Diversity training module defining diversity with various interactive elements and definitions."
             src="images/defining-diversity-module.png"
+            breakpoints={[100, 640, 768, 1024]}
+            sizes="(min-width: 1024px) 100px, 100vw"
           />
         </div>
         <div className="lg:absolute lg:left-[412px] lg:top-[312px] lg:h-[256px] lg:w-[325px]">
@@ -72,6 +76,8 @@ export const CustomCourses: React.FC = () => {
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Interactive module showing common uses of credit with options to select different real-life scenarios."
             src="images/credit-uses-example.png"
+            breakpoints={[242, 640, 768, 1024]}
+            sizes="(min-width: 1024px) 325px, 100vw"
           />
         </div>
       </aside>
