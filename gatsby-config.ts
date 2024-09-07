@@ -5,6 +5,8 @@ const siteMetadata: GatsbyConfig['siteMetadata'] = {
   description:
     'We create interactive experiences by blending creative and technical expertise to develop amazing solutions.',
   siteUrl: 'https://www.sealworks.com',
+  stagingSiteUrl:
+    'http://sealworks-st-bucket.s3-website-us-east-1.amazonaws.com',
   copy: 'Sealworks, Inc',
   address: '31 West Ashland Street, Doylestown, PA 18901',
   contactPhone: '(800) 460-6494', // LocalBusiness schema at the footer
@@ -57,7 +59,9 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: siteMetadata.siteUrl,
+        host: process.env.GATSBY_ACTIVE_ENV
+          ? siteMetadata.stagingSiteUrl
+          : siteMetadata.siteUrl,
         sitemap: `${siteMetadata.siteUrl}/sitemap-index.xml`,
         resolveEnv: () => process.env.GATSBY_ACTIVE_ENV || 'production',
         env: {
