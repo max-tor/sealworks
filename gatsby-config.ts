@@ -50,7 +50,7 @@ const config: GatsbyConfig = {
     },
     'gatsby-plugin-styled-components',
 
-    'gatsby-plugin-minify',
+    // 'gatsby-plugin-minify',
     'gatsby-plugin-image',
     // "gatsby-plugin-google-gtag",
     'gatsby-plugin-breakpoints',
