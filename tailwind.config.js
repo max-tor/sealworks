@@ -3,7 +3,6 @@ module.exports = {
     './src/pages/**/*.{js,jsx,ts,tsx}',
     './src/components/**/*.{js,jsx,ts,tsx}',
   ],
-  darkMode: false,
   safelist: [
     {
       pattern: /bg-(red|yellow|blue)/,
