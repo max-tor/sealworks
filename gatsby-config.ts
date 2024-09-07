@@ -199,6 +199,12 @@ const config: GatsbyConfig = {
         bucketName: 'sealworks-st-bucket',
         protocol: 'https',
         hostname: 'sealworks-st-bucket.s3.amazonaws.com',
+        params: {
+          '**/*.gz': {
+            ContentEncoding: 'gzip', // Set gzipped files to have the right encoding
+            CacheControl: 'max-age=31536000, public', // Cache gzipped files
+          },
+        },
       },
     },
   ],
