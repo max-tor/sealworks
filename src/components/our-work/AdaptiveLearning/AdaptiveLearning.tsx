@@ -74,7 +74,7 @@ export const AdaptiveLearning: React.FC = () => (
         />
       </div>
 
-      <div className="hidden lg:absolute lg:left-[294px] lg:top-[205px] lg:block lg:h-[226px] lg:w-[170px]">
+      <div className="hidden select-none lg:absolute lg:left-[294px] lg:top-[205px] lg:block lg:h-[226px] lg:w-[170px]">
         <StaticImage
           className="lg:h-[226px] lg:w-[170px]"
           imgClassName="h-auto max-w-full lg:object-top"

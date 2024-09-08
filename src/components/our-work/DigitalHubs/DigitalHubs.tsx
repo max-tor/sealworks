@@ -30,7 +30,7 @@ export const DigitalHubs: React.FC = () => {
             sizes="(min-width: 1024px) 317px, 100vw"
           />
         </div>
-        <div className="hidden lg:absolute lg:left-[-25px] lg:top-[-26px] lg:block lg:h-[208px] lg:w-[79px]">
+        <div className="hidden select-none lg:absolute lg:left-[-25px] lg:top-[-26px] lg:block lg:h-[208px] lg:w-[79px]">
           <StaticImage
             className="lg:h-[208px] lg:w-[79px]"
             imgClassName="h-auto max-w-full lg:object-top"

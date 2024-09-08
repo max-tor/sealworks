@@ -18,7 +18,7 @@ export const Onboarding: React.FC = () => {
         </div>
       </div>
       <aside className="relative mx-auto grid w-full flex-[0_0_613px] gap-4 bg-blue max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[535px] lg:w-[64%] lg:flex-col">
-        <div className="hidden lg:absolute lg:-top-[86px] lg:left-[203px] lg:block lg:h-[336px] lg:w-[431px]">
+        <div className="hidden select-none lg:absolute lg:-top-[86px] lg:left-[203px] lg:block lg:h-[336px] lg:w-[431px]">
           <StaticImage
             className="lg:h-[336px] lg:w-[431px]"
             imgClassName="h-auto max-w-full lg:object-top"

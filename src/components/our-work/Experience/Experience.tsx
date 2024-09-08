@@ -14,12 +14,12 @@ export const Experience = () => {
       <StarsImage
         src="images/stars.svg"
         alt="Starts icon"
-        className="hidden xl:absolute xl:left-[643px] xl:top-[21px] xl:flex xl:h-[38px] xl:w-[97px]"
+        className="hidden select-none xl:absolute xl:left-[643px] xl:top-[21px] xl:flex xl:h-[38px] xl:w-[97px]"
       />
 
       <ArrowImage
         alt="Arrow icon"
-        className="hidden xl:absolute xl:left-[720px] xl:top-[40px] xl:flex xl:h-[26px] xl:w-[32px]"
+        className="hidden select-none xl:absolute xl:left-[720px] xl:top-[40px] xl:flex xl:h-[26px] xl:w-[32px]"
       />
 
       <h3 className="whitespace-nowrap font-annie text-[40px] font-normal leading-none text-yellow xl:absolute xl:left-[774px] xl:top-[26px]">

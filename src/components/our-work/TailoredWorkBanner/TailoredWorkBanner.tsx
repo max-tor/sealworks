@@ -18,7 +18,7 @@ export const TailoredWorkBanner: React.FC = () => {
       </div>
       <aside className="relative mx-auto grid w-full flex-[0_0_615px] max-lg:w-full max-lg:max-w-full lg:h-[374px] lg:flex-col">
         <UnionImage
-          className="hidden h-[404px] w-[692px] lg:absolute lg:-left-[68px] lg:-my-[15px] lg:flex"
+          className="hidden h-[404px] w-[692px] select-none lg:absolute lg:-left-[68px] lg:-my-[15px] lg:flex"
           alt="Union"
         />
         <div className="lg:absolute lg:left-[22px] lg:top-[35px] lg:h-[207px] lg:w-[302px]">
@@ -64,7 +64,7 @@ export const TailoredWorkBanner: React.FC = () => {
           />
         </div>
 
-        <div className="hidden lg:absolute lg:bottom-0 lg:left-[460px] lg:block lg:h-[228px] lg:w-[139px]">
+        <div className="hidden select-none lg:absolute lg:bottom-0 lg:left-[460px] lg:block lg:h-[228px] lg:w-[139px]">
           <StaticImage
             className="lg:h-[228px] lg:w-[139px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full rounded-lg"

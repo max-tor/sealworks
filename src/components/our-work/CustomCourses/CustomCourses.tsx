@@ -30,7 +30,7 @@ export const CustomCourses: React.FC = () => {
             sizes="(min-width: 1024px) 472px, 100vw"
           />
         </div>
-        <div className="hidden lg:absolute lg:left-[8px] lg:top-[36px] lg:block lg:h-[340px] lg:w-[103px]">
+        <div className="hidden select-none lg:absolute lg:left-[8px] lg:top-[36px] lg:block lg:h-[340px] lg:w-[103px]">
           <StaticImage
             className="lg:h-[340px] lg:w-[103px] lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
