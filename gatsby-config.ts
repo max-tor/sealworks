@@ -55,12 +55,11 @@ const config: GatsbyConfig = {
     // "gatsby-plugin-google-gtag",
     'gatsby-plugin-breakpoints',
     'gatsby-plugin-sitemap',
+    ...(process.env.GATSBY_ACTIVE_ENV ? ['@sentry/gatsby'] : []),
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: process.env.GATSBY_ACTIVE_ENV
-          ? siteMetadata.stagingSiteUrl
-          : siteMetadata.siteUrl,
+        host: siteMetadata.siteUrl,
         sitemap: `${siteMetadata.siteUrl}/sitemap-index.xml`,
         resolveEnv: () => process.env.GATSBY_ACTIVE_ENV || 'production',
         env: {
