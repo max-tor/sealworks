@@ -65,7 +65,8 @@ const config: GatsbyConfig = {
         resolveEnv: () => process.env.GATSBY_ACTIVE_ENV || 'production',
         env: {
           development: {
-            policy: [{ userAgent: '*', disallow: ['/'] }],
+            policy: [{ userAgent: '*', allow: '/' }],
+            // policy: [{ userAgent: '*', disallow: ['/'] }],
           },
           production: {
             policy: [{ userAgent: '*', allow: '/' }],
