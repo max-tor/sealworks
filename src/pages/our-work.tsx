@@ -2,6 +2,7 @@ import type { PageProps } from 'gatsby';
 import React from 'react';
 
 import { PageLayout } from '@/components/common/PageLayout/PageLayout';
+import { SEO } from '@/components/common/SEO';
 import { AdaptiveLearning } from '@/components/our-work/AdaptiveLearning';
 import { CustomCourses } from '@/components/our-work/CustomCourses';
 import { DigitalHubs } from '@/components/our-work/DigitalHubs';
@@ -14,13 +15,11 @@ import { UniqueInteractions } from '@/components/our-work/UniqueInteractions';
 import { UniqueRecipeSection } from '@/components/our-work/UniqueRecipeSection';
 
 export const Head = () => (
-  <>
-    <title>Our Work - SealWorks</title>
-    <meta
-      name="description"
-      content="SealWorks offers innovative digital solutions tailored to meet your business needs. Explore our work and see how we transform ideas into impactful projects."
-    />
-  </>
+  <SEO
+    title="Our Work"
+    description="ealWorks offers innovative digital solutions tailored to meet your business needs. Explore our work and see how we transform ideas into impactful projects"
+    keywords="creative projects, digital solutions, web development, mobile applications, branding services, design portfolio, client projects, SealWorks portfolio, custom software, digital transformation, creative agency, IT solutions, app development, graphic design, branding strategy"
+  />
 );
 
 const WorkPage = ({ location }: PageProps) => {

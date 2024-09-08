@@ -32,6 +32,7 @@ const siteMetadata: GatsbyConfig['siteMetadata'] = {
       name: 'X (Twitter)',
       url: 'https://x.com/nickfloro',
       ariaLabel: 'Visit our X Twitter',
+      metaDescription: '',
     },
   ],
 };
