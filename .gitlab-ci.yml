@@ -1,6 +1,5 @@
-image: "node:lts-alpine"
+image: "circleci/aws-cli:2-node"
 stages:
-  - build
   - deploy
 cache:
   key: ${CI_COMMIT_REF_SLUG}
