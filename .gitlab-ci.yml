@@ -1,4 +1,4 @@
-image: "node:lts-alpine"
+image: "amazon/aws-cli:2.x"
 stages:
   - build
   - deploy
@@ -10,10 +10,14 @@ cache:
 
 deploy_to_s3:
   stage: deploy
+  variables:
+    AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+    AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+    AWS_REGION: $AWS_REGION
   before_script:
-    - apk --no-cache add curl python3 py3-pip
-    - pip3 install --upgrade pip
-    - pip3 install awscli
+    - curl -sL https://deb.nodesource.com/setup_16.x | bash -
+    - apt-get install -y nodejs
+    - eval $(aws ecr get-login --no-include-email --region $AWS_REGION | sed 's|https://||')
   script:
     - npm ci --cache .npm --prefer-offline
     - echo "Deploy to aws S3"
