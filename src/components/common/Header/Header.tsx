@@ -5,7 +5,7 @@ import Navigation from './Navigation';
 
 const Header: React.FC = () => {
   return (
-    <header className="header my-3 flex content-center items-center justify-between px-4 md:p-0 lg:mb-8 lg:mt-0">
+    <header className="header fixed left-0 top-0 z-50 flex w-full max-w-[1262px] content-center items-center justify-between bg-white pl-4 md:left-auto md:pl-0 md:pr-8 md:pt-2">
       <HeaderLogo />
       <Navigation />
     </header>
