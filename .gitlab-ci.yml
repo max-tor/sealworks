@@ -1,6 +1,5 @@
-image: "amazon/aws-cli:2.0.30"
+image: "amazon/aws-cli"
 stages:
-  - build
   - deploy
 cache:
   key: ${CI_COMMIT_REF_SLUG}
