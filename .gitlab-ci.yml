@@ -1,5 +1,6 @@
-image: "amazon/aws-cli"
+image: "node:lts-alpine"
 stages:
+  - build
   - deploy
 cache:
   key: ${CI_COMMIT_REF_SLUG}
@@ -9,14 +10,8 @@ cache:
 
 deploy_to_s3:
   stage: deploy
-  variables:
-    AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
-    AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
-    AWS_REGION: $AWS_REGION
   before_script:
-    - curl -sL https://deb.nodesource.com/setup_16.x | bash -
-    - apt-get install -y nodejs
-    - eval $(aws ecr get-login --no-include-email --region $AWS_REGION | sed 's|https://||')
+    - apk add --no-cache aws-cli
   script:
     - npm ci --cache .npm --prefer-offline
     - echo "Deploy to aws S3"
