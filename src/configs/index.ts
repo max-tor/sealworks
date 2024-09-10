@@ -16,7 +16,9 @@ export const carouselTheme = {
     },
   },
   item: {
+    base: 'absolute block w-full',
     wrapper: {
+      off: 'w-full flex-shrink-0 transform cursor-default snap-center',
       on: 'w-full flex-shrink-0 transform cursor-grab snap-center',
     },
   },
