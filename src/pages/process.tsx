@@ -68,9 +68,9 @@ const ProcessPage = ({ location }: PageProps) => {
             equipped us with deep insights and proven methodologies, allowing us
             to tackle complex challenges with confidence and creativity.{' '}
           </p>
-          <ArrowSimple className="mx-auto md:right-[52px] md:top-[17px] md:-mt-[27px]" />
+          <ArrowSimple className="mx-auto rotate-[20deg] md:right-[52px] md:top-[17px] md:-mt-[27px] md:rotate-0" />
         </div>
-        <div className="md:-mt-[30px] md:w-1/2">
+        <div className="-my-14 md:-mt-[30px] md:mb-0 md:w-1/2">
           <CloudObject />
         </div>
       </div>
