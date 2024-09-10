@@ -13,7 +13,7 @@ module.exports = {
       pattern: /bg-(red|yellow|blue)/,
     },
     {
-      pattern: /(text|font)-*/,
+      pattern: /(flex|text|font)-*/,
     },
   ],
   theme: {

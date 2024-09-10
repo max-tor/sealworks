@@ -37,8 +37,6 @@ export const CapabilitiesPresentation = () => {
     return null;
   }
 
-  console.log(JSON.stringify(breakpoints));
-
   return (
     <section className="relative my-5 h-[300px] md:h-[400px] lg:h-[500px] xl:h-[496px] 2xl:h-96">
       <ResponsiveCarousel breakpoints={breakpoints}>

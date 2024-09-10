@@ -15,6 +15,11 @@ export const carouselTheme = {
       on: 'bg-textPrimary',
     },
   },
+  item: {
+    wrapper: {
+      on: 'w-full flex-shrink-0 transform cursor-grab snap-center',
+    },
+  },
   control: {
     base: 'inline-flex h-8 w-8 items-center justify-center rounded-full bg-grayLight group-hover:bg-grayDark group-focus:outline-none group-focus:ring-4 group-focus:ring-white sm:h-10 sm:w-10', // Specify base class for the controls
     icon: 'h-5 w-5 text-white dark:text-gray-800 sm:h-6 sm:w-6',
