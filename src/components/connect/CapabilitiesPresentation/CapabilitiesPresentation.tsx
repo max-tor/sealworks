@@ -14,7 +14,7 @@ const ResponsiveCarousel = ({
   children,
   breakpoints,
 }: ResponsiveCarouselProps) => {
-  if (breakpoints.xl || breakpoints.xl === undefined) {
+  if (breakpoints.xl) {
     return children;
   }
 
@@ -32,6 +32,12 @@ const ResponsiveCarousel = ({
 
 export const CapabilitiesPresentation = () => {
   const breakpoints = useBreakpoint();
+
+  if (Object.keys(breakpoints).length === 0) {
+    return null;
+  }
+
+  console.log(JSON.stringify(breakpoints));
 
   return (
     <section className="relative my-5 h-[300px] md:h-[400px] lg:h-[500px] xl:h-[496px] 2xl:h-96">
