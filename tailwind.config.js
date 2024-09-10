@@ -2,6 +2,7 @@
 const flowbite = require('flowbite-react/tailwind');
 
 module.exports = {
+  important: true,
   content: [
     './src/pages/**/*.{js,jsx,ts,tsx}',
     './src/components/**/*.{js,jsx,ts,tsx}',
