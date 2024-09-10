@@ -14,7 +14,7 @@ const ResponsiveCarousel = ({
   children,
   breakpoints,
 }: ResponsiveCarouselProps) => {
-  if (breakpoints.xl) {
+  if (breakpoints.xl || breakpoints.xl === undefined) {
     return children;
   }
 
