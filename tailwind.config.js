@@ -1,7 +1,11 @@
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const flowbite = require('flowbite-react/tailwind');
+
 module.exports = {
   content: [
     './src/pages/**/*.{js,jsx,ts,tsx}',
     './src/components/**/*.{js,jsx,ts,tsx}',
+    flowbite.content(),
   ],
   safelist: [
     {
@@ -37,6 +41,8 @@ module.exports = {
         gray: '#F0F0F0',
         grayDark: '#F5F5F5',
         grayLight: '#DBD9D9',
+        gainsboro: '#DADADA',
+        foreground: 'hsl(0 0 100%)',
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
@@ -64,11 +70,13 @@ module.exports = {
       },
       boxShadow: {
         'outline-yellow': '0 0 0 3px rgba(255, 215, 0, 0.5)', // Example for a yellow outline shadow
+        img: '-10px 10px 0px 0px #dadada',
       },
       dropShadow: {
         lxl: '-20px 0 15px rgba(0, 0, 0, 0.25)',
       },
     },
   },
-  plugins: [],
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  plugins: [flowbite.plugin()],
 };

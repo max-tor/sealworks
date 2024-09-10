@@ -54,7 +54,19 @@ const config: GatsbyConfig = {
     // 'gatsby-plugin-minify',
     'gatsby-plugin-image',
     // "gatsby-plugin-google-gtag",
-    'gatsby-plugin-breakpoints',
+    {
+      resolve: 'gatsby-plugin-breakpoints',
+      options: {
+        queries: {
+          xs: '(min-width: 320px)',
+          sm: '(min-width: 640px)',
+          md: '(min-width: 768px)',
+          lg: '(min-width: 1024px)',
+          xl: '(min-width: 1280px)',
+          '2xl': '(min-width: 1536px)',
+        },
+      },
+    },
     'gatsby-plugin-sitemap',
     ...(process.env.GATSBY_ACTIVE_ENV ? ['@sentry/gatsby'] : []),
     {
