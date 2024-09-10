@@ -5,7 +5,7 @@ import Cloud from '@/images/cloud.inline.svg';
 
 export const CloudObject = () => {
   return (
-    <div className="relative scale-50 md:scale-100">
+    <div className="relative scale-[60%] md:scale-100">
       <Cloud className="left-7" />
 
       <div className="animate__fadeInUp animate__animated animate__slow animate__delay-2s absolute left-[194px] top-[114px]">
