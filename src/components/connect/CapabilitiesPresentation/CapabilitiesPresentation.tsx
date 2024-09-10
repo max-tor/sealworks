@@ -32,7 +32,7 @@ const ResponsiveCarousel = ({
 };
 
 const wrapperClasses =
-  'lxl:shadow-gray10 left-1/2 top-1/2 block size-full -translate-x-1/2 -translate-y-1/2 select-none object-cover xl:!absolute xl:h-[231px] xl:w-[256px] xl:border xl:border-gainsboro xl:object-cover';
+  'lxl:shadow-gray10 block size-full select-none object-cover xl:!absolute xl:h-[231px] xl:w-[256px] xl:border xl:border-gainsboro xl:object-cover';
 
 export const CapabilitiesPresentation = () => {
   const breakpoints = useBreakpoint();
