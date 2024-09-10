@@ -32,7 +32,7 @@ const ResponsiveCarousel = ({
 };
 
 const wrapperClasses =
-  'lxl:shadow-gray10 block size-full select-none object-cover xl:!absolute xl:h-[231px] xl:w-[256px] xl:border xl:border-gainsboro xl:object-cover';
+  'lxl:shadow-gray10 block size-full object-cover xl:!absolute xl:h-[231px] xl:w-[256px] xl:border xl:border-gainsboro xl:object-cover';
 
 export const CapabilitiesPresentation = () => {
   const breakpoints = useBreakpoint();
@@ -42,7 +42,7 @@ export const CapabilitiesPresentation = () => {
   }
 
   return (
-    <section className="relative my-5 h-[300px] md:h-[400px] lg:h-[500px] xl:h-[496px] 2xl:h-96">
+    <section className="relative z-10 my-5 h-[300px] md:h-[400px] lg:h-[500px] xl:h-[496px] 2xl:h-96">
       <ResponsiveCarousel breakpoints={breakpoints}>
         <StaticImage
           className={clsx(wrapperClasses, '')}
