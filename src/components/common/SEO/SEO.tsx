@@ -38,7 +38,6 @@ export const SEO: FC<SEOProps> = ({
       <meta property="og:title" content={siteMetadata.title} />
       <meta property="og:description" content={siteMetadata.description} />
       <meta property="og:url" content={siteMetadata.siteUrl} />
-
       {children}
     </>
   );

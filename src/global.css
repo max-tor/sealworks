@@ -10,7 +10,3 @@
 body {
   z-index: 1!important;
 }
-
-#sentry-feedback {
-  --inset: auto 0 50px auto
-}
