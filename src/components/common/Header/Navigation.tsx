@@ -17,7 +17,7 @@ const Navigation: React.FC = () => {
         <li className="pb-10 lg:pb-0">
           <Link
             to={Pages.WELCOME}
-            className="font-roboto text-blue text-3xl font-normal hover:text-black lg:pt-8 lg:text-lg"
+            className="font-roboto text-3xl font-normal text-blue hover:text-black lg:pt-8 lg:text-lg"
             activeClassName="active"
             aria-current="page"
             aria-label="Welcome page"
@@ -28,7 +28,7 @@ const Navigation: React.FC = () => {
         <li className="pb-10 lg:pb-0">
           <Link
             to={Pages.PROCESS}
-            className="font-roboto text-blue text-3xl font-normal hover:text-black lg:pt-8 lg:text-lg"
+            className="font-roboto text-3xl font-normal text-blue hover:text-black lg:pt-8 lg:text-lg"
             activeClassName="active"
             aria-current="page"
             aria-label="the process page"
@@ -39,7 +39,7 @@ const Navigation: React.FC = () => {
         <li className="pb-10 lg:pb-0">
           <Link
             to={Pages.OUR_WORK}
-            className="font-roboto text-blue text-3xl font-normal hover:text-black lg:pt-8 lg:text-lg"
+            className="font-roboto text-3xl font-normal text-blue hover:text-black lg:pt-8 lg:text-lg"
             activeClassName="active"
             aria-current="page"
             aria-label="our work page"
@@ -50,7 +50,7 @@ const Navigation: React.FC = () => {
         <li className="pb-10 lg:pb-0">
           <Link
             to={Pages.CONNECT}
-            className="font-roboto text-blue text-3xl font-normal hover:text-black lg:pt-8 lg:text-lg"
+            className="font-roboto text-3xl font-normal text-blue hover:text-black lg:pt-8 lg:text-lg"
             activeClassName="active"
             aria-current="page"
             aria-label="connect page"
