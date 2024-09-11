@@ -21,14 +21,14 @@ export const useCalendlyWidget = ({
         className="fixed bottom-[10px] right-[10px] z-50 hidden lg:block"
         style={{ bottom: '10px', right: '10px' }}
       >
-        <Button gradientDuoTone="purpleToBlue" onClick={handleOpen}>
+        <Button
+          onClick={handleOpen}
+          className="group relative flex items-stretch justify-center rounded-lg bg-gradient-to-br from-purple-600 to-cyan-500 p-0.5 text-center font-medium text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-cyan-300 enabled:hover:bg-gradient-to-bl dark:focus:ring-cyan-800"
+        >
           {label}
         </Button>
       </div>
-      <CalendlyDialog
-        open={open}
-        onClose={handleClose}
-      />
+      <CalendlyDialog open={open} onClose={handleClose} />
     </>
   );
 };
