@@ -4,13 +4,12 @@ import React, { useState } from 'react';
 import { InlineWidget, useCalendlyEventListener } from 'react-calendly';
 import { PageHeightResizeEvent } from 'react-calendly/typings/components/hooks/useCalendlyEventListener';
 
-import { calendlySettings, calendlyUrl } from '@/configs';
+import { calendlySettings, calendlyUser } from '@/configs';
 
 export const DiscussChallengeSection: React.FC = () => {
   const [open, setOpen] = useState(false);
   const [height, setHeight] = useState('500px');
   const onPageHeightResize = (e: PageHeightResizeEvent) => {
-    console.log('onPageHeightResize', e);
     setHeight(e.data.payload.height);
   };
 
@@ -66,7 +65,7 @@ export const DiscussChallengeSection: React.FC = () => {
           <div className="fixed inset-0 flex w-screen items-center justify-center">
             <DialogPanel className="w-auto max-w-lg flex-[1_1_860px]">
               <InlineWidget
-                url={calendlyUrl}
+                url={`https://calendly.com/${calendlyUser}`}
                 pageSettings={calendlySettings}
                 styles={{ height }}
               />
