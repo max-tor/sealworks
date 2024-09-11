@@ -4,15 +4,11 @@ import React from 'react';
 
 export const HeaderLogo = () => {
   const breakpoints = useBreakpoint();
-  let LogoWidth;
+  const LogoWidth = breakpoints.sm ? 352 : 52;
 
   return (
-    <Link to="/" className="mt-2 sm:my-2">
-      <svg
-        width={breakpoints.sm ? (LogoWidth = 52) : (LogoWidth = 352)}
-        height="52.75"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+    <Link to="index.html" aria-label="Go home" className="mt-2 sm:my-2">
+      <svg width={LogoWidth} height="52.75" xmlns="http://www.w3.org/2000/svg">
         <g fill="none" fillRule="evenodd">
           <g transform="translate(9.501 26.64)">
             <path
@@ -158,6 +154,7 @@ export const HeaderLogo = () => {
           />
         </g>
       </svg>
+      <span className="hidden">Go home</span>
     </Link>
   );
 };

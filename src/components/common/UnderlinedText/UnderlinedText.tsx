@@ -4,7 +4,7 @@ import * as React from 'react';
 import { UnderlinedTextProps } from '@/components/common/UnderlinedText/UnderlinedTextProps';
 
 const BASE_CLASS =
-  "relative whitespace-nowrap inline-block lg:before:-ml-[3px] lg:before:w-underlined-text lg:before:block lg:before:absolute  lg:before:bottom-[-10%] lg:before:h-[60%] lg:before:w-full lg:before:content-[''] lg:before:-z-[1]";
+  "relative whitespace-nowrap inline-block before:-ml-[3px] before:w-underlined-text before:block before:absolute before:bottom-[-10%] before:h-[60%] before:w-full before:content-[''] before:-z-[1]";
 
 export const UnderlinedText = ({
   children,

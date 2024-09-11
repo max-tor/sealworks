@@ -18,7 +18,7 @@ export const LinkBlock = ({
 
   return (
     <div className={containerClass}>
-      <h5 className={headerClass}>{description}</h5>
+      <span className={headerClass}>{description}</span>
       <div className="mt-11 flex items-center justify-end gap-3 text-2xl font-bold">
         <Link to={pathname} className={linkClass}>
           {linkText}
