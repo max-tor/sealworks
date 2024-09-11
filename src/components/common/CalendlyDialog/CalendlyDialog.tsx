@@ -1,17 +1,16 @@
 import { Dialog, DialogBackdrop, DialogPanel } from '@headlessui/react';
-import { Button } from 'flowbite-react';
 import React, { useState } from 'react';
 import { InlineWidget, useCalendlyEventListener } from 'react-calendly';
 import { PageHeightResizeEvent } from 'react-calendly/typings/components/hooks/useCalendlyEventListener';
 
+import { CalendlyDialogProps } from '@/components/common/CalendlyDialog/CalendlyDialogProps';
 import { calendlySettings, calendlyUser } from '@/configs';
 
-type CalendlyWidgetProps = {
-  open: boolean;
-  onClose: () => void;
-};
-
-export const CalendlyDialog = ({ open, onClose }: CalendlyWidgetProps) => {
+export const CalendlyDialog = ({
+  url = `https://calendly.com/${calendlyUser}`,
+  open,
+  onClose,
+}: CalendlyDialogProps) => {
   const [height, setHeight] = useState('500px');
   const onPageHeightResize = (e: PageHeightResizeEvent) => {
     setHeight(e.data.payload.height);
@@ -29,7 +28,7 @@ export const CalendlyDialog = ({ open, onClose }: CalendlyWidgetProps) => {
         <div className="fixed inset-0 flex w-screen items-center justify-center">
           <DialogPanel className="w-auto max-w-lg flex-[1_1_860px]">
             <InlineWidget
-              url={`https://calendly.com/${calendlyUser}`}
+              url={url}
               pageSettings={calendlySettings}
               styles={{ height }}
             />

@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import { CalendlyDialog } from '@/components/common/CalendlyDialog';
+import { CalendlyForms } from '@/configs';
 
 import BrainstormImg from './images/brainstorm.inline.svg';
 import MessageImg from './images/message.inline.svg';
 
 export const ProjectInquiry = () => {
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
   return (
     <section className="flex flex-col rounded-none bg-[#f1f1f1]">
       <div className="w-full px-4 pb-3.5 pt-1.5 max-md:max-w-full">
@@ -23,7 +31,10 @@ export const ProjectInquiry = () => {
                   what&apos;s your project?
                 </h1>
                 <div className="mt-2 flex items-start text-center text-lg font-bold text-white">
-                  <button className="z-10 mt-7 self-end rounded-[55.602px] bg-blue px-7 py-4 max-md:mr-0 max-md:px-5">
+                  <button
+                    className="z-10 mt-7 self-end rounded-[55.602px] bg-blue px-7 py-4 max-md:mr-0 max-md:px-5"
+                    onClick={handleOpen}
+                  >
                     get in touch
                   </button>
                   <MessageImg
@@ -39,6 +50,11 @@ export const ProjectInquiry = () => {
           </div>
         </div>
       </div>
+      <CalendlyDialog
+        url={CalendlyForms.GET_IN_TOUCH}
+        open={open}
+        onClose={handleClose}
+      />
     </section>
   );
 };

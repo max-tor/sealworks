@@ -1,5 +1,6 @@
 import { FlowbiteCarouselTheme } from 'flowbite-react';
 import type { DeepPartial } from 'flowbite-react/dist/types/types';
+import { PageSettings } from 'react-calendly/typings/calendly';
 
 export enum Pages {
   WELCOME = '/',
@@ -8,11 +9,16 @@ export enum Pages {
   CONNECT = '/connect/',
 }
 
+export enum CalendlyForms {
+  NEW_PROJECT_COLLABORATION = 'https://calendly.com/nickfloro/hello',
+  GET_IN_TOUCH = 'https://calendly.com/anatoly-shipitz-speedandfunction/30min',
+}
+
 export const calendlyUser = process.env.GATSBY_ACTIVE_ENV
   ? 'anatoly-shipitz-speedandfunction'
   : 'nickfloro';
 
-export const calendlySettings = {
+export const calendlySettings: PageSettings = {
   hideLandingPageDetails: true,
   hideGdprBanner: true,
 };

@@ -2,6 +2,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import React, { useState } from 'react';
 
 import { CalendlyDialog } from '@/components/common/CalendlyDialog';
+import { CalendlyForms } from '@/configs';
 
 export const DiscussChallengeSection: React.FC = () => {
   const [open, setOpen] = useState(false);
@@ -47,7 +48,11 @@ export const DiscussChallengeSection: React.FC = () => {
           </div>
         </div>
       </div>
-      <CalendlyDialog open={open} onClose={handleClose} />
+      <CalendlyDialog
+        url={CalendlyForms.NEW_PROJECT_COLLABORATION}
+        open={open}
+        onClose={handleClose}
+      />
     </section>
   );
 };
