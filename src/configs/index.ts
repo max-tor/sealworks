@@ -8,7 +8,9 @@ export enum Pages {
   CONNECT = '/connect/',
 }
 
-export const calendlyUser = 'anatoly-shipitz-speedandfunction';
+export const calendlyUser = process.env.GATSBY_ACTIVE_ENV
+  ? 'anatoly-shipitz-speedandfunction'
+  : 'nickfloro';
 
 export const calendlySettings = {
   hideLandingPageDetails: true,
