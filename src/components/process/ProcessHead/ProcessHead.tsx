@@ -1,7 +1,7 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import React, { useState } from 'react';
 
-import Arrow from '@/images/arrow-yellow.inline.svg';
+import { ReactComponent as Arrow } from '@/images/arrow-yellow.inline.svg';
 
 export const ProcessHead: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);

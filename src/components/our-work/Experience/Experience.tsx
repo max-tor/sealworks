@@ -1,8 +1,8 @@
 import React from 'react';
 
-import ArrowImage from './images/arrow.inline.svg';
-import AstronautImage from './images/astronaut.inline.svg';
-import StarsImage from './images/stars.inline.svg';
+import { ReactComponent as ArrowImage } from './images/arrow.inline.svg';
+import { ReactComponent as AstronautImage } from './images/astronaut.inline.svg';
+import { ReactComponent as StarsImage } from './images/stars.inline.svg';
 
 export const Experience = () => {
   return (

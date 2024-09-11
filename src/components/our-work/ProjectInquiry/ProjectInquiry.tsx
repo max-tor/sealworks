@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import { CalendlyDialog } from '@/components/common/CalendlyDialog';
 import { CalendlyForms } from '@/configs';
 
-import BrainstormImg from './images/brainstorm.inline.svg';
-import MessageImg from './images/message.inline.svg';
+import { ReactComponent as BrainstormImg } from './images/brainstorm.inline.svg';
+import { ReactComponent as MessageImg } from './images/message.inline.svg';
 
 export const ProjectInquiry = () => {
   const [open, setOpen] = useState(false);

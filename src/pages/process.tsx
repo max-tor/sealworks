@@ -9,8 +9,8 @@ import { CloudObject } from '@/components/process/CloudObject/CloudObject';
 import { Innovation } from '@/components/process/Innovation/Innovation';
 import { Possibilities } from '@/components/process/Possibilities/Possibilities';
 import { ProcessHead } from '@/components/process/ProcessHead/ProcessHead';
-import ArrowFirst from '@/images/vector-red-arrow-down.inline.svg';
-import ArrowSimple from '@/images/vector-red-arrow-simple.inline.svg';
+import { ReactComponent as ArrowFirst } from '@/images/vector-red-arrow-down.inline.svg';
+import { ReactComponent as ArrowSimple } from '@/images/vector-red-arrow-simple.inline.svg';
 
 export const Head = () => (
   <SEO

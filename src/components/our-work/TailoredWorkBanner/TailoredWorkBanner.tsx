@@ -1,7 +1,7 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 
-import UnionImage from '@/images/union.inline.svg';
+import { ReactComponent as UnionImage } from '@/images/union.inline.svg';
 
 export const TailoredWorkBanner: React.FC = () => {
   return (

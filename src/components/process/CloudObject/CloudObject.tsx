@@ -2,7 +2,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import React, { useEffect, useRef } from 'react';
 
 import { useOnscrollAnimation } from '@/hooks/useOnscrollAnimation';
-import Cloud from '@/images/cloud.inline.svg';
+import { ReactComponent as Cloud } from '@/images/cloud.inline.svg';
 
 export const CloudObject = () => {
   const [isVisible, observe] = useOnscrollAnimation();

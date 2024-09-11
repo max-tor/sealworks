@@ -9,12 +9,12 @@ import { SEO } from '@/components/common/SEO';
 import Stories from '@/components/common/Stories/Stories';
 import { TileCard } from '@/components/common/TileCard/TileCard';
 import { Pages } from '@/configs';
-import Rectangle from '@/images/arrow-rectangle.inline.svg';
-import Cursor from '@/images/cursor.inline.svg';
-import Like from '@/images/like.inline.svg';
-import Love from '@/images/love.inline.svg';
-import Poster from '@/images/video-poster.jpg';
-import Video from '@/video/sealworks-video.mp4';
+import { ReactComponent as Rectangle } from '@/images/arrow-rectangle.inline.svg';
+import { ReactComponent as Cursor } from '@/images/cursor.inline.svg';
+import { ReactComponent as Like } from '@/images/like.inline.svg';
+import { ReactComponent as Love } from '@/images/love.inline.svg';
+import { ReactComponent as Poster } from '@/images/video-poster.jpg';
+import { ReactComponent as Video } from '@/video/sealworks-video.mp4';
 
 export const Head = () => (
   <SEO
@@ -27,7 +27,7 @@ export const Head = () => (
 const IndexPage = ({ location }: PageProps) => {
   return (
     <PageLayout location={location}>
-      <div className="bg-yellow -mx-4 flex flex-col items-center md:mx-0 lg:mb-[10px] lg:flex-row lg:justify-between">
+      <div className="-mx-4 flex flex-col items-center bg-yellow md:mx-0 lg:mb-[10px] lg:flex-row lg:justify-between">
         <div className="mx-4 my-3 max-w-[420px] lg:m-0">
           <h1 className="font-roboto text-[40px] font-normal leading-[60px] text-black lg:pl-8 lg:leading-[53px]">
             <span className="bg-white">amazing </span>
@@ -44,8 +44,8 @@ const IndexPage = ({ location }: PageProps) => {
         </div>
       </div>
       <div className="-mx-4 mb-9 flex flex-col items-stretch gap-5 md:mx-0 lg:mb-[70px] lg:flex-row lg:justify-between lg:gap-7">
-        <div className="bg-blue flex min-h-[350px] w-full flex-col items-center justify-center px-10 lg:w-1/3 lg:max-w-[400px]">
-          <p className="font-roboto mb-3 text-[23px] font-normal leading-8 text-white">
+        <div className="flex min-h-[350px] w-full flex-col items-center justify-center bg-blue px-10 lg:w-1/3 lg:max-w-[400px]">
+          <p className="mb-3 font-roboto text-[23px] font-normal leading-8 text-white">
             we believe in the power of technology to connect, inspire, and make
             a difference —
           </p>
@@ -64,11 +64,11 @@ const IndexPage = ({ location }: PageProps) => {
         >
           <source src={Video} type="video/mp4" />
         </video>
-        <div className="bg-red -mt-6 ml-9 w-[95%] self-end pb-[22px] pl-[80px] pr-[22px] pt-[74px] md:h-[344px] lg:absolute lg:right-0 lg:top-0 lg:-mt-10 lg:w-[550px] lg:pl-[275px]">
-          <span className="font-roboto mb-2 inline-block text-[26px] font-normal leading-8 text-white">
+        <div className="-mt-6 ml-9 w-[95%] self-end bg-red pb-[22px] pl-[80px] pr-[22px] pt-[74px] md:h-[344px] lg:absolute lg:right-0 lg:top-0 lg:-mt-10 lg:w-[550px] lg:pl-[275px]">
+          <span className="mb-2 inline-block font-roboto text-[26px] font-normal leading-8 text-white">
             your award-winning partner for
           </span>
-          <h2 className="font-roboto mb-5 text-[40px] font-normal leading-[48px] text-white">
+          <h2 className="mb-5 font-roboto text-[40px] font-normal leading-[48px] text-white">
             custom digital solutions
           </h2>
           <div className="lg:absolute lg:top-[calc(100%+2.3rem)]">
@@ -80,8 +80,8 @@ const IndexPage = ({ location }: PageProps) => {
           </div>
         </div>
       </div>
-      <div className="to-blue bg-gradient-to-r from-[#082365]">
-        <h2 className="font-roboto px-4 py-[10px] pr-0 text-[35px] font-normal leading-[48px] text-white lg:px-7 lg:text-[40px]">
+      <div className="bg-gradient-to-r from-[#082365] to-blue">
+        <h2 className="px-4 py-[10px] pr-0 font-roboto text-[35px] font-normal leading-[48px] text-white lg:px-7 lg:text-[40px]">
           the sealworks promise
         </h2>
       </div>
@@ -121,7 +121,7 @@ const IndexPage = ({ location }: PageProps) => {
           }
         />
       </div>
-      <div className="bg-yellow max-w-[916px] p-5 text-center text-black lg:pb-5 lg:pl-9 lg:pr-8 lg:pt-7 lg:text-left">
+      <div className="max-w-[916px] bg-yellow p-5 text-center text-black lg:pb-5 lg:pl-9 lg:pr-8 lg:pt-7 lg:text-left">
         <h2 className="font-roboto text-[35px] font-normal leading-[48px] lg:text-[40px]">
           decades at the forefront of
         </h2>
@@ -130,7 +130,7 @@ const IndexPage = ({ location }: PageProps) => {
         </h2>
       </div>
       <div className="relative flex flex-col-reverse lg:flex-col">
-        <div className="bg-blue font-roboto before:border-b-blue relative mt-8 p-8 text-[15px] leading-[23px] text-white before:absolute before:-top-[55px] before:left-[27px] before:border-b-[76px] before:border-r-[44px] before:border-r-transparent before:content-[''] lg:absolute lg:top-2/4 lg:z-10 lg:mt-0 lg:max-w-[356px] lg:-translate-y-1/2 lg:pt-[52px]">
+        <div className="relative mt-8 bg-blue p-8 font-roboto text-[15px] leading-[23px] text-white before:absolute before:-top-[55px] before:left-[27px] before:border-b-[76px] before:border-r-[44px] before:border-b-blue before:border-r-transparent before:content-[''] lg:absolute lg:top-2/4 lg:z-10 lg:mt-0 lg:max-w-[356px] lg:-translate-y-1/2 lg:pt-[52px]">
           <strong className="mb-3 inline-block text-lg">
             Since 1992, we&apos;ve had the privilege of partnering with diverse
             clients.
@@ -145,7 +145,7 @@ const IndexPage = ({ location }: PageProps) => {
             ecosystems that reach millions of users, and more.
           </p>
         </div>
-        <div className="after:rounded-4xl after:bg-red relative w-full max-w-[894px] self-end after:absolute after:-top-[15px] after:left-0 after:z-[2] after:size-full after:h-[84%] after:w-full after:content-[''] lg:mr-[5.7%] lg:w-[64%] lg:after:-top-[20px] lg:after:left-[60px] lg:after:w-[98%] xl:w-full xl:after:h-[616px] xl:after:w-[894px]">
+        <div className="relative w-full max-w-[894px] self-end after:absolute after:-top-[15px] after:left-0 after:z-[2] after:size-full after:h-[84%] after:w-full after:rounded-4xl after:bg-red after:content-[''] lg:mr-[5.7%] lg:w-[64%] lg:after:-top-[20px] lg:after:left-[60px] lg:after:w-[98%] xl:w-full xl:after:h-[616px] xl:after:w-[894px]">
           <StaticImage
             className="relative z-[5]"
             src="../images/ipad.png"
@@ -155,10 +155,10 @@ const IndexPage = ({ location }: PageProps) => {
       </div>
       <div className="relative p-4 leading-[65px] lg:pb-[110px] lg:pl-[125px] lg:pr-[95px] lg:pt-[40px]">
         <Cursor className="left-0 top-0 lg:absolute" />
-        <span className="font-roboto before:bg-yellowSticky relative p-[3px] text-[22px] font-normal leading-7 before:absolute before:bottom-0 before:-z-[1] before:h-[22px] before:w-full before:content-[''] lg:text-[30px]">
+        <span className="relative p-[3px] font-roboto text-[22px] font-normal leading-7 before:absolute before:bottom-0 before:-z-[1] before:h-[22px] before:w-full before:bg-yellowSticky before:content-[''] lg:text-[30px]">
           each year,
         </span>
-        <span className="font-annie text-red before:bg-redSticky relative mx-[5px] inline-block p-[3px] text-[50px] font-normal leading-[40px] before:absolute before:-bottom-4 before:-z-[1] before:h-[34px] before:w-full before:content-[''] lg:text-[83px]">
+        <span className="relative mx-[5px] inline-block p-[3px] font-annie text-[50px] font-normal leading-[40px] text-red before:absolute before:-bottom-4 before:-z-[1] before:h-[34px] before:w-full before:bg-redSticky before:content-[''] lg:text-[83px]">
           3.5+&nbsp;million{' '}
         </span>
         <span className="font-roboto text-[22px] font-normal leading-7 lg:text-[30px]">
@@ -169,7 +169,7 @@ const IndexPage = ({ location }: PageProps) => {
         <span className="font-roboto text-[22px] font-normal leading-7 lg:ml-[148px] lg:text-[30px]">
           interacting with our experiences{' '}
         </span>
-        <span className="font-annie text-blue before:bg-blueSticky relative mx-[5px] inline-block p-[3px] text-[50px] font-normal leading-[40px] before:absolute before:-bottom-4 before:-z-[1] before:h-[34px] before:w-full before:content-[''] lg:text-[83px]">
+        <span className="relative mx-[5px] inline-block p-[3px] font-annie text-[50px] font-normal leading-[40px] text-blue before:absolute before:-bottom-4 before:-z-[1] before:h-[34px] before:w-full before:bg-blueSticky before:content-[''] lg:text-[83px]">
           millions
         </span>
         <span className="font-roboto text-[22px] font-normal leading-7 lg:text-[30px]">
@@ -178,7 +178,7 @@ const IndexPage = ({ location }: PageProps) => {
         <span className="font-roboto text-[22px] font-normal leading-7 lg:text-[30px]">
           celebrating over{' '}
         </span>
-        <span className="font-annie before:bg-yellowSticky relative mx-[5px] inline-block p-[3px] text-[50px] font-normal leading-[40px] text-black before:absolute before:-bottom-4 before:-z-[1] before:h-[34px] before:w-full before:content-[''] lg:text-[83px]">
+        <span className="relative mx-[5px] inline-block p-[3px] font-annie text-[50px] font-normal leading-[40px] text-black before:absolute before:-bottom-4 before:-z-[1] before:h-[34px] before:w-full before:bg-yellowSticky before:content-[''] lg:text-[83px]">
           3&nbsp;decades
         </span>
         <span className="font-roboto text-[22px] font-normal leading-7 lg:text-[30px]">
@@ -186,7 +186,7 @@ const IndexPage = ({ location }: PageProps) => {
         </span>
         <Like className="ml-auto lg:absolute lg:right-[45px] lg:top-[60px]" />
       </div>
-      <h3 className="font-roboto mb-4 text-5xl lg:mb-9 lg:text-[66px]">
+      <h3 className="mb-4 font-roboto text-5xl lg:mb-9 lg:text-[66px]">
         excellence bolstered by expertise
       </h3>
       <div className="mb-20 flex flex-col gap-5 md:mb-[60px] lg:mb-[92px] lg:flex-row lg:gap-12">
@@ -266,7 +266,7 @@ const IndexPage = ({ location }: PageProps) => {
             never settle for anything less than the best to ensure that every
             project is a smashing success.
           </p>
-          <h3 className="text-red mb-[30px] text-[26px] font-bold leading-9">
+          <h3 className="mb-[30px] text-[26px] font-bold leading-9 text-red">
             Get started creating your award-winning experience.
           </h3>
           <CustomButton
@@ -277,7 +277,7 @@ const IndexPage = ({ location }: PageProps) => {
           />
         </div>
       </div>
-      <div className="bg-blue relative mb-8 px-4 pb-5 text-white md:mb-20 md:ml-20 md:py-8 md:pl-[200px] md:pr-5 lg:pr-[120px]">
+      <div className="relative mb-8 bg-blue px-4 pb-5 text-white md:mb-20 md:ml-20 md:py-8 md:pl-[200px] md:pr-5 lg:pr-[120px]">
         <div className="relative z-[1] md:absolute md:-left-[113px] md:-top-[30px] lg:-top-[73px]">
           <StaticImage
             className="-mt-20 md:mt-0"
@@ -285,7 +285,7 @@ const IndexPage = ({ location }: PageProps) => {
             alt="Award"
           />
         </div>
-        <h2 className="font-roboto mb-4 max-w-[800px] text-[26px] font-bold leading-9">
+        <h2 className="mb-4 max-w-[800px] font-roboto text-[26px] font-bold leading-9">
           In 2016, Sealworks founder Nick Floro was awarded the Guild Master
           Award.{' '}
         </h2>
@@ -302,10 +302,10 @@ const IndexPage = ({ location }: PageProps) => {
           <Rectangle />
         </div>
       </div>
-      <h2 className="font-roboto mb-1 text-3xl font-normal leading-[53px] md:text-[40px]">
+      <h2 className="mb-1 font-roboto text-3xl font-normal leading-[53px] md:text-[40px]">
         some of the amazing teams
       </h2>
-      <h2 className="font-roboto mb-6 text-5xl font-normal leading-[53px] md:text-[60px]">
+      <h2 className="mb-6 font-roboto text-5xl font-normal leading-[53px] md:text-[60px]">
         we’ve been lucky to partner with:
       </h2>
       <div className="w-full lg:mb-16">

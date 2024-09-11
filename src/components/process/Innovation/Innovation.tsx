@@ -1,11 +1,11 @@
 import React from 'react';
 
-import IconCloud from '@/images/innovation-cloud.inline.svg';
-import IconCode from '@/images/innovation-code.inline.svg';
-import IconCut from '@/images/innovation-cut.inline.svg';
-import IconDatabase from '@/images/innovation-database.inline.svg';
-import IconPerformance from '@/images/innovation-performance.inline.svg';
-import IconView from '@/images/innovation-view.inline.svg';
+import { ReactComponent as IconCloud } from '@/images/innovation-cloud.inline.svg';
+import { ReactComponent as IconCode } from '@/images/innovation-code.inline.svg';
+import { ReactComponent as IconCut } from '@/images/innovation-cut.inline.svg';
+import { ReactComponent as IconDatabase } from '@/images/innovation-database.inline.svg';
+import { ReactComponent as IconPerformance } from '@/images/innovation-performance.inline.svg';
+import { ReactComponent as IconView } from '@/images/innovation-view.inline.svg';
 
 export const Innovation = () => {
   return (

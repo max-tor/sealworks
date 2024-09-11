@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Regenerate from '@/images/magic.inline.svg';
+import { ReactComponent as Regenerate } from '@/images/magic.inline.svg';
 
 const textOptions = [
   [
