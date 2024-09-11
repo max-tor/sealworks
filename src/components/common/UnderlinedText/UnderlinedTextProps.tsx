@@ -8,5 +8,6 @@ export interface UnderlinedTextProps {
     | 'roseSticky'
     | 'redSticky'
     | 'yellowSticky'
-    | 'yellowStickyLight';
+    | 'yellowStickyLight'
+    | 'accent';
 }

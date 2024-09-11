@@ -17,6 +17,7 @@ export const UnderlinedText = ({
     redSticky: 'before:bg-redSticky',
     yellowSticky: 'before:bg-yellowSticky',
     yellowStickyLight: 'before:bg-yellowStickyLight',
+    accent: 'before:bg-accent',
   };
   const spanClass = clsx(BASE_CLASS, { [`${colorVariants[color]}`]: !!color });
 
