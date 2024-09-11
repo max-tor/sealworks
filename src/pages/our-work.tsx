@@ -9,6 +9,7 @@ import { DigitalHubs } from '@/components/our-work/DigitalHubs';
 import { Experience } from '@/components/our-work/Experience';
 import { LearningPlatforms } from '@/components/our-work/LearningPlatforms';
 import { Onboarding } from '@/components/our-work/Onboarding';
+import { ProjectInquiry } from '@/components/our-work/ProjectInquiry';
 import { PrototypeFeedback } from '@/components/our-work/PrototypeFeedback';
 import { TailoredWorkBanner } from '@/components/our-work/TailoredWorkBanner';
 import { UniqueInteractions } from '@/components/our-work/UniqueInteractions';
@@ -35,6 +36,7 @@ const WorkPage = ({ location }: PageProps) => {
       <PrototypeFeedback />
       <AdaptiveLearning />
       <UniqueInteractions />
+      <ProjectInquiry />
     </PageLayout>
   );
 };
