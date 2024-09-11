@@ -52,13 +52,15 @@ export const BottomInformation = () => {
           {social.map(({ url, name, ariaLabel }, index) => (
             <React.Fragment key={url}>
               {index > 0 && <Dot />}
-              <Link
-                to={url}
+              <a
+                href={url}
+                target="_blank"
                 className="font-bold text-blue hover:underline"
                 aria-label={ariaLabel}
+                rel="noreferrer"
               >
                 {name}
-              </Link>
+              </a>
             </React.Fragment>
           ))}
         </nav>
