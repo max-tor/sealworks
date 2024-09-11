@@ -8,6 +8,14 @@ export enum Pages {
   CONNECT = '/connect/',
 }
 
+export const calendlyUrl =
+  'https://calendly.com/anatoly-shipitz-speedandfunction';
+
+export const calendlySettings = {
+  hideLandingPageDetails: true,
+  hideGdprBanner: true,
+};
+
 export const carouselTheme = {
   indicators: {
     active: {

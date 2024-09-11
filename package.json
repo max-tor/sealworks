@@ -32,6 +32,7 @@
     "@fontsource/roboto": "5.0.14",
     "@fontsource/source-sans-pro": "5.0.8",
     "@fontsource/underdog": "5.0.21",
+    "@headlessui/react": "2.1.6",
     "@sentry/gatsby": "8.28.0",
     "animate.css": "4.1.1",
     "babel-plugin-styled-components": "^2.1.4",
@@ -56,6 +57,7 @@
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
     "react": "^18.2.0",
+    "react-calendly": "4.3.1",
     "react-dom": "^18.2.0",
     "react-helmet": "6.1.0",
     "styled-components": "^6.1.12"
