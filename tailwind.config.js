@@ -48,16 +48,6 @@ module.exports = {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
         annie: ['Annie Use Your Telescope', 'cursive'],
-        biorhyme: ['BioRhyme', 'serif'],
-        readexpro: ['Readex Pro', 'sans-serif'],
-        dmmono: ['DM Mono', 'monospace'],
-        b612mono: ['B612 Mono', 'monospace'],
-        bethellen: ['Beth Ellen', 'cursive'],
-        kalam: ['Kalam', 'cursive'],
-        indieflower: ['Indie Flower', 'cursive'],
-        craftygirls: ['Crafty Girls', 'cursive'],
-        dotgothic16: ['DotGothic16', 'sans-serif'],
-        bubblerone: ['Bubbler One', 'sans-serif'],
       },
       width: {
         'underlined-text': 'calc(100% + 6px)',
