@@ -14,9 +14,9 @@ const siteMetadata: GatsbyConfig['siteMetadata'] = {
   email: 'info@sealworks.com',
   social: [
     {
-      name: 'Client Area',
-      url: 'https://sealworks.launchcycle.com/',
-      ariaLabel: 'Client Area Page', //optional parameter
+      name: 'Blog',
+      url: 'https://nickfloro.com/',
+      ariaLabel: 'Visit our Blog',
     },
     {
       name: 'LinkedIn',
@@ -24,15 +24,9 @@ const siteMetadata: GatsbyConfig['siteMetadata'] = {
       ariaLabel: 'Follow us on LinkedIn',
     },
     {
-      name: 'Blog',
-      url: 'https://nickfloro.com/',
-      ariaLabel: 'Visit our Blog',
-    },
-    {
-      name: 'X (Twitter)',
-      url: 'https://x.com/nickfloro',
-      ariaLabel: 'Visit our X Twitter',
-      metaDescription: '',
+      name: 'Partners',
+      url: 'https://sealworks.launchcycle.com/',
+      ariaLabel: 'Client Area Page', //optional parameter
     },
   ],
 };
@@ -51,7 +45,12 @@ const config: GatsbyConfig = {
     },
     'gatsby-plugin-styled-components',
     'gatsby-plugin-image',
-    // "gatsby-plugin-google-gtag",
+    {
+      resolve: 'gatsby-plugin-google-gtag',
+      options: {
+        trackingIds: ['UA-177857-1'],
+      },
+    },
     {
       resolve: 'gatsby-plugin-breakpoints',
       options: {

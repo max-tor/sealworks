@@ -48,7 +48,7 @@ export const BottomInformation = () => {
           <span className="whitespace-nowrap font-bold text-blue">{email}</span>
         </div>
 
-        <nav className="shrink grow" aria-label="Footer navigation">
+        <nav className="shrink grow text-right" aria-label="Footer navigation">
           {social.map(({ url, name, ariaLabel }, index) => (
             <React.Fragment key={url}>
               {index > 0 && <Dot />}
