@@ -10,7 +10,7 @@ const description2 =
 
 export const LearningPlatforms: React.FC = () => {
   return (
-    <section className="relative flex max-w-full gap-5 max-lg:flex-col lg:my-5 lg:mt-16 lg:gap-[20px] lg:pb-16 lg:pt-[17px] xl:gap-[110px]">
+    <section className="relative my-5 flex max-w-full gap-5 max-lg:flex-col lg:my-14 lg:gap-[20px] xl:gap-[110px]">
       <div className="ml-5 w-[36%] flex-[1_1_36%] flex-col max-lg:ml-0 max-lg:w-full">
         <div className="text-black max-lg:mt-10">
           <h2 className="text-7xl leading-[70px] max-xl:text-4xl max-lg:text-4xl max-lg:leading-10">
@@ -25,13 +25,13 @@ export const LearningPlatforms: React.FC = () => {
           </p>
         </div>
       </div>
-      <aside className="relative mx-auto grid w-full gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[573px] lg:w-[64%] lg:flex-[1_0_712px] lg:flex-col">
+      <aside className="relative mx-auto grid w-full gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[573px] lg:w-[64%] lg:flex-[1_0_712px] lg:flex-col lg:justify-end">
         <StaticImage
-          className="lg:h-[797px] lg:w-[562px]"
-          imgClassName="h-auto max-w-full lg:object-top"
+          className="lg:h-[562px] lg:w-[707px]"
+          imgClassName="h-auto max-w-full"
           alt=""
           src="images/learning-platforms.png"
-          breakpoints={[644, 640, 768, 1024, 1280]}
+          breakpoints={[640, 707, 768, 1024, 1280]}
           sizes="(min-width: 1280px) 707px, 100vw"
         />
       </aside>

@@ -6,7 +6,7 @@ import { ReactComponent as StarsImage } from './images/stars.inline.svg';
 
 export const Experience = () => {
   return (
-    <section className="relative my-5 flex max-w-full flex-col bg-blue p-3 pl-3.5 max-xl:pr-5 xl:mb-10 xl:h-[224px]">
+    <section className="relative my-5 flex max-w-full flex-col bg-blue p-3 pl-3.5 max-xl:pr-5 lg:my-14 xl:mb-10 xl:h-[224px]">
       <AstronautImage className="xl:absolute xl:left-3 xl:top-3 xl:flex xl:h-[202px] xl:w-[206px]" />
       <StarsImage className="hidden select-none xl:absolute xl:left-[643px] xl:top-[21px] xl:flex xl:h-[38px] xl:w-[97px]" />
       <ArrowImage className="hidden select-none xl:absolute xl:left-[720px] xl:top-[40px] xl:flex xl:h-[26px] xl:w-[32px]" />

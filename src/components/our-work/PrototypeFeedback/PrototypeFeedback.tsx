@@ -8,7 +8,7 @@ const description =
 
 export const PrototypeFeedback: React.FC = () => {
   return (
-    <section className="relative flex max-w-full flex-row-reverse gap-5 max-lg:flex-col lg:my-5 lg:gap-[20px] lg:pb-[60px] lg:pt-[17px] xl:gap-[110px]">
+    <section className="relative my-5 flex max-w-full flex-row-reverse gap-5 max-lg:flex-col lg:my-14 lg:gap-[20px] xl:gap-[110px]">
       <div className="ml-5 w-[36%] flex-[1_1_36%] flex-col max-lg:ml-0 max-lg:w-full">
         <div className="text-black max-lg:mt-10">
           <h2 className="text-7xl leading-[70px] max-xl:text-4xl max-lg:text-4xl max-lg:leading-10">
@@ -21,72 +21,15 @@ export const PrototypeFeedback: React.FC = () => {
           <p className="mt-10 text-base leading-6">{description}</p>
         </div>
       </div>
-      <aside className="relative mx-auto grid w-full flex-[1_0_582px] gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[573px] lg:w-[64%] lg:flex-[1_0_712px] lg:flex-col">
-        <div className="absolute left-0 lg:left-[106px] lg:top-0 lg:h-[222px] lg:w-[297px]">
-          <StaticImage
-            className="lg:h-[222px] lg:w-[297px] lg:object-cover lg:shadow-lg"
-            imgClassName="h-auto max-w-full lg:object-top"
-            alt="Tablet view showing feedback and analysis on learning progress, including a welcome video and integration video with responses."
-            src="images/feedback-analysis.png"
-            breakpoints={[297, 640, 768, 1024]}
-            sizes="(min-width: 1024px) 297px, 100vw"
-          />
-        </div>
-
-        <div className="hidden lg:absolute lg:left-0 lg:top-0 lg:block lg:h-[241px] lg:w-[119px]">
-          <StaticImage
-            className="lg:h-[241px] lg:w-[119px] lg:object-cover"
-            imgClassName="h-auto max-w-full lg:object-top"
-            alt="Digital sticky notes brainstorming session displaying various topics like search, personalization, and content management"
-            src="images/sticky-notes-ideas.png"
-            breakpoints={[119, 640, 768, 1024]}
-            sizes="(min-width: 1024px) 119px, 100vw"
-          />
-        </div>
-
-        <div className="absolute left-0 top-[414px] size-10/12 lg:left-[122px] lg:h-[266px] lg:w-[149px]">
-          <StaticImage
-            className="lg:h-[149px] lg:w-[266px] lg:object-cover lg:shadow-lg"
-            imgClassName="h-auto max-w-full lg:object-top"
-            alt="Voting session for ideas with color-coded sticky notes across categories like search, content, personalization, and managing content."
-            src="images/voting-ideas-session.jpg"
-            breakpoints={[266, 640, 768, 1024]}
-            sizes="(min-width: 1024px) 266px, 100vw"
-          />
-        </div>
-
-        <div className="absolute right-0 top-[244px] size-1/2 lg:left-[391px] lg:right-auto lg:h-[281px] lg:w-[299px]">
-          <StaticImage
-            className="lg:h-[281px] lg:w-[299px] lg:object-cover lg:shadow-lg"
-            imgClassName="h-auto max-w-full lg:object-top"
-            alt="A half-drawn and half-digital interface showing feedback and progress analysis on a learning platform."
-            src="images/learning-platform-feedback.jpg"
-            breakpoints={[299, 640, 768, 1024]}
-            sizes="(min-width: 1024px) 299px, 100vw"
-          />
-        </div>
-
-        <div className="absolute left-0 top-[197px] size-1/2 lg:left-[51px] lg:h-[266px] lg:w-[357px]">
-          <StaticImage
-            className="lg:h-[266px] lg:w-[357px] lg:object-cover"
-            imgClassName="h-auto max-w-full lg:object-top"
-            alt="Consensus session showing top-voted sticky notes for defining 'MyModerna,' with keywords like 'easy to search' and 'collaboration'."
-            src="images/consensus-definition-session.png"
-            breakpoints={[357, 640, 768, 1024]}
-            sizes="(min-width: 1024px) 357px, 100vw"
-          />
-        </div>
-
-        <div className="absolute -top-[15px] right-0 size-1/2 lg:left-[365px] lg:right-auto lg:h-[259px] lg:w-[352px]">
-          <StaticImage
-            className="lg:h-[259px] lg:w-[352px] lg:object-cover"
-            imgClassName="h-auto max-w-full lg:object-top"
-            alt="Interactive annotation tool on a tablet, with options for color coding and extra notes, illustrating an educational exercise"
-            src="images/interactive-annotation.png"
-            breakpoints={[352, 640, 768, 1024]}
-            sizes="(min-width: 1024px) 352px, 100vw"
-          />
-        </div>
+      <aside className="relative mx-auto grid w-full gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:w-[64%] lg:flex-[1_0_712px] lg:flex-col">
+        <StaticImage
+          className="lg:h-[546px] lg:w-[716px]"
+          imgClassName="h-auto max-w-full"
+          alt=""
+          src="images/prototype_feedback_loops.png"
+          breakpoints={[640, 716, 768, 1024, 1280]}
+          sizes="(min-width: 1280px) 716px, 100vw"
+        />
       </aside>
     </section>
   );
