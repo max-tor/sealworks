@@ -58,7 +58,7 @@ export const CapabilitiesPresentation = () => {
         <StaticImage
           className={clsx(wrapperClasses, 'xl:left-[295px] xl:top-0')}
           imgClassName="h-auto xl:max-w-full object-top"
-          alt="Case study on how Ellen's credit score affects her ability to buy a house."
+          alt="Diversity and Inclusion course slide explaining the definition of diversity."
           src="images/diversity-inclusion-definition.jpg"
           breakpoints={[256, 640, 768, 1024, 1280]}
           sizes="(min-width: 1280px) 256px, 100vw"
@@ -112,7 +112,7 @@ export const CapabilitiesPresentation = () => {
         <StaticImage
           className={clsx(wrapperClasses, 'xl:left-[944px] xl:top-[255px]')}
           imgClassName="h-auto max-w-full object-top"
-          alt="Everboarding platform for Daiichi Sankyo’s Global R&D with learning journeys and spotlight sections."
+          alt="Nielsen Diversity and Inclusion foundational learning course introduction."
           src="images/ielsen-diversity-inclusion-course.jpg"
           breakpoints={[256, 640, 768, 1024, 1280]}
           sizes="(min-width: 1280px) 256px, 100vw"

@@ -24,7 +24,7 @@ export const ContactDetails = () => {
         />
 
         <div className="flex-1">
-          <div className="my-[32px] flex flex-col bg-grayLight py-[24px] pl-[100px] pr-[26px] text-black lg:-ml-[32px]">
+          <div className="my-[32px] flex flex-col bg-grayLight p-[24px] text-black md:-ml-[32px] md:pl-[100px] md:pr-[26px]">
             <h2 className="self-start text-[26px] font-bold">
               let&apos;s connect
             </h2>
