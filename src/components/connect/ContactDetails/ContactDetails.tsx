@@ -8,14 +8,14 @@ export const ContactDetails = () => {
   const { title, address, contactPhone, email } = siteMetadata;
 
   return (
-    <section className="my-5 flex w-full items-center font-roboto max-md:flex-col">
+    <section className="my-5 flex w-full items-center font-roboto max-lg:flex-col">
       <div className="flex-1">
         <h2 className="text-[66px] leading-[73px] text-blue max-md:text-4xl max-md:leading-[49px]">
           <span className="text-red">it&apos;s time</span> to take your digital
           experiences to the next level.
         </h2>
       </div>
-      <div className="flex flex-[0_0_640px] items-center max-md:w-full">
+      <div className="flex items-center max-md:w-full max-md:flex-col lg:flex-[0_0_640px]">
         <StaticImage
           className="flex-[0_0_232px] lg:h-[294px] lg:w-[232px]"
           imgClassName="h-auto max-w-full"
