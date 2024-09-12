@@ -10,8 +10,8 @@ import { DiscussChallengeSection } from '@/components/connect/DiscussChallengeSe
 
 export const Head = () => (
   <SEO
-    title="Connect"
-    description="Explore interactive and personalized learning experiences with Connect. Enhance your reading and comprehension skills through engaging video scenarios, quizzes, and detailed feedback to achieve academic success."
+    title="Connect with SealWorks | Interactive Digital Solutions & Custom Workshops"
+    description="Connect with SealWorks to explore interactive digital solutions, custom workshops, and innovative brainstorming sessions. Start your project journey with our expert team."
     keywords="Sealworks, connect, digital experience, brainstorming workshops, project jam sessions, design and development, digital solutions, interactive studios, scale digital projects, workshops, project consultation, digital innovation, Sealworks Interactive Studios"
   />
 );

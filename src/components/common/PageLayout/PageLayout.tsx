@@ -13,7 +13,7 @@ export const PageLayout = ({ children, location }: PageLayoutProps) => {
     <div className="min-h-full">
       <div className="mx-auto max-w-[1262px] px-4 pt-[67px] md:pt-[85px] lg:pt-[115px]">
         <Header />
-        <main>{children}</main>
+        <main role="main">{children}</main>
         <Footer location={location} />
         {CalendlyWidget}
       </div>

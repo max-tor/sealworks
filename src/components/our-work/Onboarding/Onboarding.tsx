@@ -22,7 +22,7 @@ export const Onboarding: React.FC = () => {
           <StaticImage
             className="lg:h-[336px] lg:w-[431px]"
             imgClassName="h-auto max-w-full lg:object-top"
-            alt="A hand holding a tablet device"
+            alt=""
             src="images/tablet.png"
             breakpoints={[431]}
           />

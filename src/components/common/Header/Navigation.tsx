@@ -5,7 +5,11 @@ import { Pages } from '@/configs';
 
 const Navigation: React.FC = () => {
   return (
-    <nav className="text-right lg:text-center">
+    <nav
+      className="text-right lg:text-center"
+      role="navigation"
+      aria-label="Primary Navigation"
+    >
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label
         htmlFor="menu-btn"

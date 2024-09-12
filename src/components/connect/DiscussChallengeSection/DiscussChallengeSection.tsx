@@ -40,6 +40,7 @@ export const DiscussChallengeSection: React.FC = () => {
               </div>
             </div>
             <button
+              aria-label="Book a project jam session with SealWorks"
               className="mt-3.5 w-full rounded-4xl bg-blue px-9 py-4 text-center text-2xl font-bold text-white max-md:px-5 lg:w-auto"
               onClick={handleOpen}
             >

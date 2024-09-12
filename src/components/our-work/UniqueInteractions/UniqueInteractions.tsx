@@ -84,7 +84,7 @@ export const UniqueInteractions = () => {
           <StaticImage
             className="lg:h-[271px] lg:w-[364px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
-            alt="DBQ Online tool showing annotations on a historical document."
+            alt=""
             src="images/tablet.png"
             breakpoints={[364]}
           />

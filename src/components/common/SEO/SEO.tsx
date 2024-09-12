@@ -22,7 +22,7 @@ export const SEO: FC<SEOProps> = ({
   return (
     <>
       <title id="siteTitle">
-        {[title, defaultTitle].filter(Boolean).join(' - ')}
+        {[title, defaultTitle].filter(Boolean).join(' | ')}
       </title>
       {description && (
         <meta id="desc" name="description" content={description} />
