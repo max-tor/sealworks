@@ -19,53 +19,53 @@ export const DigitalHubs: React.FC = () => {
           <p className="mt-10 text-base leading-6">{description}</p>
         </div>
       </div>
-      <aside className="relative mx-auto grid w-full flex-[1_0_712px] gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[510px] lg:w-[64%] lg:flex-col lg:bg-red">
-        <div className="lg:absolute lg:left-[20px] lg:top-[-17px] lg:h-[189px] lg:w-[317px]">
+      <aside className="relative mx-auto grid h-[510px] w-full flex-[1_0_712px] gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:w-[64%] lg:flex-col lg:bg-red">
+        <div className="absolute left-[20px] top-[-17px] w-[180px] lg:h-[189px] lg:w-[317px]">
           <StaticImage
             className="lg:h-[189px] lg:w-[317px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Career simulation interface showing a student character exploring becoming a geneticist, with starting salary information."
-            src="images/career-simulation-geneticist.png"
+            src="images/career-simulation-geneticist.jpg"
             breakpoints={[317, 640, 768, 1024]}
             sizes="(min-width: 1024px) 317px, 100vw"
           />
         </div>
-        <div className="hidden select-none lg:absolute lg:left-[-25px] lg:top-[-26px] lg:block lg:h-[208px] lg:w-[79px]">
+        <div className="absolute left-0 top-[-26px] block h-[208px] w-[79px] select-none lg:left-[-25px]">
           <StaticImage
             className="lg:h-[208px] lg:w-[79px]"
             imgClassName="h-auto max-w-full lg:object-top"
-            alt=""
+            alt="Girl"
             src="images/girl.png"
             breakpoints={[79]}
             sizes="(min-width: 1024px) 79px, 100vw"
           />
         </div>
-        <div className="lg:absolute lg:left-[20px] lg:top-[190px] lg:h-[378px] lg:w-[317px]">
+        <div className="absolute left-[20px] top-[190px] size-1/2 lg:h-[378px] lg:w-[317px]">
           <StaticImage
             className="lg:h-[378px] lg:w-[317px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="ThinkLaw page showing trending lessons like space tourism, Halloween task cards, and what's new in critical thinking"
-            src="images/thinklaw-trending-page.png"
+            src="images/thinklaw-trending-page.jpg"
             breakpoints={[317, 640, 768, 1024]}
             sizes="(min-width: 1024px) 317px, 100vw"
           />
         </div>
-        <div className="lg:absolute lg:left-[358px] lg:top-[-15px] lg:h-[280px] lg:w-[317px]">
+        <div className="absolute right-0 top-[-15px] size-1/2 lg:left-[358px] lg:right-auto lg:h-[280px] lg:w-[317px]">
           <StaticImage
             className="lg:h-[280px] lg:w-[317px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Pack Tracks form for tracking cigarette usage, with inputs for time, place, activity, and mood."
-            src="images/pack-tracks-form.png"
+            src="images/pack-tracks-form.jpg"
             breakpoints={[317, 640, 768, 1024]}
             sizes="(min-width: 1024px) 317px, 100vw"
           />
         </div>
-        <div className="lg:absolute lg:left-[358px] lg:top-[286px] lg:h-[253px] lg:w-[317px]">
+        <div className="absolute right-0 top-[286px] size-1/2 lg:left-[358px] lg:right-auto lg:h-[253px] lg:w-[317px]">
           <StaticImage
             className="lg:h-[253px] lg:w-[317px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Learning Hub dashboard showing a user's progress, featured learning modules, and recommended learning paths."
-            src="images/learning-hub-dashboard.png"
+            src="images/learning-hub-dashboard.jpg"
             breakpoints={[317, 640, 768, 1024]}
             sizes="(min-width: 1024px) 317px, 100vw"
             layout="fullWidth"

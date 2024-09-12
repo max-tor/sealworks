@@ -14,7 +14,7 @@ const Navigation: React.FC = () => {
         Toggle Menu<span className="navicon"></span>
       </label>
       <ul className="main-nav">
-        <li className="pb-10 lg:pb-0">
+        <li className="py-6 lg:py-0">
           <Link
             to={Pages.WELCOME}
             className="font-roboto text-3xl font-normal text-blue hover:text-black lg:pt-8 lg:text-lg"
@@ -25,7 +25,7 @@ const Navigation: React.FC = () => {
             welcome
           </Link>
         </li>
-        <li className="pb-10 lg:pb-0">
+        <li className="py-6 lg:py-0">
           <Link
             to={Pages.PROCESS}
             className="font-roboto text-3xl font-normal text-blue hover:text-black lg:pt-8 lg:text-lg"
@@ -36,7 +36,7 @@ const Navigation: React.FC = () => {
             the process
           </Link>
         </li>
-        <li className="pb-10 lg:pb-0">
+        <li className="py-6 lg:py-0">
           <Link
             to={Pages.OUR_WORK}
             className="font-roboto text-3xl font-normal text-blue hover:text-black lg:pt-8 lg:text-lg"
@@ -47,7 +47,7 @@ const Navigation: React.FC = () => {
             our work
           </Link>
         </li>
-        <li className="pb-10 lg:pb-0">
+        <li className="py-6 lg:py-0">
           <Link
             to={Pages.CONNECT}
             className="font-roboto text-3xl font-normal text-blue hover:text-black lg:pt-8 lg:text-lg"

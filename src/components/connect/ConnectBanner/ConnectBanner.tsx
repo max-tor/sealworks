@@ -17,7 +17,7 @@ export const ConnectBanner: React.FC = () => {
           brainstorm and workshop together, <strong>let&apos;s connect.</strong>
         </p>
       </div>
-      <aside className="relative mx-auto hidden w-full flex-[1_0_634px] gap-4 max-lg:w-full max-lg:max-w-full lg:block lg:h-[348px] lg:w-[64%] lg:flex-col">
+      <aside className="animate__animated animate__zoomIn relative mx-auto hidden w-full flex-[1_0_634px] gap-4 max-lg:w-full max-lg:max-w-full lg:block lg:h-[348px] lg:w-[64%] lg:flex-col">
         <div className="-z-10 hidden select-none lg:absolute lg:left-0 lg:top-0 lg:block lg:h-[348px] lg:w-[634px]">
           <StaticImage
             className="lg:h-[348px] lg:w-[634px]"

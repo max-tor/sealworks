@@ -21,8 +21,8 @@ export const PrototypeFeedback: React.FC = () => {
           <p className="mt-10 text-base leading-6">{description}</p>
         </div>
       </div>
-      <aside className="relative mx-auto grid w-full flex-[1_0_712px] gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[573px] lg:w-[64%] lg:flex-col">
-        <div className="lg:absolute lg:left-[106px] lg:top-0 lg:h-[222px] lg:w-[297px]">
+      <aside className="relative mx-auto grid w-full flex-[1_0_582px] gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[573px] lg:w-[64%] lg:flex-[1_0_712px] lg:flex-col">
+        <div className="absolute left-0 lg:left-[106px] lg:top-0 lg:h-[222px] lg:w-[297px]">
           <StaticImage
             className="lg:h-[222px] lg:w-[297px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
@@ -33,42 +33,42 @@ export const PrototypeFeedback: React.FC = () => {
           />
         </div>
 
-        <div className="lg:absolute lg:left-0 lg:top-0 lg:h-[241px] lg:w-[119px]">
+        <div className="hidden lg:absolute lg:left-0 lg:top-0 lg:block lg:h-[241px] lg:w-[119px]">
           <StaticImage
-            className="lg:h-[241px] lg:w-[119px] lg:object-cover lg:shadow-lg"
+            className="lg:h-[241px] lg:w-[119px] lg:object-cover"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Digital sticky notes brainstorming session displaying various topics like search, personalization, and content management"
-            src="images/sticky-notes-ideas.svg"
+            src="images/sticky-notes-ideas.png"
             breakpoints={[119, 640, 768, 1024]}
             sizes="(min-width: 1024px) 119px, 100vw"
           />
         </div>
 
-        <div className="lg:absolute lg:left-[122px] lg:top-[414px] lg:h-[266px] lg:w-[149px]">
+        <div className="absolute left-0 top-[414px] size-10/12 lg:left-[122px] lg:h-[266px] lg:w-[149px]">
           <StaticImage
             className="lg:h-[149px] lg:w-[266px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Voting session for ideas with color-coded sticky notes across categories like search, content, personalization, and managing content."
-            src="images/voting-ideas-session.png"
+            src="images/voting-ideas-session.jpg"
             breakpoints={[266, 640, 768, 1024]}
             sizes="(min-width: 1024px) 266px, 100vw"
           />
         </div>
 
-        <div className="lg:absolute lg:left-[391px] lg:top-[244px] lg:h-[281px] lg:w-[299px]">
+        <div className="absolute right-0 top-[244px] size-1/2 lg:left-[391px] lg:right-auto lg:h-[281px] lg:w-[299px]">
           <StaticImage
             className="lg:h-[281px] lg:w-[299px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="A half-drawn and half-digital interface showing feedback and progress analysis on a learning platform."
-            src="images/learning-platform-feedback.png"
+            src="images/learning-platform-feedback.jpg"
             breakpoints={[299, 640, 768, 1024]}
             sizes="(min-width: 1024px) 299px, 100vw"
           />
         </div>
 
-        <div className="lg:absolute lg:left-[51px] lg:top-[197px] lg:h-[266px] lg:w-[357px]">
+        <div className="absolute left-0 top-[197px] size-1/2 lg:left-[51px] lg:h-[266px] lg:w-[357px]">
           <StaticImage
-            className="lg:h-[266px] lg:w-[357px] lg:object-cover lg:shadow-lg"
+            className="lg:h-[266px] lg:w-[357px] lg:object-cover"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Consensus session showing top-voted sticky notes for defining 'MyModerna,' with keywords like 'easy to search' and 'collaboration'."
             src="images/consensus-definition-session.png"
@@ -77,9 +77,9 @@ export const PrototypeFeedback: React.FC = () => {
           />
         </div>
 
-        <div className="lg:absolute lg:-top-[15px] lg:left-[365px] lg:h-[259px] lg:w-[352px]">
+        <div className="absolute -top-[15px] right-0 size-1/2 lg:left-[365px] lg:right-auto lg:h-[259px] lg:w-[352px]">
           <StaticImage
-            className="lg:h-[259px] lg:w-[352px] lg:object-cover lg:shadow-lg"
+            className="lg:h-[259px] lg:w-[352px] lg:object-cover"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Interactive annotation tool on a tablet, with options for color coding and extra notes, illustrating an educational exercise"
             src="images/interactive-annotation.png"

@@ -3,7 +3,7 @@
   @apply max-h-0 transition-[max-height] duration-[0.2s] ease-[ease-out] overflow-hidden list-none flex flex-col fixed w-full left-0 bg-white items-center px-4 lg:px-0 lg:border-0 lg:gap-12 lg:relative lg:flex-row lg:overflow-visible lg:max-h-[none] z-10;
 }
 .main-nav .active {
-  @apply relative font-bold text-black before:content-[''] before:absolute before:w-full before:h-1 lg:before:h-2 before:bg-red before:left-0 before:top-9 lg:before:top-0;
+  @apply pointer-events-none cursor-default select-none relative font-bold !text-black before:content-[''] before:absolute before:w-full before:h-1 lg:before:h-2 before:bg-red before:left-0 before:top-9 lg:before:top-0;
 }
 
 /* menu icon */

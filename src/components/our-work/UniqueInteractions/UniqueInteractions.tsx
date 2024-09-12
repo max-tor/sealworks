@@ -35,46 +35,46 @@ export const UniqueInteractions = () => {
           </p>
         </div>
       </div>
-      <aside className="relative mx-auto grid w-full flex-[1_0_712px] gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[573px] lg:w-[64%] lg:flex-col lg:bg-blue">
-        <div className="lg:absolute lg:-top-[51px] lg:left-[17px] lg:h-[183px] lg:w-[263px]">
+      <aside className="relative mx-auto grid w-full flex-[1_0_600px] gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[573px] lg:w-[64%] lg:flex-[1_0_712px] lg:flex-col lg:bg-blue">
+        <div className="absolute -top-[30px] left-0 h-[183px] w-[263px] lg:-top-[51px] lg:left-[17px]">
           <StaticImage
             className="lg:h-[183px] lg:w-[263px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Classroom annotation tool with color-coded annotations on historical documents"
-            src="images/classroom-annotation-tool.png"
+            src="images/classroom-annotation-tool.jpg"
             breakpoints={[263, 640, 768, 1024]}
             sizes="(min-width: 1024px) 263px, 100vw"
           />
         </div>
 
-        <div className="lg:absolute lg:left-[17px] lg:top-[156px] lg:h-[200px] lg:w-[277px]">
+        <div className="absolute left-[17px] top-[156px] size-1/2 lg:h-[200px] lg:w-[277px]">
           <StaticImage
             className="lg:h-[200px] lg:w-[277px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Budgeting page displaying income, expenses, and additional financial resources."
-            src="images/budgeting-affordability-page.png"
+            src="images/budgeting-affordability-page.jpg"
             breakpoints={[277, 640, 768, 1024]}
             sizes="(min-width: 1024px) 277px, 100vw"
           />
         </div>
 
-        <div className="lg:absolute lg:left-[16px] lg:top-[380px] lg:h-[193px] lg:w-[279px]">
+        <div className="absolute left-[16px] top-[380px] size-1/2 lg:h-[193px] lg:w-[279px]">
           <StaticImage
             className="lg:h-[193px] lg:w-[279px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Nielsen training on classifying dimensions with a self-check feedback form."
-            src="images/diversity-training.png"
+            src="images/diversity-training.jpg"
             breakpoints={[279, 640, 768, 1024]}
             sizes="(min-width: 1024px) 279px, 100vw"
           />
         </div>
 
-        <div className="lg:absolute lg:-top-[42px] lg:left-[340px] lg:h-[371px] lg:w-[345px]">
+        <div className="absolute -top-[42px] right-0 size-1/2 lg:left-[340px] lg:right-auto lg:h-[371px] lg:w-[345px]">
           <StaticImage
             className="lg:h-[371px] lg:w-[345px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Quick check for using a windlass rod tourniquet during first aid training."
-            src="images/tourniquet-training.png"
+            src="images/tourniquet-training.jpg"
             breakpoints={[345, 640, 768, 1024]}
             sizes="(min-width: 1024px) 345px, 100vw"
           />
@@ -90,23 +90,23 @@ export const UniqueInteractions = () => {
           />
         </div>
 
-        <div className="lg:absolute lg:left-[348px] lg:top-[330px] lg:h-[227px] lg:w-[304px]">
+        <div className="absolute right-0 top-[330px] size-1/2 lg:left-[348px] lg:right-auto lg:h-[227px] lg:w-[304px]">
           <StaticImage
             className="lg:h-[227px] lg:w-[304px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="DBQ Online tool showing annotations on a historical document."
-            src="images/annotation-screen-dbq.png"
+            src="images/annotation-screen-dbq.jpg"
             breakpoints={[304, 640, 768, 1024]}
             sizes="(min-width: 1024px) 304px, 100vw"
           />
         </div>
 
-        <div className="lg:absolute lg:left-[209px] lg:top-[49px] lg:h-[212px] lg:w-[275px]">
+        <div className="absolute right-0 top-[149px] size-1/3 lg:left-[209px] lg:right-auto lg:top-[49px] lg:h-[212px] lg:w-[275px]">
           <StaticImage
             className="lg:h-[212px] lg:w-[275px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Quick check for using a windlass rod tourniquet during first aid training."
-            src="images/authors-page.png"
+            src="images/authors-page.jpg"
             breakpoints={[275, 640, 768, 1024]}
             sizes="(min-width: 1024px) 275px, 100vw"
           />

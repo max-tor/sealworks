@@ -13,8 +13,8 @@ import { ReactComponent as Rectangle } from '@/images/arrow-rectangle.inline.svg
 import { ReactComponent as Cursor } from '@/images/cursor.inline.svg';
 import { ReactComponent as Like } from '@/images/like.inline.svg';
 import { ReactComponent as Love } from '@/images/love.inline.svg';
-import { ReactComponent as Poster } from '@/images/video-poster.jpg';
-import { ReactComponent as Video } from '@/video/sealworks-video.mp4';
+import Poster from '@/images/video-poster.jpg';
+import Video from '@/video/sealworks-video.mp4';
 
 export const Head = () => (
   <SEO
@@ -186,11 +186,11 @@ const IndexPage = ({ location }: PageProps) => {
         </span>
         <Like className="ml-auto lg:absolute lg:right-[45px] lg:top-[60px]" />
       </div>
-      <h3 className="mb-4 font-roboto text-5xl lg:mb-9 lg:text-[66px]">
+      <h3 className="mb-4 font-roboto text-4xl lg:mb-9 lg:text-[66px]">
         excellence bolstered by expertise
       </h3>
-      <div className="mb-20 flex flex-col gap-5 md:mb-[60px] lg:mb-[92px] lg:flex-row lg:gap-12">
-        <div className="grid gap-5 md:grid-cols-[repeat(2,1fr)] lg:w-2/3 lg:grid-cols-[repeat(3,1fr)]">
+      <div className="mb-20 flex flex-col gap-5 md:mb-[60px] md:gap-8 lg:mb-[92px] lg:flex-row lg:gap-12">
+        <div className="grid grid-cols-[repeat(3,1fr)] gap-5 lg:w-2/3">
           <ExpertiseCard color={'yellow'}>
             <StaticImage
               className="relative z-[1]"
