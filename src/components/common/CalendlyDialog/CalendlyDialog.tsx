@@ -4,10 +4,10 @@ import { InlineWidget, useCalendlyEventListener } from 'react-calendly';
 import { PageHeightResizeEvent } from 'react-calendly/typings/components/hooks/useCalendlyEventListener';
 
 import { CalendlyDialogProps } from '@/components/common/CalendlyDialog/CalendlyDialogProps';
-import { calendlySettings, calendlyUser } from '@/configs';
+import { CalendlyForms, calendlySettings } from '@/configs';
 
 export const CalendlyDialog = ({
-  url = `https://calendly.com/${calendlyUser}`,
+  url = CalendlyForms.NEW_PROJECT_COLLABORATION,
   open,
   onClose,
 }: CalendlyDialogProps) => {

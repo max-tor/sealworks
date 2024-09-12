@@ -9,7 +9,7 @@ export enum Pages {
 
 export enum CalendlyForms {
   NEW_PROJECT_COLLABORATION = 'https://calendly.com/nickfloro/hello',
-  GET_IN_TOUCH = 'https://calendly.com/anatoly-shipitz-speedandfunction/30min',
+  GET_IN_TOUCH = 'https://calendly.com/nickfloro',
 }
 
 export const calendlyUser = process.env.GATSBY_ACTIVE_ENV

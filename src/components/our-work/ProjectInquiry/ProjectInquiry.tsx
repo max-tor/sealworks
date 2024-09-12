@@ -45,7 +45,7 @@ export const ProjectInquiry = () => {
         </div>
       </section>
       <CalendlyDialog
-        url={CalendlyForms.GET_IN_TOUCH}
+        url={CalendlyForms.NEW_PROJECT_COLLABORATION}
         open={open}
         onClose={handleClose}
       />
