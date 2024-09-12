@@ -25,50 +25,15 @@ export const LearningPlatforms: React.FC = () => {
           </p>
         </div>
       </div>
-      <aside className="relative mx-auto grid w-[64%] flex-[1_0_712px] gap-4 bg-yellow max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[573px] lg:w-full lg:flex-col">
-        <div className="absolute -top-[29px] right-0 h-[217px] w-[315px] lg:left-[24px] lg:right-auto">
-          <StaticImage
-            className="lg:h-[217px] lg:w-[315px] lg:object-cover lg:shadow-lg"
-            imgClassName="h-auto max-w-full lg:object-top"
-            alt="Video tutorial on identifying supporting details on Connect Reading platform."
-            src="images/connect-reading-supporting-details.jpg"
-            breakpoints={[315, 640, 768, 1024]}
-            sizes="(min-width: 1024px) 315px, 100vw"
-          />
-        </div>
-
-        <div className="absolute right-0 top-[219px] w-3/5 lg:left-[65px] lg:right-auto lg:h-[284px] lg:w-[274px]">
-          <StaticImage
-            className="lg:h-[284px] lg:w-[274px] lg:object-cover lg:shadow-lg"
-            imgClassName="h-auto max-w-full lg:object-top"
-            alt="Metrics dashboard summarizing average performance and learning assignments."
-            src="images/metrics-performance-summary.jpg"
-            breakpoints={[284, 640, 768, 1024]}
-            sizes="(min-width: 1024px) 284px, 100vw"
-          />
-        </div>
-
-        <div className="absolute left-0 top-0 w-[200px] lg:-top-[59px] lg:left-[365px] lg:h-[297px] lg:w-[304px]">
-          <StaticImage
-            className="lg:h-[297px] lg:w-[304px] lg:object-cover lg:shadow-lg"
-            imgClassName="h-auto max-w-full lg:object-top"
-            alt="MyLearning homepage with learning paths and featured learning modules."
-            src="images/my-learning-homepage.jpg"
-            breakpoints={[304, 640, 768, 1024]}
-            sizes="(min-width: 1024px) 304px, 100vw"
-          />
-        </div>
-
-        <div className="absolute top-[320px] w-[200px] lg:left-[365px] lg:top-[271px] lg:h-[221px] lg:w-[323px]">
-          <StaticImage
-            className="lg:h-[221px] lg:w-[323px] lg:object-cover lg:shadow-lg"
-            imgClassName="h-auto max-w-full lg:object-top"
-            alt="Aon learning platform with a search bar and new learning topics."
-            src="images/aon-learning-dashboard.jpg"
-            breakpoints={[323, 640, 768, 1024]}
-            sizes="(min-width: 1024px) 323px, 100vw"
-          />
-        </div>
+      <aside className="relative mx-auto grid w-full gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[573px] lg:w-[64%] lg:flex-[1_0_712px] lg:flex-col">
+        <StaticImage
+          className="lg:h-[797px] lg:w-[562px]"
+          imgClassName="h-auto max-w-full lg:object-top"
+          alt=""
+          src="images/learning-platforms.png"
+          breakpoints={[644, 640, 768, 1024, 1280]}
+          sizes="(min-width: 1280px) 707px, 100vw"
+        />
       </aside>
     </section>
   );
