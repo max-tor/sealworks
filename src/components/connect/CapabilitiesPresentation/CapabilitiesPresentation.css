@@ -1,0 +1,5 @@
+/* purgecss start ignore */
+.react-multi-carousel-list .react-multiple-carousel__arrow, .react-multi-carousel-list .react-multiple-carousel__arrow:hover {
+  background: rgb(0, 45, 154, 0.5);
+}
+/* purgecss end ignore */
