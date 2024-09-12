@@ -44,7 +44,7 @@ export const CapabilitiesPresentation = () => {
   }
 
   return (
-    <section className="relative z-10 my-5 lg:h-[500px] xl:h-[496px] 2xl:h-96">
+    <section className="relative z-10 my-5 lg:h-[500px] lg:overflow-hidden xl:mb-0 xl:h-[496px] xl:pb-5 2xl:h-96">
       <ResponsiveCarousel breakpoints={breakpoints}>
         <StaticImage
           className={clsx(wrapperClasses, '')}
