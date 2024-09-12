@@ -1,4 +1,4 @@
-import { Link, Script } from 'gatsby';
+import { Script } from 'gatsby';
 import React from 'react';
 
 import { Dot } from '@/components/common/Dot';
