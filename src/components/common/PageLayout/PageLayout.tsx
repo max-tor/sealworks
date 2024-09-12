@@ -11,7 +11,7 @@ export const PageLayout = ({ children, location }: PageLayoutProps) => {
 
   return (
     <div className="min-h-full">
-      <div className="mx-auto max-w-[1262px] px-4 pt-[70px] md:pt-[115px]">
+      <div className="mx-auto max-w-[1262px] px-4 pt-[67px] md:pt-[85px] lg:pt-[115px]">
         <Header />
         <main>{children}</main>
         <Footer location={location} />

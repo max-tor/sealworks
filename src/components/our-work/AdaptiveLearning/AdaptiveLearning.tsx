@@ -19,53 +19,53 @@ export const AdaptiveLearning: React.FC = () => (
       </div>
     </div>
     <aside className="relative mx-auto grid w-full flex-[0_0_561px] gap-4 bg-red max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[430px] lg:w-[64%] lg:flex-col">
-      <div className="lg:absolute lg:-left-[129px] lg:-top-[78px] lg:h-[222px] lg:w-[405px]">
+      <div className="absolute -left-[129px] -top-[78px] size-1/2 lg:h-[222px] lg:w-[405px]">
         <StaticImage
           className="lg:h-[222px] lg:w-[405px] lg:object-cover lg:shadow-lg"
           imgClassName="h-auto max-w-full lg:object-top"
           alt="Money Matters Dashboard showing Jayden's financial literacy progress and upcoming events."
-          src="images/money-matters-dashboard.png"
+          src="images/money-matters-dashboard.jpg"
           breakpoints={[405, 640, 768, 1024]}
           sizes="(min-width: 1024px) 405px, 100vw"
         />
       </div>
 
-      <div className="lg:absolute lg:-left-[96px] lg:top-[153px] lg:h-[226px] lg:w-[301px]">
+      <div className="absolute right-0 top-[153px] size-1/2 lg:-left-[96px] lg:right-auto lg:h-[226px] lg:w-[301px]">
         <StaticImage
           className="lg:h-[226px] lg:w-[301px] lg:object-cover lg:shadow-lg"
           imgClassName="h-auto max-w-full lg:object-top"
           alt="Timeline of jazz history, genres, and styles from early New Orleans to contemporary jazz."
-          src="images/jazz-history-timeline.png"
+          src="images/jazz-history-timeline.jpg"
           breakpoints={[301, 640, 768, 1024]}
           sizes="(min-width: 1024px) 301px, 100vw"
         />
       </div>
 
-      <div className="lg:absolute lg:-top-[64px] lg:left-[285px] lg:h-[188px] lg:w-[343px]">
+      <div className="absolute -top-[64px] right-0 h-[188px] w-[343px] lg:left-[285px] lg:right-auto">
         <StaticImage
           className="lg:h-[188px] lg:w-[343px] lg:object-cover lg:shadow-lg"
           imgClassName="h-auto max-w-full lg:object-top"
           alt="Super Saver Contest for financial literacy with badges and progress display for Norah."
-          src="images/money-matters-saver-contest.png"
+          src="images/money-matters-saver-contest.jpg"
           breakpoints={[343, 640, 768, 1024]}
           sizes="(min-width: 1024px) 343px, 100vw"
         />
       </div>
 
-      <div className="lg:absolute lg:left-[123px] lg:top-[172px] lg:h-[187px] lg:w-[253px]">
+      <div className="absolute left-0 top-[172px] w-[253px] lg:left-[123px] lg:h-[187px]">
         <StaticImage
           className="lg:h-[187px] lg:w-[253px] lg:object-cover lg:shadow-lg"
           imgClassName="h-auto max-w-full lg:object-top"
           alt="Illustration of New Orleans style jazz instruments with educational information on early jazz."
-          src="images/jazz-instruments-new-orleans.png"
+          src="images/jazz-instruments-new-orleans.jpg"
           breakpoints={[253, 640, 768, 1024]}
           sizes="(min-width: 1024px) 253px, 100vw"
         />
       </div>
 
-      <div className="lg:absolute lg:left-[358px] lg:top-[113px] lg:h-[305px] lg:w-[235px]">
+      <div className="absolute bottom-0 right-0 size-1/2 lg:bottom-auto lg:left-[358px] lg:right-auto lg:top-[113px] lg:h-[305px] lg:w-[235px]">
         <StaticImage
-          className="lg:h-[305px] lg:w-[235px] lg:object-cover" // no lg:shadow-lg
+          className="lg:h-[305px] lg:w-[235px] lg:object-cover"
           imgClassName="h-auto max-w-full lg:object-top"
           alt="Belvedere Engagement Suite showing various vodka products and educational content."
           src="images/belvedere-engagement-suite.png"
@@ -84,12 +84,12 @@ export const AdaptiveLearning: React.FC = () => (
         />
       </div>
 
-      <div className="lg:absolute lg:left-[317px] lg:top-[210px] lg:h-[196px] lg:w-[89px]">
+      <div className="absolute bottom-0 left-0 w-[89px] lg:bottom-auto lg:left-[317px] lg:top-[210px] lg:h-[196px]">
         <StaticImage
           className="rounded-lg lg:h-[196px] lg:w-[89px] lg:object-cover"
           imgClassName="h-auto max-w-full lg:object-top"
           alt="Belvedere Vodka bottle tour with product details on a mobile interface."
-          src="images/engage-mh-sealworks.png"
+          src="images/engage-mh-sealworks.jpg"
           breakpoints={[89, 640, 768, 1024]}
           sizes="(min-width: 1024px) 89px, 100vw"
         />

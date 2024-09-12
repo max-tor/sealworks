@@ -18,7 +18,7 @@ export const Onboarding: React.FC = () => {
         </div>
       </div>
       <aside className="relative mx-auto grid w-full flex-[0_0_613px] gap-4 bg-blue max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[535px] lg:w-[64%] lg:flex-col">
-        <div className="hidden select-none lg:absolute lg:-top-[86px] lg:left-[203px] lg:block lg:h-[336px] lg:w-[431px]">
+        <div className="absolute -top-[86px] right-0 hidden size-1/2 select-none lg:left-[203px] lg:right-auto lg:block lg:h-[336px] lg:w-[431px]">
           <StaticImage
             className="lg:h-[336px] lg:w-[431px]"
             imgClassName="h-auto max-w-full lg:object-top"
@@ -28,56 +28,56 @@ export const Onboarding: React.FC = () => {
           />
         </div>
 
-        <div className="lg:absolute lg:-top-[60px] lg:left-[275px] lg:h-[190px] lg:w-[255px]">
+        <div className="absolute -top-[30px] left-0 size-1/2 lg:-top-[60px] lg:left-[275px] lg:h-[190px] lg:w-[255px]">
           <StaticImage
             className="lg:h-[190px] lg:w-[255px] lg:object-cover"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Diversity training modules on dignity, discipline, diligence, and diplomacy."
-            src="images/diversity_training_dialogues_modules.png"
+            src="images/diversity_training_dialogues_modules.jpg"
             breakpoints={[255, 640, 768, 1024]}
             sizes="(min-width: 1024px) 255px, 100vw"
           />
         </div>
 
-        <div className="lg:absolute lg:-left-[39px] lg:top-[43px] lg:h-[240px] lg:w-[335px]">
+        <div className="absolute top-[120px] size-1/2 lg:-left-[39px] lg:top-[43px] lg:h-[240px] lg:w-[335px]">
           <StaticImage
             className="lg:h-[240px] lg:w-[335px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Moderna onboarding resources page for new employees, full-time employees, and managers."
-            src="images/moderna_onboarding_resources.png"
+            src="images/moderna_onboarding_resources.jpg"
             breakpoints={[335, 640, 768, 1024]}
             sizes="(min-width: 1024px) 335px, 100vw"
           />
         </div>
 
-        <div className="lg:absolute lg:left-[40px] lg:top-[296px] lg:h-[287px] lg:w-[304px]">
+        <div className="absolute left-[40px] top-[296px] size-1/2 lg:h-[287px] lg:w-[304px]">
           <StaticImage
             className="lg:h-[287px] lg:w-[304px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Everboarding dashboard showing collected blossoms and available learning journeys."
-            src="images/everboarding_dashboard_blossoms.png"
+            src="images/everboarding_dashboard_blossoms.jpg"
             breakpoints={[304, 640, 768, 1024]}
             sizes="(min-width: 1024px) 304px, 100vw"
           />
         </div>
 
-        <div className="lg:absolute lg:left-[351px] lg:top-[149px] lg:h-[167px] lg:w-[283px]">
+        <div className="absolute right-0 top-0 size-1/2 lg:left-[351px] lg:right-auto lg:top-[149px] lg:h-[167px] lg:w-[283px]">
           <StaticImage
             className="lg:h-[167px] lg:w-[283px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Deep principles learning page with modules on direct, empathetic, earnest, and productive learning paths."
-            src="images/deep_principles_learning.png"
+            src="images/deep_principles_learning.jpg"
             breakpoints={[283, 640, 768, 1024]}
             sizes="(min-width: 1024px) 283px, 100vw"
           />
         </div>
 
-        <div className="lg:absolute lg:left-[379px] lg:top-[333px] lg:h-[182px] lg:w-[255px]">
+        <div className="absolute right-0 top-[333px] size-1/2 lg:left-[379px] lg:right-auto lg:h-[182px] lg:w-[255px]">
           <StaticImage
             className="lg:h-[182px] lg:w-[255px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Lifeguarding course modules with progress tracking and completion details."
-            src="images/lifeguarding_course_modules.png"
+            src="images/lifeguarding_course_modules.jpg"
             breakpoints={[255, 640, 768, 1024]}
             sizes="(min-width: 1024px) 255px, 100vw"
           />

@@ -6,7 +6,7 @@ import { ReactComponent as UnionImage } from '@/images/union.inline.svg';
 export const TailoredWorkBanner: React.FC = () => {
   return (
     <section className="relative my-5 flex max-w-full overflow-hidden max-lg:flex-col lg:h-[374px] lg:gap-[50px] lg:bg-[#ba0202]">
-      <div className="mb-5 flex w-[36%] flex-1 flex-col justify-center bg-[#ba0202] p-5 font-roboto max-lg:ml-0 max-lg:w-full lg:h-[374px] lg:pr-[50px]">
+      <div className="flex w-[36%] flex-1 flex-col justify-center bg-[#ba0202] p-5 font-roboto max-lg:ml-0 max-lg:w-full lg:mb-5 lg:h-[374px] lg:pr-[50px]">
         <div className="leading-[70px] tracking-normal text-white xl:ml-[72px]">
           <div className="text-[40px] font-normal lg:text-[40px]">
             our work is
@@ -16,55 +16,52 @@ export const TailoredWorkBanner: React.FC = () => {
           </div>
         </div>
       </div>
-      <aside className="relative mx-auto grid w-full flex-[0_0_615px] max-lg:w-full max-lg:max-w-full lg:h-[374px] lg:flex-col">
-        <UnionImage
-          className="hidden h-[404px] w-[692px] select-none lg:absolute lg:-left-[68px] lg:-my-[15px] lg:flex"
-          alt="Union"
-        />
-        <div className="lg:absolute lg:left-[22px] lg:top-[35px] lg:h-[207px] lg:w-[302px]">
+      <aside className="animate__animated animate__zoomIn relative mx-auto grid w-full flex-[0_0_615px] bg-[#ba0202] max-lg:w-full max-lg:max-w-full lg:h-[374px] lg:flex-col lg:bg-transparent">
+        <UnionImage className="absolute -left-[68px] -my-[15px] hidden w-[692px] select-none lg:flex lg:h-[404px]" />
+        <div className="absolute left-[22px] top-[35px] h-[207px] w-[302px]">
           <StaticImage
-            className="lg:h-[207px] lg:w-[302px] lg:object-cover lg:shadow-lg"
+            className="h-[207px] w-[302px] object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full rounded-lg "
             alt="Raising Critical Thinkers"
-            src="images/raising-critical-thinkers.png"
+            src="images/raising-critical-thinkers.jpg"
             breakpoints={[302, 640, 768, 1024]}
             sizes="(min-width: 1024px) 302px, 100vw"
           />
         </div>
-        <div className="lg:absolute lg:-top-[64px] lg:left-[334px] lg:h-[217px] lg:w-[262px] lg:overflow-hidden">
+        <div className="absolute -top-[64px] left-[334px] h-[217px] w-[262px] lg:overflow-hidden">
           <StaticImage
             className="lg:h-[217px] lg:w-[262px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full rounded-lg"
             alt="E-learning module from the American Red Cross showing steps to protect against bloodborne pathogens, with progress indicators and action buttons"
-            src="images/red-cross.png"
+            src="images/red-cross.jpg"
             breakpoints={[262, 640, 768, 1024]}
             sizes="(min-width: 1024px) 262px, 100vw"
           />
         </div>
 
-        <div className="lg:absolute lg:left-[229px] lg:top-[191px] lg:h-[183px] lg:w-[285px]">
+        <div className="absolute left-[70px] top-[273px] h-[183px] w-[285px] lg:left-[229px] lg:top-[191px]">
           <StaticImage
             className="lg:h-[183px] lg:w-[285px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full rounded-lg"
             alt="Ad(Vantage) Point"
-            src="images/dialogues.png"
+            src="images/dialogues.jpg"
             breakpoints={[285, 640, 768, 1024]}
             sizes="(min-width: 1024px) 285px, 100vw"
           />
         </div>
 
-        <div className="relative lg:absolute lg:bottom-0 lg:left-[486px] lg:top-[154px] lg:h-[203px] lg:w-[95px]">
+        <div className="absolute bottom-[20px] right-[19px] w-[95px] lg:bottom-0 lg:left-[486px] lg:right-auto lg:top-[154px] lg:h-[203px]">
           <StaticImage
             className="lg:h-[203px] lg:w-[95px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full rounded-lg"
             alt="Nielsen mountain"
-            src="images/nielsen-mountain-toggle.png"
+            src="images/nielsen-mountain-toggle.jpg"
             breakpoints={[95, 640, 768, 1024]}
             sizes="(min-width: 1024px) 95px, 100vw"
           />
         </div>
 
-        <div className="hidden select-none lg:absolute lg:bottom-0 lg:left-[460px] lg:block lg:h-[228px] lg:w-[139px]">
+        <div className="absolute bottom-0 right-0 block h-[228px] w-[139px] select-none lg:left-[460px] lg:right-auto">
           <StaticImage
             className="lg:h-[228px] lg:w-[139px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full rounded-lg"
@@ -74,17 +71,17 @@ export const TailoredWorkBanner: React.FC = () => {
             sizes="(min-width: 1024px) 139px, 100vw"
           />
         </div>
-        <div className="relative lg:absolute lg:bottom-[30px] lg:left-[25px] lg:h-[85px] lg:w-[170px]">
+        <div className="absolute bottom-[33px] left-[35px] h-[85px] w-[152px] lg:bottom-[30px] lg:left-[25px] lg:w-[170px]">
           <StaticImage
             className="lg:h-[85px] lg:w-[170px] lg:rounded-lg lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full rounded-lg"
             alt="think-portal"
-            src="images/think-portal.png"
+            src="images/think-portal.jpg"
             breakpoints={[170, 640, 768, 1024]}
             sizes="(min-width: 1024px) 170px, 100vw"
           />
         </div>
-        <div className="relative hidden lg:absolute lg:bottom-0 lg:left-0 lg:block lg:h-[146px] lg:w-[220px]">
+        <div className="absolute bottom-0 left-0 block h-[146px] w-[220px]">
           <StaticImage
             className="lg:h-[146px] lg:w-[220px] lg:object-cover lg:shadow-lg"
             alt="think-portal: Hand holding mobile"

@@ -19,18 +19,18 @@ export const CustomCourses: React.FC = () => {
           <p className="mt-10 text-base leading-6">{description}</p>
         </div>
       </div>
-      <aside className="relative mx-auto grid w-full flex-[1_0_712px] gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:mb-[10px] lg:mt-[30px] lg:h-[636px] lg:w-[64%] lg:flex-col lg:bg-blue">
-        <div className="lg:absolute lg:left-[40px] lg:top-[48px] lg:h-[312px] lg:w-[472px]">
+      <aside className="relative mx-auto grid w-full flex-[1_0_600px] gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:mb-[10px] lg:mt-[30px] lg:h-[636px] lg:w-[64%] lg:flex-[1_0_712px] lg:flex-col lg:bg-blue">
+        <div className="absolute top-[80px] w-[300px] lg:left-[40px] lg:top-[48px] lg:h-[312px] lg:w-[472px]">
           <StaticImage
-            className="lg:h-[312px] lg:w-[472px] lg:object-cover lg:shadow-lg"
+            className="hadow-lg object-cover lg:h-[312px] lg:w-[472px]"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Interactive training module featuring a floor plan and a family scenario for childcare, showing rooms with Click n' Learn and scenario activities."
-            src="images/young-family-scenario.png"
+            src="images/young-family-scenario.jpg"
             breakpoints={[472, 640, 768, 1024]}
             sizes="(min-width: 1024px) 472px, 100vw"
           />
         </div>
-        <div className="hidden select-none lg:absolute lg:left-[8px] lg:top-[36px] lg:block lg:h-[340px] lg:w-[103px]">
+        <div className="absolute left-[8px] top-[36px] block h-[340px] w-[103px] select-none">
           <StaticImage
             className="lg:h-[340px] lg:w-[103px] lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
@@ -40,42 +40,42 @@ export const CustomCourses: React.FC = () => {
             sizes="(min-width: 1024px) 103px, 100vw"
           />
         </div>
-        <div className="lg:absolute lg:left-[456px] lg:top-[-30px] lg:h-[177px] lg:w-[242px]">
+        <div className="absolute right-0 top-[-30px] h-[177px] w-[242px] lg:left-[456px] lg:right-auto">
           <StaticImage
             className="lg:h-[177px] lg:w-[242px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Childcare training module featuring a child with a list of actions to handle a temper tantrum."
-            src="images/childcare-scenario-action.png"
+            src="images/childcare-scenario-action.jpg"
             breakpoints={[242, 640, 768, 1024]}
             sizes="(min-width: 1024px) 242px, 100vw"
           />
         </div>
-        <div className="lg:absolute lg:left-[91px] lg:top-[408px] lg:h-[238px] lg:w-[400px]">
+        <div className="absolute left-[91px] top-[408px] w-[220px] lg:h-[238px] lg:w-[400px]">
           <StaticImage
             className="lg:h-[238px] lg:w-[400px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Module on reflecting on privilege, showing questions about family background and a mountain graphic illustrating privilege levels."
-            src="images/reflecting-on-privilege.png"
+            src="images/reflecting-on-privilege.jpg"
             breakpoints={[400, 640, 768, 1024]}
             sizes="(min-width: 1024px) 400px, 100vw"
           />
         </div>
-        <div className="lg:absolute lg:left-[15px] lg:top-[383px] lg:h-[206px] lg:w-[100px]">
+        <div className="absolute left-[15px] top-[383px] h-[206px] w-[100px]">
           <StaticImage
             className="lg:h-[206px] lg:w-[100px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Diversity training module defining diversity with various interactive elements and definitions."
-            src="images/defining-diversity-module.png"
+            src="images/defining-diversity-module.jpg"
             breakpoints={[100, 640, 768, 1024]}
             sizes="(min-width: 1024px) 100px, 100vw"
           />
         </div>
-        <div className="lg:absolute lg:left-[412px] lg:top-[312px] lg:h-[256px] lg:w-[325px]">
+        <div className="absolute right-0 top-[312px] w-[200px] lg:left-[412px] lg:right-auto lg:h-[256px] lg:w-[325px]">
           <StaticImage
             className="lg:h-[256px] lg:w-[325px] lg:object-cover lg:shadow-lg"
             imgClassName="h-auto max-w-full lg:object-top"
             alt="Interactive module showing common uses of credit with options to select different real-life scenarios."
-            src="images/credit-uses-example.png"
+            src="images/credit-uses-example.jpg"
             breakpoints={[325, 640, 768, 1024]}
             sizes="(min-width: 1024px) 325px, 100vw"
           />
