@@ -9,12 +9,10 @@ export const ContactDetails = () => {
 
   return (
     <section className="my-5 flex w-full items-center font-roboto max-lg:flex-col">
-      <div className="flex-1">
-        <h2 className="text-[66px] leading-[73px] text-blue max-md:text-4xl max-md:leading-[49px]">
-          <span className="text-red">it&apos;s time</span> to take your digital
-          experiences to the next level.
-        </h2>
-      </div>
+      <h2 className="py-5 text-[40px] leading-normal text-blue max-md:text-4xl max-md:leading-[49px] xl:text-[66px]">
+        <span className="text-red">it&apos;s time</span> to take your digital
+        experiences to the next level.
+      </h2>
       <div className="flex items-center max-md:w-full max-md:flex-col lg:flex-[0_0_640px]">
         <StaticImage
           className="flex-[0_0_232px] lg:h-[294px] lg:w-[232px]"
@@ -23,33 +21,31 @@ export const ContactDetails = () => {
           alt=""
         />
 
-        <div className="flex-1">
-          <div className="my-[32px] flex flex-col bg-grayLight p-[24px] text-black md:-ml-[32px] md:pl-[100px] md:pr-[26px]">
-            <h2 className="self-start text-[26px] font-bold">
-              let&apos;s connect
-            </h2>
-            <div className="mt-3.5 self-end text-[18px]">
-              <a
-                key="phone"
-                href={`tel:${contactPhone}`}
-                className="font-bold text-blue"
-              >
-                {contactPhone}
-              </a>
-              {' | '}
-              <a
-                key="email"
-                href={`mailto:${email}`}
-                className="font-bold text-blue"
-              >
-                {email}
-              </a>
-              <br />
-              <br />
-              <strong>{title}</strong>
-              <br />
-              {address}
-            </div>
+        <div className="my-[32px] flex w-full flex-col bg-grayLight p-[24px] text-black md:-ml-[32px] md:flex-col md:pl-[100px] md:pr-[26px]">
+          <h2 className="self-start text-[26px] font-bold">
+            let&apos;s connect
+          </h2>
+          <div className="mt-3.5 self-start text-[18px] lg:self-end">
+            <a
+              key="phone"
+              href={`tel:${contactPhone}`}
+              className="font-bold text-blue"
+            >
+              {contactPhone}
+            </a>
+            {' | '}
+            <a
+              key="email"
+              href={`mailto:${email}`}
+              className="font-bold text-blue"
+            >
+              {email}
+            </a>
+            <br />
+            <br />
+            <strong>{title}</strong>
+            <br />
+            {address}
           </div>
         </div>
       </div>
