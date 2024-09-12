@@ -24,24 +24,23 @@ export const DiscussChallengeSection: React.FC = () => {
           />
         </div>
         <div className="flex flex-col max-md:w-full lg:flex-[1_1_54]">
-          <div className="flex w-full flex-col items-start max-md:mt-10 max-md:max-w-full">
+          <div className="flex w-full flex-col items-start max-md:max-w-full">
             <h2 className="self-stretch text-4xl leading-10 text-black max-md:max-w-full lg:mt-6">
               let’s discuss your challenge and create a solution today.
             </h2>
-            <div className="text-blue-900 flex max-w-full justify-between gap-5 text-lg leading-8 lg:m-2.5 lg:mx-5">
-              <div className="w-60 font-roboto text-lg font-normal leading-loose text-[#002d9a]">
-                30-min <br />
-                define define your needs
-              </div>
-              <div className="w-60 font-['Roboto'] text-lg font-normal leading-loose text-[#002d9a]">
-                discuss ideas
-                <br />
-                define define next steps
-              </div>
+            <div className="text-blue-900 mb-4 ml-5 flex max-w-full flex-col justify-between text-lg leading-8 lg:m-2.5 lg:mx-5 lg:flex-row lg:gap-5">
+              <ul className="w-60 list-disc font-roboto text-lg font-normal leading-loose text-blue lg:ml-5">
+                <li>30-min</li>
+                <li>define define your needs</li>
+              </ul>
+              <ul className="w-60 list-disc font-roboto text-lg font-normal leading-loose text-blue">
+                <li>discuss ideas</li>
+                <li>define define next steps</li>
+              </ul>
             </div>
             <button
               aria-label="Book a project jam session with SealWorks"
-              className="mt-3.5 w-full rounded-4xl bg-blue px-9 py-4 text-center text-2xl font-bold text-white max-md:px-5 lg:w-auto"
+              className="inline-block rounded-[32px] bg-blue px-[24px] pb-[12px] pt-[10px] text-center font-roboto text-2xl font-bold text-white hover:bg-blueDark"
               onClick={handleOpen}
             >
               book a project jam session
