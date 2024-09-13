@@ -1,19 +1,15 @@
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-const flowbite = require('flowbite-react/tailwind');
-
 module.exports = {
   important: true,
   content: [
     './src/pages/**/*.{js,jsx,ts,tsx}',
     './src/components/**/*.{js,jsx,ts,tsx}',
-    flowbite.content(),
   ],
   safelist: [
     {
       pattern: /bg-(red|yellow|blue)/,
     },
     {
-      pattern: /(flex|bottom|translate|text|font)-*/,
+      pattern: /(rounded|flex|bottom|translate|text|font)-*/,
     },
   ],
   theme: {
@@ -68,6 +64,5 @@ module.exports = {
       },
     },
   },
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  plugins: [flowbite.plugin()],
+  plugins: [],
 };

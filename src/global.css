@@ -10,3 +10,19 @@
 body {
   z-index: 1!important;
 }
+
+
+
+.from-purple-600 {
+  --tw-gradient-from: #7e3af2 var(--tw-gradient-from-position)!important;
+  --tw-gradient-to: rgba(126,58,242,0) var(--tw-gradient-to-position)!important;
+  --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to)!important;
+}
+
+.to-cyan-500 {
+  --tw-gradient-to: #06b6d4 var(--tw-gradient-to-position)!important;
+}
+
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right,var(--tw-gradient-stops))!important;
+}
