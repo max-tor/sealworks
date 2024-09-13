@@ -40,7 +40,7 @@ export const CapabilitiesPresentation = () => {
   }
 
   return (
-    <section className="relative z-10 my-5 lg:h-[496] lg:overflow-hidden xl:mb-0 xl:pb-5">
+    <section className="relative z-10 my-5 lg:h-[496px] lg:overflow-hidden xl:mb-0 xl:pb-5">
       <ResponsiveCarousel breakpoints={breakpoints}>
         <StaticImage
           className="lxl:shadow-gray10 block size-full object-cover xl:!absolute xl:h-[231px] xl:w-[256px] xl:border xl:border-gainsboro xl:object-cover"

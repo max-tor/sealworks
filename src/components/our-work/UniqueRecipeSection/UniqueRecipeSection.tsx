@@ -25,7 +25,7 @@ export const UniqueRecipeSection: React.FC = () => {
           <h2 className="text-blue-900 self-start text-7xl leading-[74px] max-lg:max-w-full max-lg:text-4xl max-lg:leading-[50px]">
             every project has a unique recipe.
           </h2>
-          <p className="mt-6 text-lg leading-7 text-black max-lg:max-w-full">
+          <p className="mt-6 text-[16px] text-black max-lg:max-w-full">
             Your idea may still be just a simmering notion, or perhaps it`s
             already fully baked. No matter where you are in your process,
             Sealworks can help you strategize, design, develop, launch, and

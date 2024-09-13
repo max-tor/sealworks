@@ -15,7 +15,7 @@ export const AdaptiveLearning: React.FC = () => (
           <br />
           <UnderlinedText color="redSticky">learning</UnderlinedText>
         </h2>
-        <p className="mt-10 text-base leading-6">{description}</p>
+        <p className="mt-10">{description}</p>
       </div>
     </div>
     <aside className="relative mx-auto grid w-full gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[430px] lg:w-[64%] lg:flex-[0_0_561px] lg:flex-col">
