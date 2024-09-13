@@ -25,7 +25,7 @@ const ResponsiveCarousel = ({
   children,
   breakpoints,
 }: ResponsiveCarouselProps) => {
-  if (breakpoints.xl) {
+  if (breakpoints.md) {
     return children;
   }
 
@@ -40,10 +40,10 @@ export const CapabilitiesPresentation = () => {
   }
 
   return (
-    <section className="relative z-10 my-5 lg:h-[496px] lg:overflow-hidden xl:mb-0 xl:pb-5">
+    <section className="relative z-10 my-5 md:-left-[15%] md:mb-0 md:h-[496px] md:scale-[55%] md:pb-5 min-[880px]:-left-[10%] min-[880px]:scale-[70%] lg:-left-[5%] xl:left-0 xl:scale-100 xl:overflow-hidden">
       <ResponsiveCarousel breakpoints={breakpoints}>
         <StaticImage
-          className="lxl:shadow-gray10 block size-full object-cover xl:!absolute xl:h-[231px] xl:w-[256px] xl:border xl:border-gainsboro xl:object-cover"
+          className="lxl:shadow-gray10 block size-full object-cover md:!absolute md:h-[231px] md:w-[256px] md:border md:border-gainsboro md:object-cover"
           imgClassName="h-auto max-w-full object-top"
           alt="Case study on how Ellen's credit score affects her ability to buy a house."
           src="images/ellen-credit-score-strategy.jpg"
@@ -52,8 +52,8 @@ export const CapabilitiesPresentation = () => {
         />
 
         <StaticImage
-          className="lxl:shadow-gray10 block size-full object-cover xl:!absolute xl:left-[295px] xl:top-0 xl:h-[231px] xl:w-[256px] xl:border xl:border-gainsboro xl:object-cover"
-          imgClassName="h-auto xl:max-w-full object-top"
+          className="lxl:shadow-gray10 block size-full object-cover md:!absolute md:left-[295px] md:top-0 md:h-[231px] md:w-[256px] md:border md:border-gainsboro md:object-cover"
+          imgClassName="h-auto md:max-w-full object-top"
           alt="Diversity and Inclusion course slide explaining the definition of diversity."
           src="images/diversity-inclusion-definition.jpg"
           breakpoints={[256, 640, 768, 1024, 1280]}
@@ -61,7 +61,7 @@ export const CapabilitiesPresentation = () => {
         />
 
         <StaticImage
-          className="lxl:shadow-gray10 block size-full object-cover xl:!absolute xl:left-[582px] xl:top-0 xl:h-[231px] xl:w-[256px] xl:border xl:border-gainsboro xl:object-cover"
+          className="lxl:shadow-gray10 block size-full object-cover md:!absolute md:left-[582px] md:top-0 md:h-[231px] md:w-[256px] md:border md:border-gainsboro md:object-cover"
           imgClassName="h-auto max-w-full object-top"
           alt="Lifeguarding module pre-assessment results screen."
           src="images/lifeguarding-pre-assessment-results.jpg"
@@ -70,7 +70,7 @@ export const CapabilitiesPresentation = () => {
         />
 
         <StaticImage
-          className="xl:shadow-gray10 block size-full object-cover xl:!absolute xl:left-[871px] xl:top-0 xl:h-[231px] xl:w-[256px] xl:border xl:border-gainsboro xl:object-cover"
+          className="xl:shadow-gray10 block size-full object-cover md:!absolute md:left-[871px] md:top-0 md:h-[231px] md:w-[256px] md:border md:border-gainsboro md:object-cover"
           imgClassName="h-auto max-w-full object-top"
           alt="Money Matters program facilitator dashboard with plans and activities."
           src="images/money-matters-facilitator-dashboard.jpg"
@@ -79,7 +79,7 @@ export const CapabilitiesPresentation = () => {
         />
 
         <StaticImage
-          className="lxl:shadow-gray10 block size-full object-cover xl:!absolute xl:left-[86px] xl:top-[255px] xl:h-[231px] xl:w-[256px] xl:border xl:border-gainsboro xl:object-cover"
+          className="lxl:shadow-gray10 block size-full object-cover md:!absolute md:left-[86px] md:top-[255px] md:h-[231px] md:w-[256px] md:border md:border-gainsboro md:object-cover"
           imgClassName="h-auto max-w-full object-top"
           alt="Moderna onboarding page with resources for new and existing employees"
           src="images/moderna-new-employee-onboarding.jpg"
@@ -88,7 +88,7 @@ export const CapabilitiesPresentation = () => {
         />
 
         <StaticImage
-          className="lxl:shadow-gray10 block size-full object-cover xl:!absolute xl:left-[370px] xl:top-[255px] xl:h-[231px] xl:w-[256px] xl:border xl:border-gainsboro xl:object-cover"
+          className="lxl:shadow-gray10 block size-full object-cover md:!absolute md:left-[370px] md:top-[255px] md:h-[231px] md:w-[256px] md:border md:border-gainsboro md:object-cover"
           imgClassName="h-auto max-w-full object-top"
           alt="DEEP learning platform overview with modules on leadership and growth"
           src="images/deep-learning-platform.jpg"
@@ -97,7 +97,7 @@ export const CapabilitiesPresentation = () => {
         />
 
         <StaticImage
-          className="lxl:shadow-gray10 block size-full object-cover xl:!absolute xl:left-[658px] xl:top-[255px] xl:h-[231px] xl:w-[256px] xl:border xl:border-gainsboro xl:object-cover"
+          className="lxl:shadow-gray10 block size-full object-cover md:!absolute md:left-[658px] md:top-[255px] md:h-[231px] md:w-[256px] md:border md:border-gainsboro md:object-cover"
           imgClassName="h-auto max-w-full object-top"
           alt="Everboarding platform for Daiichi Sankyo’s Global R&D with learning journeys and spotlight sections."
           src="images/everboarding-global-rd.jpg"
@@ -106,7 +106,7 @@ export const CapabilitiesPresentation = () => {
         />
 
         <StaticImage
-          className="lxl:shadow-gray10 block size-full object-cover xl:!absolute xl:left-[944px] xl:top-[255px] xl:h-[231px] xl:w-[256px] xl:border xl:border-gainsboro xl:object-cover"
+          className="lxl:shadow-gray10 block size-full object-cover md:!absolute md:left-[944px] md:top-[255px] md:h-[231px] md:w-[256px] md:border md:border-gainsboro md:object-cover"
           imgClassName="h-auto max-w-full object-top"
           alt="Nielsen Diversity and Inclusion foundational learning course introduction."
           src="images/ielsen-diversity-inclusion-course.jpg"
