@@ -45,7 +45,12 @@ export const BottomInformation = () => {
             {contactPhone}
           </a>
           <Dot />
-          <span className="whitespace-nowrap font-bold text-blue">{email}</span>
+          <a
+            href={`mailto:${email}`}
+            className="whitespace-nowrap font-bold text-blue hover:underline"
+          >
+            {email}
+          </a>
         </div>
 
         <nav className="shrink grow text-right" aria-label="Footer navigation">

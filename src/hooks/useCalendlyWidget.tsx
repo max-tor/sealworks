@@ -18,7 +18,7 @@ export const useCalendlyWidget = ({
   return (
     <>
       <div
-        className="fixed bottom-[10px] right-[10px] z-50 hidden lg:block"
+        className="fixed bottom-[10px] right-[10px] z-50"
         style={{ bottom: '10px', right: '10px' }}
       >
         <Button
