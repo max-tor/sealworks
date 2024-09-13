@@ -19,12 +19,12 @@ export const TailoredWorkBanner: React.FC = () => {
       <aside className="animate__animated animate__zoomIn relative mx-auto grid w-full max-lg:w-full max-lg:max-w-full lg:flex-[0_0_615px] lg:flex-col lg:bg-[#ba0202]">
         <UnionImage className="absolute -left-[68px] -my-[15px] hidden w-[692px] select-none lg:flex lg:h-[404px]" />
         <StaticImage
-          className="lg:h-[374px] lg:w-[616px]"
+          className="lg:h-[374px] lg:w-[615px]"
           imgClassName="h-auto max-w-full object-cover lg:shadow-lg"
           alt=""
           src="images/our_work.png"
           breakpoints={[640, 616, 768, 1024, 1280]}
-          sizes="(min-width: 1280px) 616px, 100vw"
+          sizes="(min-width: 1280px) 615px, 100vw"
         />
       </aside>
     </section>
