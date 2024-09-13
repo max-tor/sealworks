@@ -6,13 +6,13 @@ export const UniqueRecipeSection: React.FC = () => {
     <section className="flex gap-5 max-lg:flex-col">
       <div className="flex w-[30%] flex-col max-lg:w-full">
         <div className="flex">
-          <div className="flex flex-1 flex-col items-center justify-center px-6 py-10 max-lg:pl-5">
+          <div className="flex flex-1 flex-col items-center justify-center px-6 py-5 max-lg:pl-5 lg:py-10">
             <StaticImage
               alt="Illustration showing a step-by-step process for creating a unique project recipe."
               src="images/recipe1.svg"
             />
           </div>
-          <div className="flex flex-1 flex-col items-center justify-center px-7 py-10 max-lg:pl-5">
+          <div className="flex flex-1 flex-col items-center justify-center px-7 py-5 max-lg:pl-5 lg:py-10">
             <StaticImage
               alt="Graphic highlighting key ingredients in the methodology for custom project solutions"
               src="images/recipe2.svg"
@@ -21,7 +21,7 @@ export const UniqueRecipeSection: React.FC = () => {
         </div>
       </div>
       <div className="ml-5 flex w-[70%] flex-col max-lg:ml-0 max-lg:w-full">
-        <article className="my-auto flex flex-col self-stretch max-lg:mx-5 max-lg:mt-10 max-lg:max-w-full">
+        <div className="my-auto flex flex-col self-stretch max-lg:mx-5 max-lg:mt-5 max-lg:max-w-full">
           <h2 className="text-blue-900 self-start text-7xl leading-[74px] max-lg:max-w-full max-lg:text-4xl max-lg:leading-[50px]">
             every project has a unique recipe.
           </h2>
@@ -33,7 +33,7 @@ export const UniqueRecipeSection: React.FC = () => {
             break out of the box and help your organization set a roadmap in
             motion for whatever needs to be built.
           </p>
-        </article>
+        </div>
       </div>
     </section>
   );

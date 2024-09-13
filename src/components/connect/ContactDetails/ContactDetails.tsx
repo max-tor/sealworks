@@ -19,6 +19,8 @@ export const ContactDetails = () => {
           imgClassName="h-auto max-w-full"
           src="images/address.png"
           alt=""
+          width={232}
+          height={294}
         />
 
         <div className="my-[32px] flex w-full flex-col bg-grayLight p-[24px] text-black md:-ml-[32px] md:flex-col md:pl-[100px] md:pr-[26px]">

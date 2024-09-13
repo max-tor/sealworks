@@ -11,7 +11,7 @@ export const Experience = () => {
       <StarsImage className="hidden select-none xl:absolute xl:left-[643px] xl:top-[21px] xl:flex xl:h-[38px] xl:w-[97px]" />
       <ArrowImage className="hidden select-none xl:absolute xl:left-[720px] xl:top-[40px] xl:flex xl:h-[26px] xl:w-[32px]" />
 
-      <h3 className="whitespace-nowrap font-annie text-[40px] font-normal leading-none text-yellow xl:absolute xl:left-[774px] xl:top-[26px]">
+      <h3 className="max-w-full truncate font-annie text-[40px] font-normal leading-none text-yellow xl:absolute xl:left-[774px] xl:top-[26px]">
         that can grow and scale
       </h3>
 
