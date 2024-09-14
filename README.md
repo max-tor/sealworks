@@ -3,7 +3,7 @@
 ## Building locally
 
 The following instructions guide you on how to build the Sealworks project locally:
-```
+```shell
 npm run build
 ```
 
