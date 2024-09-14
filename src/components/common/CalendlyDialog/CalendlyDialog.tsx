@@ -32,7 +32,7 @@ export const CalendlyDialog = ({
 
       <div className="fixed inset-0 z-50 w-screen overflow-y-auto lg:p-4">
         <div className="inset-0 flex w-screen items-center justify-center">
-          <DialogPanel className="w-auto max-w-lg flex-[1_1_860px]">
+          <DialogPanel className="w-auto flex-[1_1_860px]">
             <InlineWidget
               url={url}
               pageSettings={calendlySettings}

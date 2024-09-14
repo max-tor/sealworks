@@ -45,12 +45,16 @@ const config: GatsbyConfig = {
     },
     'gatsby-plugin-styled-components',
     'gatsby-plugin-image',
-    {
-      resolve: 'gatsby-plugin-google-gtag',
-      options: {
-        trackingIds: ['UA-177857-1'],
-      },
-    },
+    ...(process.env.GATSBY_ACTIVE_ENV
+      ? [
+          {
+            resolve: 'gatsby-plugin-google-gtag',
+            options: {
+              trackingIds: ['UA-177857-1'],
+            },
+          },
+        ]
+      : []),
     {
       resolve: 'gatsby-plugin-breakpoints',
       options: {
@@ -74,8 +78,7 @@ const config: GatsbyConfig = {
         resolveEnv: () => process.env.GATSBY_ACTIVE_ENV || 'production',
         env: {
           development: {
-            policy: [{ userAgent: '*', allow: '/' }],
-            // policy: [{ userAgent: '*', disallow: ['/'] }],
+            policy: [{ userAgent: '*', disallow: ['/'] }],
           },
           production: {
             policy: [{ userAgent: '*', allow: '/' }],
