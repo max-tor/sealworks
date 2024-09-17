@@ -16,6 +16,7 @@ deploy_to_s3:
     - npm ci --cache .npm --prefer-offline
     - echo "Deploy to aws S3"
     - GATSBY_ACTIVE_ENV=development ./node_modules/.bin/gatsby build --prefix-paths
+    - printenv
     - ./node_modules/.bin/gatsby-plugin-s3 deploy --yes
     - aws cloudfront create-invalidation --distribution-id E151NETYZO2LSM --paths "/*"
   rules:
