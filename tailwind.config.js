@@ -11,6 +11,9 @@ module.exports = {
     {
       pattern: /(rounded|flex|bottom|translate|text|font)-*/,
     },
+    {
+      pattern: /(top|left|w|h)-*/,
+    },
   ],
   theme: {
     extend: {
