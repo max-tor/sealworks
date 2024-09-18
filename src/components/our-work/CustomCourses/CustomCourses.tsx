@@ -1,6 +1,7 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 
+import { HeaderContainer } from '@/components/common/HeaderContainer';
 import { UnderlinedText } from '@/components/common/UnderlinedText';
 
 const description =
@@ -11,11 +12,10 @@ export const CustomCourses: React.FC = () => {
     <section className="my-5 flex max-w-full flex-row-reverse gap-5 max-lg:flex-col lg:my-14 lg:gap-[40px] xl:gap-[116px]">
       <div className="flex-[1_1_36%] flex-col max-lg:ml-0 max-lg:w-full">
         <div className="text-black max-lg:mt-10">
-          <h2 className="text-6xl leading-[70px] max-lg:text-4xl max-lg:leading-10">
+          <HeaderContainer>
             <UnderlinedText color="blueSticky">custom</UnderlinedText>
-            <br />
             <UnderlinedText color="blueSticky">courses</UnderlinedText>
-          </h2>
+          </HeaderContainer>
           <p className="mt-10">{description}</p>
         </div>
       </div>
