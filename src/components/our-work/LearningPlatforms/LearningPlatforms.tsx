@@ -42,11 +42,8 @@ export const LearningPlatforms: React.FC = () => {
             <UnderlinedText color="yellowSticky">learning </UnderlinedText>
             <UnderlinedText color="yellowSticky">platforms</UnderlinedText>
           </HeaderContainer>
-          <p className="mt-10 text-base leading-6">
-            {description}
-            <br />
-            {description2}
-          </p>
+          <p className="mt-10 text-base leading-6">{description}</p>
+          <p className="mt-5 text-base leading-6">{description2}</p>
         </div>
       </div>
       <aside

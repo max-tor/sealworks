@@ -4,8 +4,10 @@ import React from 'react';
 import { HeaderContainer } from '@/components/common/HeaderContainer';
 import { UnderlinedText } from '@/components/common/UnderlinedText';
 
-const description =
-  "We create digital hubs that foster collaboration and streamline communication within your organization. Our intuitive, user-friendly hubs make it easy for employees to access resources, share information, and connect with colleagues or peers. Designed to integrate your essential tools and resources, these hubs reflect your brand and provide a cohesive user experience. We prioritize customization, tailoring each hub to reflect your company's or user base's culture and become a central, efficient workspace.";
+const description1 =
+  'We create digital hubs that foster collaboration and streamline communication within your organization. Our intuitive, user-friendly hubs make it easy for employees to access resources, share information, and connect with colleagues or peers.';
+const description2 =
+  "Designed to integrate your essential tools and resources, these hubs reflect your brand and provide a cohesive user experience. We prioritize customization, tailoring each hub to reflect your company's or user base's culture and become a central, efficient workspace.";
 
 export const DigitalHubs: React.FC = () => {
   return (
@@ -16,7 +18,8 @@ export const DigitalHubs: React.FC = () => {
             <UnderlinedText color="redSticky">digital hubs</UnderlinedText>
             <UnderlinedText color="redSticky">LXP & apps</UnderlinedText>
           </HeaderContainer>
-          <p className="mt-10">{description}</p>
+          <p className="mt-10">{description1}</p>
+          <p className="mt-5">{description2}</p>
         </div>
       </div>
       <aside className="relative mx-auto grid w-full gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:w-[64%] lg:flex-[1_0_712px] lg:flex-col lg:bg-red">
