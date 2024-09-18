@@ -16,7 +16,7 @@ export const Experience = () => {
       </h3>
 
       <div className="font-roboto text-[40px] font-normal leading-snug text-white max-xl:max-w-full xl:absolute xl:left-[139px] xl:top-[52px] xl:w-[763px]">
-        let`s create amazing experiences for your unique audience and
+        let’s create amazing experiences for your unique audience and
         organization.
       </div>
 

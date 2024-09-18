@@ -26,7 +26,7 @@ export const UniqueRecipeSection: React.FC = () => {
             every project has a unique recipe.
           </h2>
           <p className="mt-6 text-[16px] text-black max-lg:max-w-full">
-            Your idea may still be just a simmering notion, or perhaps it`s
+            Your idea may still be just a simmering notion, or perhaps it’s
             already fully baked. No matter where you are in your process,
             Sealworks can help you strategize, design, develop, launch, and
             scale for your audience. You can count on us to push boundaries,
