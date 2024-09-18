@@ -4,8 +4,10 @@ import React from 'react';
 import { HeaderContainer } from '@/components/common/HeaderContainer';
 import { UnderlinedText } from '@/components/common/UnderlinedText';
 
-const description =
-  "We specialize in creating custom courses tailored to your audience's unique needs. Whether starting from scratch or using existing content, we listen closely to understand your goals and challenges. Our team collaborates with you to design engaging, effective learning experiences that resonate with your users, incorporating interactivity that makes educational experiences meaningful. By prioritizing your input and feedback, we ensure the final product aligns perfectly with your vision and delivers maximum impact.";
+const description1 =
+  "We specialize in creating custom courses tailored to your audience's unique needs. Whether starting from scratch or using existing content, we listen closely to understand your goals and challenges.";
+const description2 =
+  'Our team collaborates with you to design engaging, effective learning experiences that resonate with your users, incorporating interactivity that makes educational experiences meaningful. By prioritizing your input and feedback, we ensure the final product aligns perfectly with your vision and delivers maximum impact.';
 
 export const CustomCourses: React.FC = () => {
   return (
@@ -16,7 +18,8 @@ export const CustomCourses: React.FC = () => {
             <UnderlinedText color="blueSticky">custom</UnderlinedText>
             <UnderlinedText color="blueSticky">courses</UnderlinedText>
           </HeaderContainer>
-          <p className="mt-10">{description}</p>
+          <p className="mt-10">{description1}</p>
+          <p className="mt-5">{description2}</p>
         </div>
       </div>
       <aside className="lmy-5 relative mx-auto grid w-full gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:my-14 lg:flex-[1_0_712px] lg:flex-col">
