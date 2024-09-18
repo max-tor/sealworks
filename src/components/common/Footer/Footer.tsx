@@ -11,7 +11,7 @@ const pages: PageMenuItem[] = [
   {
     pathname: Pages.WELCOME,
     title:
-      'connect with our vision, expertise, and the story of why we do what we do',
+      'connect with our vision, expertise, and the story of why we do what we do.',
     link: 'welcome',
     ariaLabel: 'welcome Page',
   },
@@ -25,7 +25,7 @@ const pages: PageMenuItem[] = [
   {
     pathname: Pages.OUR_WORK,
     title:
-      'connect with our vision, expertise, and the story of why we do what we do',
+      'connect with our vision, expertise, and the story of why we do what we do.',
     link: 'work',
     ariaLabel: 'Our Work Page',
   },
