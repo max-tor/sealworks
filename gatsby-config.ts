@@ -50,7 +50,7 @@ const config: GatsbyConfig = {
           {
             resolve: 'gatsby-plugin-google-gtag',
             options: {
-              trackingIds: ['UA-177857-1'],
+              trackingIds: ['UA-177857-1', 'G-XVFVTCE1CZ'],
             },
           },
         ]
