@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import { CalendlyDialog } from '@/components/common/CalendlyDialog';
+import { HeaderContainer } from '@/components/common/HeaderContainer';
 import { UnderlinedText } from '@/components/common/UnderlinedText';
 import { CalendlyForms } from '@/configs';
 
@@ -22,11 +23,11 @@ export const ProjectInquiry = () => {
           aria-label="Illustration of brainstorming process"
         />
         <div className="flex-1">
-          <h2 className="text-2xl leading-none text-black md:text-5xl xl:text-7xl">
+          <HeaderContainer>
             <UnderlinedText color="accent">
               what&apos;s your project?
             </UnderlinedText>
-          </h2>
+          </HeaderContainer>
           <p className="self-start text-2xl leading-none text-black">
             reach out to brainstorm, get inspired, and craft your vision.
           </p>

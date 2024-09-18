@@ -1,6 +1,7 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 
+import { HeaderContainer } from '@/components/common/HeaderContainer';
 import { UnderlinedText } from '@/components/common/UnderlinedText';
 
 const description =
@@ -10,11 +11,10 @@ export const AdaptiveLearning: React.FC = () => (
   <section className="relative my-5 flex max-w-full gap-5 max-lg:flex-col lg:my-14 lg:gap-[20px] xl:gap-[174px]">
     <div className="ml-5 w-[36%] flex-[1_1_36%] flex-col max-lg:ml-0 max-lg:w-full">
       <div className="text-black max-lg:mt-10">
-        <h2 className="text-7xl leading-[70px] max-xl:text-4xl max-lg:text-4xl max-lg:leading-10">
+        <HeaderContainer>
           <UnderlinedText color="redSticky">adaptive</UnderlinedText>
-          <br />
           <UnderlinedText color="redSticky">learning</UnderlinedText>
-        </h2>
+        </HeaderContainer>
         <p className="mt-10">{description}</p>
       </div>
     </div>
