@@ -24,9 +24,7 @@ export const ProjectInquiry = () => {
         />
         <div className="flex-1">
           <HeaderContainer>
-            <UnderlinedText color="accent">
-              what&apos;s your project?
-            </UnderlinedText>
+            <UnderlinedText color="accent">what’s your project?</UnderlinedText>
           </HeaderContainer>
           <p className="mt-4 self-start text-2xl leading-none text-black">
             reach out to brainstorm, get inspired, and craft your vision.
