@@ -39,7 +39,7 @@ export const DiscussChallengeSection: React.FC = () => {
               </ul>
             </div>
             <button
-              aria-label="Book a project jam session with SealWorks"
+              aria-label="Book a project jam session with Sealworks"
               className="inline-block rounded-[32px] bg-blue px-[24px] pb-[12px] pt-[10px] text-center font-roboto text-2xl font-bold text-white hover:bg-blueDark"
               onClick={handleOpen}
             >

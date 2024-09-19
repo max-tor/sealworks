@@ -14,9 +14,9 @@ import { ReactComponent as ArrowSimple } from '@/images/vector-red-arrow-simple.
 
 export const Head = () => (
   <SEO
-    title="Connect"
-    description="Connect with Sealworks Interactive Studios to take your project from concept to launch. From brainstorming workshops to project jam sessions, we help you scale and enhance your digital experience through expert design and development. Book a session today to discuss your needs."
-    keywords="Sealworks, connect, digital experience, brainstorming workshops, project jam sessions, design and development, digital solutions, interactive studios, scale digital projects, workshops, project consultation, digital innovation, Sealworks Interactive Studios"
+    title="the process"
+    description="Discover Sealworks' strategic and collaborative process that combines creative innovation with technical expertise. Learn how we transform your ideas into interactive digital experiences, from brainstorming and concept development to final launch and ongoing support."
+    keywords="Sealworks process, digital experience creation, interactive solutions, creative innovation, technical expertise, project brainstorming, concept development, design and development, digital project process, collaborative process, digital solutions, project launch, ongoing support"
   />
 );
 
