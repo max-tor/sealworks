@@ -14,8 +14,6 @@ import { ReactComponent as Cursor } from '@/images/cursor.inline.svg';
 import { ReactComponent as Like } from '@/images/like.inline.svg';
 import { ReactComponent as Love } from '@/images/love.inline.svg';
 import Poster from '@/images/video-poster.jpg';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
 // eslint-disable-next-line import/no-unresolved
 import Video from '@/video/Sealworks-video.mp4';
 
