@@ -4,7 +4,7 @@ import * as React from 'react';
 import { UnderlinedTextProps } from '@/components/common/UnderlinedText/UnderlinedTextProps';
 
 const BASE_CLASS =
-  "relative z-0 inline-block max-w-full truncate before:absolute before:bottom-[-10%] before:-z-[1] before:-ml-[3px] before:block before:h-3/5 before:w-full before:w-underlined-text before:content-['']";
+  "relative z-0 inline-block max-w-full before:absolute before:bottom-[-10%] before:-z-[1] before:-ml-[3px] before:block before:h-3/5 before:w-full before:w-underlined-text before:content-['']";
 
 export const UnderlinedText = ({
   children,

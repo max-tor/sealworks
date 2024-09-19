@@ -28,7 +28,7 @@ export const ProjectInquiry = () => {
               what&apos;s your project?
             </UnderlinedText>
           </HeaderContainer>
-          <p className="self-start text-2xl leading-none text-black">
+          <p className="mt-4 self-start text-2xl leading-none text-black">
             reach out to brainstorm, get inspired, and craft your vision.
           </p>
         </div>
@@ -36,7 +36,7 @@ export const ProjectInquiry = () => {
           <div className="mt-2 flex items-start text-center text-lg font-bold text-white">
             <button
               aria-label="Contact SealWorks team to start a project brainstorming session"
-              className="z-10 mt-7 self-end rounded-[55.602px] bg-blue px-7 py-4"
+              className="z-10 mt-7 self-end rounded-[55.602px] bg-blue px-6 py-3 hover:bg-blueDark"
               onClick={handleOpen}
             >
               get in touch

@@ -24,13 +24,13 @@ const ProcessPage = ({ location }: PageProps) => {
   return (
     <PageLayout location={location}>
       <ProcessHead />
-      <div className="relative -mx-4 mb-[160px] flex flex-col items-center gap-10 bg-grayLight md:mx-0 md:flex-row">
-        <div className="max-w-[250px] md:max-w-[210px] lg:w-4/5 lg:max-w-[410px]">
+      <div className="relative -mx-4 mb-[160px] flex flex-col items-center gap-10 bg-grayLight md:mx-0 lg:flex-row">
+        <div className="max-w-[250px] md:max-w-[280px] lg:w-4/5 lg:max-w-[410px]">
           <StaticImage src="../images/notebook.png" alt="Notebook" />
         </div>
 
-        <div className="px-4 md:mr-[20px] md:px-0 lg:mr-[50px]">
-          <h2 className="mb-[26px] font-roboto text-4xl font-normal text-red md:mt-[47px] md:text-[66px] md:leading-[78px]">
+        <div className="px-4 md:mr-4 lg:mr-[50px] lg:px-0">
+          <h2 className="mb-[26px] font-roboto text-4xl font-normal text-red md:text-[66px] md:leading-[78px] lg:mt-[47px]">
             we start every project with a blank slate.
           </h2>
           <p className="mb-5 font-roboto text-base font-normal text-black">

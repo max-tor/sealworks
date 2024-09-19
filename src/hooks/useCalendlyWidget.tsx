@@ -16,10 +16,7 @@ export const useCalendlyWidget = ({
 
   return (
     <>
-      <div
-        className="fixed bottom-[10px] right-[10px] z-50"
-        style={{ bottom: '10px', right: '10px' }}
-      >
+      <div className="fixed bottom-3 right-4 z-50 md:right-3">
         <button
           onClick={handleOpen}
           className="group relative flex items-stretch justify-center rounded-full border border-transparent bg-cyan-700 bg-gradient-to-br from-purple-600 to-cyan-500 p-0.5 text-center font-medium text-white transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none focus:ring-4 focus:ring-cyan-300 enabled:hover:bg-cyan-800 enabled:hover:bg-gradient-to-bl dark:bg-cyan-600 dark:focus:ring-cyan-800 dark:enabled:hover:bg-cyan-700"

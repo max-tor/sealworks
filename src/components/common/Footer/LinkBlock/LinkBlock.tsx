@@ -1,8 +1,6 @@
 import { Link } from 'gatsby';
 import React from 'react';
 
-import { ReactComponent as Arrow } from '@/images/arrow.inline.svg';
-
 import { LinkBlockProps } from './LinkBlockProps';
 
 export const LinkBlock = ({
@@ -23,7 +21,17 @@ export const LinkBlock = ({
         <Link to={pathname} className={linkClass}>
           {linkText}
         </Link>
-        <Arrow />
+        <svg
+          width="24"
+          height="20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m14.33 19.714 9.61-9.66-9.61-9.66a1 1 0 1 0-1.39 1.41l7.19 7.25H1a1 1 0 1 0 0 2h19.13l-7.19 7.25a1 1 0 1 0 1.42 1.41h-.03Z"
+            fill={fontColor}
+          />
+        </svg>
       </div>
     </div>
   );

@@ -48,7 +48,7 @@ export const ProcessHead: React.FC = () => {
         )}
       </div>
 
-      <div className="right-0 h-full before:absolute before:-left-[45px] before:top-1/2 before:hidden before:size-0 before:-translate-y-2/4 before:rotate-0 before:border-y-[35px] before:border-l-0 before:border-r-[50px] before:border-solid before:border-[transparent_#0037BB] before:drop-shadow-lxl before:content-[''] md:absolute md:w-1/2 md:bg-[#0037BB] md:shadow-[-5px_0px_15px_rgba(0,0,0,0.25)] md:before:block">
+      <aside className="right-0 h-full before:absolute before:-left-[45px] before:top-1/2 before:hidden before:size-0 before:-translate-y-2/4 before:rotate-0 before:border-y-[35px] before:border-l-0 before:border-r-[50px] before:border-solid before:border-[transparent_#0037BB] before:drop-shadow-lxl before:content-[''] md:absolute md:w-1/2 md:bg-[#0037BB] md:shadow-[-5px_0px_15px_rgba(0,0,0,0.25)] md:before:block">
         <div className="md:absolute md:left-1/2 md:top-1/2 md:-translate-x-2/4 md:-translate-y-2/4">
           <StaticImage
             className="animate__animated animate__zoomIn mx-4 mb-6 md:w-[320px] lg:w-[450px] xl:w-[560px]"
@@ -56,7 +56,7 @@ export const ProcessHead: React.FC = () => {
             alt="An iterative product development cycle with stages: empathize, design, develop, test, and launch."
           />
         </div>
-      </div>
+      </aside>
     </section>
   );
 };

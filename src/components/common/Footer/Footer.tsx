@@ -39,9 +39,9 @@ const pages: PageMenuItem[] = [
 ];
 
 const bgColors = ['red', 'yellow', 'blue'];
-const colors = ['white', 'text-black', 'white'];
+const colors = ['white', 'black', 'white'];
 
-export const Footer = ({ location }: FooterProps) => {
+export const Footer = ({ location, footer = 'full' }: FooterProps) => {
   const { pathname } = location;
   const card = pages.filter((page) => page.pathname !== pathname).slice(0, 3);
 
@@ -58,9 +58,11 @@ export const Footer = ({ location }: FooterProps) => {
 
   return (
     <footer className="relative" role="contentinfo">
-      <div className="my-6 grid gap-x-4 gap-y-8 md:my-6 md:grid-cols-3">
-        {card.map(renderCard)}
-      </div>
+      {footer === 'full' && (
+        <div className="my-6 grid gap-x-4 gap-y-8 md:my-6 md:grid-cols-3">
+          {card.map(renderCard)}
+        </div>
+      )}
 
       <BottomInformation />
     </footer>
