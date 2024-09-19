@@ -9,7 +9,7 @@ const description =
 
 export const Onboarding: React.FC = () => {
   return (
-    <section className="relative my-5 flex max-w-full gap-5 max-lg:flex-col lg:my-14 lg:gap-[20px] xl:gap-[110px]">
+    <section className="relative my-5 flex max-w-full gap-5 max-lg:flex-col lg:my-14 lg:mt-[75px] lg:gap-[20px] xl:gap-[110px]">
       <div className="ml-5 w-[36%] flex-[1_1_36%] flex-col max-lg:ml-0 max-lg:w-full">
         <div className="text-black max-lg:mt-10">
           <HeaderContainer>
