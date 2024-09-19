@@ -15,7 +15,7 @@ import { ReactComponent as Like } from '@/images/like.inline.svg';
 import { ReactComponent as Love } from '@/images/love.inline.svg';
 import Poster from '@/images/video-poster.jpg';
 // eslint-disable-next-line import/no-unresolved
-import Video from '@/video/Sealworks-video.mp4';
+import Video from '@/video/sealworks-video.mp4';
 
 export const Head = () => (
   <SEO
