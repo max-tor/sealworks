@@ -1,8 +1,9 @@
 import { StaticImage } from 'gatsby-plugin-image';
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 
 import { HeaderContainer } from '@/components/common/HeaderContainer';
 import { UnderlinedText } from '@/components/common/UnderlinedText';
+import { useOnscrollAnimation } from '@/hooks/useOnscrollAnimation';
 
 const description1 =
   'We create digital hubs that foster collaboration and streamline communication within your organization. Our intuitive, user-friendly hubs make it easy for employees to access resources, share information, and connect with colleagues or peers.';
@@ -51,6 +52,13 @@ const img5 = {
 };
 
 export const DigitalHubs: React.FC = () => {
+  const [isVisible, observe] = useOnscrollAnimation();
+  const ref = useRef(null);
+
+  useEffect(() => {
+    observe(ref.current);
+  }, [observe]);
+
   return (
     <section className="relative my-5 flex max-w-full flex-row-reverse gap-5 max-lg:flex-col lg:my-14 lg:gap-[20px] xl:gap-[110px]">
       <div className="ml-5 w-[36%] flex-[1_1_36%] flex-col max-lg:ml-0 max-lg:w-full">
@@ -63,9 +71,12 @@ export const DigitalHubs: React.FC = () => {
           <p className="mt-5">{description2}</p>
         </div>
       </div>
-      <aside className="relative mx-auto mt-[3.3333333333333335%] grid h-[72.85714285714285vw] w-full gap-4 bg-red max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[510px] lg:w-[700px] lg:flex-[1_0_712px] lg:flex-col">
+      <aside
+        ref={ref}
+        className="relative mx-auto mt-[3.3333333333333335%] grid h-[72.85714285714285vw] w-full gap-4 bg-red max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[510px] lg:w-[700px] lg:flex-[1_0_712px] lg:flex-col"
+      >
         <StaticImage
-          className="!absolute -top-[3.3333333333333335%] left-[2.857142857142857%] h-[37.05882352941177%] w-[45.285714285714285%] object-cover"
+          className={`${isVisible ? 'animate__animated animate__slideInDown opacity-100' : ''} !absolute -top-[3.3333333333333335%] left-[2.857142857142857%] h-[37.05882352941177%] w-[45.285714285714285%] object-cover opacity-0`}
           imgClassName="h-auto max-w-full"
           alt={img1.alt}
           src="images/career-simulation-geneticist.png"
@@ -73,7 +84,7 @@ export const DigitalHubs: React.FC = () => {
           sizes="(min-width: 1024px) 317px, 100vw"
         />
         <StaticImage
-          className="!absolute -left-[3.7142857142857144%] -top-[4.901960784313726%] h-[40.78431372549019%] w-[11.285714285714285%] object-cover"
+          className={`${isVisible ? 'animate__animated animate__slideInLeft opacity-100' : ''} !absolute -left-[3.7142857142857144%] -top-[4.901960784313726%] h-[40.78431372549019%] w-[11.285714285714285%] object-cover opacity-0`}
           imgClassName="h-auto max-w-full"
           alt={img2.alt}
           src="images/girl.png"
@@ -81,7 +92,7 @@ export const DigitalHubs: React.FC = () => {
           sizes="(min-width: 1024px) 79px, 100vw"
         />
         <StaticImage
-          className="!absolute left-[2.857142857142857%] top-[37.254901960784316%] h-[74.11764705882354%] w-[45.285714285714285%] object-cover"
+          className={`${isVisible ? 'animate__animated animate__slideInUp opacity-100' : ''} !absolute left-[2.857142857142857%] top-[37.254901960784316%] h-[74.11764705882354%] w-[45.285714285714285%] object-cover opacity-0`}
           imgClassName="h-auto max-w-full"
           alt={img3.alt}
           src="images/thinklaw-trending-page.png"
@@ -90,7 +101,7 @@ export const DigitalHubs: React.FC = () => {
         />
 
         <StaticImage
-          className="!absolute -top-[2.941176470588235%] left-[51.142857142857146%] h-[54.90196078431373%] w-[45.285714285714285%] object-cover"
+          className={`${isVisible ? 'animate__animated animate__slideInDown opacity-100' : ''} !absolute -top-[2.941176470588235%] left-[51.142857142857146%] h-[54.90196078431373%] w-[45.285714285714285%] object-cover opacity-0`}
           imgClassName="h-auto max-w-full"
           alt={img4.alt}
           src="images/pack-tracks-form.png"
@@ -99,7 +110,7 @@ export const DigitalHubs: React.FC = () => {
         />
 
         <StaticImage
-          className="!absolute left-[51.142857142857146%] top-[56.07843137254902%] h-[49.6078431372549%] w-[45.285714285714285%] object-cover"
+          className={`${isVisible ? 'animate__animated animate__slideInUp opacity-100' : ''} !absolute left-[51.142857142857146%] top-[56.07843137254902%] h-[49.6078431372549%] w-[45.285714285714285%] object-cover opacity-0`}
           imgClassName="h-auto max-w-full"
           alt={img5.alt}
           src="images/learning-hub-dashboard.png"
