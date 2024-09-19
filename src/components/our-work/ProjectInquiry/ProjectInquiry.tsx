@@ -33,7 +33,7 @@ export const ProjectInquiry = () => {
         <div className="flex w-full flex-wrap items-start gap-10 lg:flex-[0_0_272px]">
           <div className="mt-2 flex items-start text-center text-lg font-bold text-white">
             <button
-              aria-label="Contact SealWorks team to start a project brainstorming session"
+              aria-label="Contact Sealworks team to start a project brainstorming session"
               className="z-10 mt-7 self-end rounded-[55.602px] bg-blue px-6 py-3 hover:bg-blueDark"
               onClick={handleOpen}
             >

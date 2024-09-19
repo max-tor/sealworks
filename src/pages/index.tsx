@@ -14,13 +14,16 @@ import { ReactComponent as Cursor } from '@/images/cursor.inline.svg';
 import { ReactComponent as Like } from '@/images/like.inline.svg';
 import { ReactComponent as Love } from '@/images/love.inline.svg';
 import Poster from '@/images/video-poster.jpg';
-import Video from '@/video/sealworks-video.mp4';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+// eslint-disable-next-line import/no-unresolved
+import Video from '@/video/Sealworks-video.mp4';
 
 export const Head = () => (
   <SEO
-    title="Connect"
-    description="Connect with Sealworks Interactive Studios to take your project from concept to launch. From brainstorming workshops to project jam sessions, we help you scale and enhance your digital experience through expert design and development. Book a session today to discuss your needs."
-    keywords="Sealworks, connect, digital experience, brainstorming workshops, project jam sessions, design and development, digital solutions, interactive studios, scale digital projects, workshops, project consultation, digital innovation, Sealworks Interactive Studios"
+    title="welcome"
+    description="Sealworks Interactive Studios crafts innovative and immersive digital experiences. Partner with us to bring your projects from concept to launch with our creative and technical expertise."
+    keywords="Sealworks, interactive studios, digital experiences, creative solutions, technical expertise, digital design, web development, immersive experiences, creative agency"
   />
 );
 
@@ -82,7 +85,7 @@ const IndexPage = ({ location }: PageProps) => {
       </div>
       <div className="bg-gradient-to-r from-[#082365] to-blue">
         <h2 className="px-4 py-[10px] pr-0 font-roboto text-[35px] font-normal leading-[48px] text-white lg:px-7 lg:text-[40px]">
-          the sealworks promise
+          the Sealworks promise
         </h2>
       </div>
       <div className="mb-4 flex flex-col gap-px border-t border-white lg:mb-11 lg:flex-row">
