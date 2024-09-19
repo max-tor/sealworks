@@ -291,10 +291,17 @@ const IndexPage = ({ location }: PageProps) => {
         </h2>
         <p className="font-roboto text-[15px] font-normal leading-[22px]">
           This award is given out by{' '}
-          <span className="text-yellow">The Learning Guild</span> — one of the
-          largest communities of learning professionals in the world. The
-          purpose of the Guild Master Award is to recognize those members who
-          have consistently contributed to the community in terms of both
+          <a
+            href="https://www.learningguild.com/content/2644/learning-guild-masters/"
+            target="_blank"
+            className="text-yellow hover:underline"
+            rel="noreferrer"
+          >
+            The Learning Guild
+          </a>{' '}
+          — one of the largest communities of learning professionals in the
+          world. The purpose of the Guild Master Award is to recognize those
+          members who have consistently contributed to the community in terms of
           quantity and quality of content — and thus helped make the community a
           vibrant center for learning while pushing the industry forward.
         </p>

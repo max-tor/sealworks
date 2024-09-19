@@ -28,7 +28,7 @@ export const DiscussChallengeSection: React.FC = () => {
             <h2 className="self-stretch text-4xl leading-10 text-black max-md:max-w-full lg:mt-6">
               let’s discuss your challenge and create a solution today.
             </h2>
-            <div className="text-blue-900 mb-4 ml-5 flex max-w-full flex-col justify-between text-lg leading-8 lg:m-2.5 lg:mx-5 lg:flex-row lg:gap-5">
+            <div className="text-blue-900 mb-6 ml-5 flex max-w-full flex-col justify-between text-lg leading-8 lg:m-2.5 lg:mx-5 lg:mb-8 lg:flex-row lg:gap-5">
               <ul className="w-60 list-disc font-roboto text-lg font-normal leading-loose text-blue lg:ml-5">
                 <li>30-min</li>
                 <li>define define your needs</li>

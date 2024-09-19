@@ -30,7 +30,7 @@ export const BottomInformation = () => {
 
   return (
     <>
-      <div className="my-5 flex flex-wrap justify-between gap-10 rounded-none font-roboto text-sm lg:my-14">
+      <div className="mb-14 mt-5 flex flex-wrap justify-between gap-3 rounded-none font-roboto text-sm md:my-14 md:gap-4">
         <div className="max-w-full lg:flex-[1_1_700px]">
           <span>
             ©{years} {copy}
