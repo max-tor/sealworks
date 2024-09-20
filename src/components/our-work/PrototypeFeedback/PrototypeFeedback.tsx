@@ -87,7 +87,7 @@ export const PrototypeFeedback: React.FC = () => {
           sizes="(min-width: 1024px) 299px, 100vw"
         />
         <StaticImage
-          className="!absolute left-[0.27816411682892905%] top-[2.18978102189781%] h-[43.97810218978102%] w-[16.550764951321277%] shadow-lg"
+          className="!absolute left-[0.27816411682892905%] top-[2.18978102189781%] h-[43.97810218978102%] w-[16.550764951321277%]"
           imgClassName="object-fill"
           alt={img2.alt}
           src="images/sticky-notes-ideas.png"
