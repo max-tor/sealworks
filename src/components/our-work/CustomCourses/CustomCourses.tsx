@@ -10,48 +10,50 @@ const description1 =
 const description2 =
   'Our team collaborates with you to design engaging, effective learning experiences that resonate with your users, incorporating interactivity that makes educational experiences meaningful. By prioritizing your input and feedback, we ensure the final product aligns perfectly with your vision and delivers maximum impact.';
 
-// const blockWidth = 707;
-// const blockHeight = 636;
+/*
+const blockWidth = 737;
+const blockHeight = 676;
+*/
 
 const img1 = {
-  top: 40,
-  left: 48,
+  top: 78,
+  left: 47,
   width: 472,
   height: 312,
   alt: "Interactive training module featuring a floor plan and a family scenario for childcare, showing rooms with Click n'Learn and scenario activities.",
 };
 const img2 = {
-  top: 36,
-  left: -7,
+  top: 66,
+  left: 0,
   width: 130,
   height: 340,
   alt: '',
 };
 
 const img3 = {
-  top: -30,
-  left: 456,
+  top: 0,
+  left: 463,
   width: 242,
   height: 177,
   alt: 'Childcare training module featuring a child with a list of actions to handle a temper tantrum.',
 };
 const img4 = {
-  top: 408,
-  left: 91,
+  top: 438,
+  left: 98,
   width: 400,
   height: 238,
   alt: 'Module on reflecting on privilege, showing questions about family background and a mountain graphic illustrating privilege levels.',
 };
 const img5 = {
-  top: 383,
-  left: 15,
+  top: 413,
+  left: 22,
   width: 100,
   height: 206,
   alt: 'Diversity training module defining diversity with various interactive elements and definitions.',
 };
 const img6 = {
-  top: 312,
-  left: 412,
+  top: 342,
+  left: 419,
   width: 325,
   height: 256,
   alt: 'Interactive module showing common uses of credit with options to select different real-life scenarios.',
@@ -79,10 +81,11 @@ export const CustomCourses = () => {
       </div>
       <aside
         ref={ref}
-        className="lmy-5 relative mx-auto mr-[4.243281471004243%] mt-[5.597014925373134%] grid h-[89.95756718528996vw] w-full gap-4 bg-blue max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:my-14 lg:h-[636px] lg:w-[707px] lg:flex-[1_0_707px] lg:flex-col"
+        className="relative flex h-[91.72320217096338vw] lg:h-[676px] lg:w-[737px] lg:flex-[1_0_737px] lg:flex-col"
       >
+        <div className="!absolute left-[0.9497964721845319%] top-[4.437869822485207%] h-[94.0828402366864%] w-[95.92944369063771%] bg-blue shadow-lg"></div>
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__zoomIn opacity-100' : ''} !absolute left-[6.789250353606789%] top-[7.462686567164178%] h-[58.2089552238806%] w-[66.76096181046675%] opacity-0 shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__zoomIn opacity-100' : ''} !absolute left-[6.377204884667571%] top-[11.538461538461538%] h-[46.15384615384615%] w-[64.04341926729987%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/young-family-scenario.png"
@@ -90,15 +93,15 @@ export const CustomCourses = () => {
           sizes="(min-width: 1024px) 472px, 100vw"
         />
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__slideInDown opacity-100' : ''} !absolute -left-[0.9900990099009901%] top-[6.7164179104477615%] h-[63.43283582089553%] w-[18.387553041018386%] select-none opacity-0 shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__slideInDown opacity-100' : ''} !absolute left-0 top-[9.763313609467456%] h-[50.29585798816568%] w-[17.639077340569877%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
-          alt={img1.alt}
+          alt={img2.alt}
           src="images/girl.png"
           breakpoints={[130, 640, 768, 1024]}
           sizes="(min-width: 1024px) 130px, 100vw"
         />
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__slideInRight opacity-100' : ''} !absolute -top-[5.597014925373134%] left-[64.49787835926449%] h-[33.02238805970149%] w-[34.22913719943423%] opacity-0 shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__slideInRight opacity-100' : ''} !absolute left-[62.822252374491185%] top-0 h-[26.183431952662723%] w-[32.83582089552239%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img3.alt}
           src="images/childcare-scenario-action.png"
@@ -106,7 +109,7 @@ export const CustomCourses = () => {
           sizes="(min-width: 1024px) 242px, 100vw"
         />
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__slideInUp opacity-100' : ''} !absolute left-[12.871287128712872%] top-[64.15094339622641%] h-[37.42138364779874%] w-[56.57708628005658%] opacity-0 shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__slideInUp opacity-100' : ''} !absolute left-[13.297150610583447%] top-[64.79289940828401%] h-[35.20710059171598%] w-[54.27408412483039%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img4.alt}
           src="images/reflecting-on-privilege.png"
@@ -114,7 +117,7 @@ export const CustomCourses = () => {
           sizes="(min-width: 1024px) 400px, 100vw"
         />
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__slideInLeft opacity-100' : ''} !absolute left-[2.1216407355021216%] top-[60.22012578616353%] h-[32.38993710691824%] w-[14.144271570014144%] opacity-0 shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__slideInLeft opacity-100' : ''} !absolute left-[2.9850746268656714%] top-[61.094674556213015%] h-[30.473372781065088%] w-[13.568521031207597%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img5.alt}
           src="images/defining-diversity-module.png"
@@ -122,7 +125,7 @@ export const CustomCourses = () => {
           sizes="(min-width: 1024px) 100px, 100vw"
         />
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__slideInRight opacity-100' : ''} !absolute left-[58.27439886845828%] top-[49.056603773584904%] h-[40.25157232704403%] w-[45.96888260254597%] opacity-0 shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__slideInRight opacity-100' : ''} !absolute left-[56.852103120759836%] top-[50.591715976331365%] h-[37.8698224852071%] w-[44.097693351424695%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img6.alt}
           src="images/credit-uses-example.png"
