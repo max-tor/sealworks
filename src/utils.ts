@@ -34,7 +34,7 @@ export const getImgClasses = ({
   blockWidth: number;
   blockHeight: number;
 }) =>
-  `!absolute ${getX('left', left, blockWidth)} ${getY('top', top, blockHeight)} ${getX('w', width, blockWidth)} ${getY('h', height, blockHeight)} object-cover`;
+  `!absolute ${getX('left', left, blockWidth)} ${getY('top', top, blockHeight)} ${getX('w', width, blockWidth)} ${getY('h', height, blockHeight)} shadow-lg`;
 
 export const showImagesInfo = ({
   blockWidth,
