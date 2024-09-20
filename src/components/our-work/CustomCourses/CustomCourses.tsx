@@ -93,7 +93,7 @@ export const CustomCourses = () => {
           sizes="(min-width: 1024px) 472px, 100vw"
         />
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute left-0 top-[9.763313609467456%] h-[50.29585798816568%] w-[17.639077340569877%] opacity-0 shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__fadeInLeft opacity-100' : ''} !absolute left-0 top-[9.763313609467456%] h-[50.29585798816568%] w-[17.639077340569877%] opacity-0`}
           imgClassName="object-fill"
           alt={img2.alt}
           src="images/girl.png"
@@ -101,7 +101,7 @@ export const CustomCourses = () => {
           sizes="(min-width: 1024px) 130px, 100vw"
         />
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__fadeInRight opacity-100' : ''} !absolute left-[62.822252374491185%] top-0 h-[26.183431952662723%] w-[32.83582089552239%] opacity-0 shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute left-[62.822252374491185%] top-0 h-[26.183431952662723%] w-[32.83582089552239%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img3.alt}
           src="images/childcare-scenario-action.png"
@@ -125,7 +125,7 @@ export const CustomCourses = () => {
           sizes="(min-width: 1024px) 100px, 100vw"
         />
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__fadeInRight opacity-100' : ''} !absolute left-[56.852103120759836%] top-[50.591715976331365%] h-[37.8698224852071%] w-[44.097693351424695%] opacity-0 shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[56.852103120759836%] top-[50.591715976331365%] h-[37.8698224852071%] w-[44.097693351424695%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img6.alt}
           src="images/credit-uses-example.png"
