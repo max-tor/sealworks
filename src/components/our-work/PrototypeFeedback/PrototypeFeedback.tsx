@@ -23,7 +23,7 @@ export const PrototypeFeedback: React.FC = () => {
       <aside className="relative mx-auto grid w-full gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:w-[64%] lg:flex-[1_0_712px] lg:flex-col">
         <StaticImage
           className="lg:h-[546px] lg:w-[716px]"
-          imgClassName="h-auto max-w-full"
+          imgClassName="object-fill"
           alt=""
           src="images/prototype_feedback_loops.png"
           breakpoints={[640, 716, 768, 1024, 1280]}

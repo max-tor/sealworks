@@ -13,7 +13,6 @@ const description2 =
 // const blockWidth = 712;
 // const blockHeight = 513;
 
-// images/connect-reading-supporting-details.png
 const img1 = {
   top: -29,
   left: 24,
@@ -21,7 +20,6 @@ const img1 = {
   height: 217,
   alt: 'Video tutorial on identifying supporting details on Connect Reading platform',
 };
-// images/metrics-performance-summary.jpg
 const img2 = {
   top: 219,
   left: 65,
@@ -30,7 +28,6 @@ const img2 = {
   alt: 'Metrics dashboard summarizing average performance and learning assignments.',
 };
 
-// images/my-learning-homepage.jpg
 const img3 = {
   top: -59,
   left: 365,
@@ -39,7 +36,6 @@ const img3 = {
   alt: 'MyLearning homepage with learning paths and featured learning modules.',
 };
 
-// images/aon-learning-dashboard.jpg
 const img4 = {
   top: 271,
   left: 365,
@@ -47,8 +43,6 @@ const img4 = {
   height: 221,
   alt: 'Aon learning platform with a search bar and new learning topics.',
 };
-
-// showImagesInfo({ blockWidth, blockHeight, images: [img1, img2, img3, img4] });
 
 export const LearningPlatforms = () => {
   const [isVisible, observe] = useOnscrollAnimation();
@@ -76,7 +70,7 @@ export const LearningPlatforms = () => {
       >
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__slideInDown opacity-100' : ''} !absolute -top-[5.653021442495127%] left-[3.3707865168539324%] h-[42.30019493177387%] w-[44.241573033707866%] opacity-0 lg:shadow-lg`}
-          imgClassName="h-auto max-w-full"
+          imgClassName="object-fill"
           alt={img1.alt}
           src="images/connect-reading-supporting-details.png"
           breakpoints={[img1.width, 640, 768, 1024]}
@@ -93,7 +87,7 @@ export const LearningPlatforms = () => {
         />
 
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__slideInDown opacity-100' : ''} !absolute -top-[11.500974658869396%] left-[51.26404494382022%] h-[57.89473684210527%] w-[42.69662921348314%] object-cover opacity-0 lg:shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__slideInDown opacity-100' : ''} !absolute -top-[11.500974658869396%] left-[51.26404494382022%] h-[57.89473684210527%] w-[42.69662921348314%] opacity-0 lg:shadow-lg`}
           imgClassName="h-auto max-w-full object-top"
           alt={img3.alt}
           src="images/my-learning-homepage.png"
@@ -102,7 +96,7 @@ export const LearningPlatforms = () => {
         />
 
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__slideInUp opacity-100' : ''} !absolute left-[51.26404494382022%] top-[52.826510721247566%] h-[43.07992202729044%] w-[45.36516853932584%] object-cover opacity-0 lg:shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__slideInUp opacity-100' : ''} !absolute left-[51.26404494382022%] top-[52.826510721247566%] h-[43.07992202729044%] w-[45.36516853932584%] opacity-0 lg:shadow-lg`}
           imgClassName="h-auto max-w-full object-top"
           alt={img4.alt}
           src="images/aon-learning-dashboard.png"

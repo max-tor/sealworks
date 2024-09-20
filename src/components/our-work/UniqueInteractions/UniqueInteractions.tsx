@@ -41,7 +41,7 @@ export const UniqueInteractions = () => {
       <aside className="relative mx-auto grid w-full gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:w-[64%] lg:flex-[1_0_712px] lg:flex-col">
         <StaticImage
           className="lg:h-[628px] lg:w-[702px]"
-          imgClassName="h-auto max-w-full"
+          imgClassName="object-fill"
           alt=""
           src="images/unique_interactions.png"
           breakpoints={[640, 702, 768, 1024, 1280]}

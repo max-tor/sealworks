@@ -21,7 +21,7 @@ export const AdaptiveLearning: React.FC = () => (
     <aside className="relative mx-auto grid w-full gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[430px] lg:w-[64%] lg:flex-[0_0_561px] lg:flex-col">
       <StaticImage
         className="lg:h-[509px] lg:w-[757px]"
-        imgClassName="h-auto max-w-full"
+        imgClassName="object-fill"
         alt=""
         src="images/adaptive_learning.png"
         breakpoints={[640, 757, 768, 1024, 1280]}
