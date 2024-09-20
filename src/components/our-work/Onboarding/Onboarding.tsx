@@ -96,7 +96,7 @@ export const Onboarding = () => {
         />
 
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__fadeInRight opacity-100' : ''} !absolute left-[57.94947994056464%] top-[35.029940119760475%] h-1/4 w-[42.050520059435364%] opacity-0 shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__zoomIn opacity-100' : ''} !absolute left-[57.94947994056464%] top-[35.029940119760475%] h-1/4 w-[42.050520059435364%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img4.alt}
           src="images/deep_principles_learning.png"

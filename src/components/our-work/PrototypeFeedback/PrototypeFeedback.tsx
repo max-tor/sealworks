@@ -122,7 +122,7 @@ export const PrototypeFeedback: React.FC = () => {
           sizes="(min-width: 1024px) 357px, 100vw"
         />
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__fadeInRight opacity-100' : ''} !absolute left-[49.65229485396384%] top-[0.36496350364963503%] h-[47.262773722627735%] w-[48.95688456189152%] opacity-0`}
+          className={`${isVisible ? 'animate__animated animate__zoomIn opacity-100' : ''} !absolute left-[49.65229485396384%] top-[0.36496350364963503%] h-[47.262773722627735%] w-[48.95688456189152%] opacity-0`}
           imgClassName="object-fill"
           alt={img5.alt}
           src="images/interactive-annotation.png"

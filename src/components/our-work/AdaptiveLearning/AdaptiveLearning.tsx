@@ -116,7 +116,7 @@ export const AdaptiveLearning: React.FC = () => {
           sizes="(min-width: 1024px) 253px, 100vw"
         />
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__fadeInRight opacity-100' : ''} !absolute left-[64.33289299867899%] top-[37.524557956778%] h-[59.921414538310415%] w-[31.04359313077939%] opacity-0`}
+          className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[64.33289299867899%] top-[37.524557956778%] h-[59.921414538310415%] w-[31.04359313077939%] opacity-0`}
           imgClassName="object-fill"
           alt={img5.alt}
           src="images/belvedere-engagement-suite.png"
@@ -124,7 +124,7 @@ export const AdaptiveLearning: React.FC = () => {
           sizes="(min-width: 1024px) 253px, 100vw"
         />
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[55.878467635402906%] top-[55.5992141453831%] h-[44.4007858546169%] w-[22.457067371202115%] opacity-0`}
+          className={`${isVisible ? 'animate__animated animate__delay-1s animate__fadeInUp opacity-100' : ''} !absolute left-[55.878467635402906%] top-[55.5992141453831%] h-[44.4007858546169%] w-[22.457067371202115%] opacity-0`}
           imgClassName="object-fill"
           alt={img6.alt}
           src="images/engage-mh-sealworks.png"
