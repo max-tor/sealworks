@@ -3,13 +3,12 @@ import React from 'react';
 
 import { HeaderContainer } from '@/components/common/HeaderContainer';
 import { UnderlinedText } from '@/components/common/UnderlinedText';
-import { showImagesInfo } from '@/utils';
 
 const description =
   "We create unique onboarding experiences that are tailored to seamlessly integrate new users into your teams. By understanding your organization's culture and goals, we design onboarding processes that are engaging, informative, and user-friendly. Our team utilizes interactive elements and personalized content to ensure new users feel welcomed and confident in navigating their new environment. We prioritize clear communication and continuous support, making the transition smooth and enjoyable. With Sealworks, onboarding becomes a positive and impactful first step in the user journey, setting the stage for long-term success.";
 
-const blockWidth = 613;
-const blockHeight = 534;
+// const blockWidth = 613;
+// const blockHeight = 534;
 
 const img1 = {
   top: -86,
@@ -48,8 +47,6 @@ const img5 = {
   height: 240,
   alt: 'Lifeguarding course modules with progress tracking and completion details.',
 };
-
-showImagesInfo({ blockWidth, blockHeight, images: [img5] });
 
 export const Onboarding = () => {
   return (
