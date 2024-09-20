@@ -115,7 +115,7 @@ export const AdaptiveLearning: React.FC = () => (
       />
 
       <StaticImage
-        className="!absolute left-[55.878467635402906%] top-[55.5992141453831%] h-[44.4007858546169%] w-[22.457067371202115%] shadow-lg"
+        className="!absolute left-[55.878467635402906%] top-[55.5992141453831%] h-[44.4007858546169%] w-[22.457067371202115%]"
         imgClassName="object-fill"
         alt={img6.alt}
         src="images/engage-mh-sealworks.png"

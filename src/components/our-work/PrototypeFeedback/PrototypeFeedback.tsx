@@ -104,7 +104,7 @@ export const PrototypeFeedback: React.FC = () => {
           sizes="(min-width: 1024px) 170px, 100vw"
         />
         <StaticImage
-          className="!absolute left-[7.37134909596662%] top-[38.13868613138686%] h-[48.54014598540146%] w-[49.65229485396384%] shadow-lg"
+          className="!absolute left-[7.37134909596662%] top-[38.13868613138686%] h-[48.54014598540146%] w-[49.65229485396384%]"
           imgClassName="object-fill"
           alt={img4.alt}
           src="images/consensus-definition-session.png"
@@ -113,7 +113,7 @@ export const PrototypeFeedback: React.FC = () => {
         />
 
         <StaticImage
-          className="!absolute left-[49.65229485396384%] top-[0.36496350364963503%] h-[47.262773722627735%] w-[48.95688456189152%] shadow-lg"
+          className="!absolute left-[49.65229485396384%] top-[0.36496350364963503%] h-[47.262773722627735%] w-[48.95688456189152%]"
           imgClassName="object-fill"
           alt={img5.alt}
           src="images/interactive-annotation.png"

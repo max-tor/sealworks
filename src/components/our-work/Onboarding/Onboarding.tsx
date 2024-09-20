@@ -70,7 +70,7 @@ export const Onboarding = () => {
       <aside className="relative grid h-[99.25705794947994vw] lg:h-[668px] lg:w-[673px] lg:flex-[0_0_613px] lg:flex-col">
         <div className="!absolute left-[5.794947994056463%] top-[12.724550898203594%] h-[79.94011976047905%] w-[91.08469539375929%] bg-blue shadow-lg"></div>
         <StaticImage
-          className="!absolute left-[35.95839524517088%] top-0 h-[35.17964071856288%] w-[64.04160475482912%] shadow-lg"
+          className="!absolute left-[35.95839524517088%] top-0 h-[35.17964071856288%] w-[64.04160475482912%]"
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/diversity_training_dialogues_modules.png"
