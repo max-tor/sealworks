@@ -86,7 +86,7 @@ export const CustomCourses = () => {
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/young-family-scenario.png"
-          breakpoints={[img1.width, 640, 768, 1024]}
+          breakpoints={[472, 640, 768, 1024]}
           sizes="(min-width: 1024px) 472px, 100vw"
         />
         <StaticImage
@@ -94,7 +94,7 @@ export const CustomCourses = () => {
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/girl.png"
-          breakpoints={[img2.width, 640, 768, 1024]}
+          breakpoints={[130, 640, 768, 1024]}
           sizes="(min-width: 1024px) 130px, 100vw"
         />
         <StaticImage
@@ -102,7 +102,7 @@ export const CustomCourses = () => {
           imgClassName="object-fill"
           alt={img3.alt}
           src="images/childcare-scenario-action.png"
-          breakpoints={[img3.width, 640, 768, 1024]}
+          breakpoints={[242, 640, 768, 1024]}
           sizes="(min-width: 1024px) 242px, 100vw"
         />
         <StaticImage
@@ -110,7 +110,7 @@ export const CustomCourses = () => {
           imgClassName="object-fill"
           alt={img4.alt}
           src="images/reflecting-on-privilege.png"
-          breakpoints={[img4.width, 640, 768, 1024]}
+          breakpoints={[400, 640, 768, 1024]}
           sizes="(min-width: 1024px) 400px, 100vw"
         />
         <StaticImage
@@ -118,7 +118,7 @@ export const CustomCourses = () => {
           imgClassName="object-fill"
           alt={img5.alt}
           src="images/defining-diversity-module.png"
-          breakpoints={[img5.width, 640, 768, 1024]}
+          breakpoints={[100, 640, 768, 1024]}
           sizes="(min-width: 1024px) 100px, 100vw"
         />
         <StaticImage
@@ -126,7 +126,7 @@ export const CustomCourses = () => {
           imgClassName="object-fill"
           alt={img6.alt}
           src="images/credit-uses-example.png"
-          breakpoints={[img5.width, 640, 768, 1024]}
+          breakpoints={[325, 640, 768, 1024]}
           sizes="(min-width: 1024px) 325px, 100vw"
         />
       </aside>

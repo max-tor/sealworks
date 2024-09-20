@@ -65,7 +65,7 @@ export const Onboarding = () => {
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/diversity_training_dialogues_modules.png"
-          breakpoints={[img1.width, 640, 768, 1024]}
+          breakpoints={[431, 640, 768, 1024]}
           sizes="(min-width: 1024px) 431px, 100vw"
         />
         <StaticImage
@@ -73,7 +73,7 @@ export const Onboarding = () => {
           imgClassName="object-fill"
           alt={img2.alt}
           src="images/moderna_onboarding_resources.png"
-          breakpoints={[img2.width, 640, 768, 1024]}
+          breakpoints={[317, 640, 768, 1024]}
           sizes="(min-width: 1024px) 317px, 100vw"
         />
 
@@ -82,7 +82,7 @@ export const Onboarding = () => {
           imgClassName="object-fill"
           alt={img3.alt}
           src="images/everboarding_dashboard_blossoms.png"
-          breakpoints={[img3.width, 640, 768, 1024]}
+          breakpoints={[304, 640, 768, 1024]}
           sizes="(min-width: 1024px) 304px, 100vw"
         />
 
@@ -91,7 +91,7 @@ export const Onboarding = () => {
           imgClassName="object-fill"
           alt={img4.alt}
           src="images/deep_principles_learning.png"
-          breakpoints={[img4.width, 640, 768, 1024]}
+          breakpoints={[283, 640, 768, 1024]}
           sizes="(min-width: 1024px) 283px, 100vw"
         />
 
@@ -100,7 +100,7 @@ export const Onboarding = () => {
           imgClassName="object-fill"
           alt={img5.alt}
           src="images/lifeguarding_course_modules.png"
-          breakpoints={[img5.width, 640, 768, 1024]}
+          breakpoints={[335, 640, 768, 1024]}
           sizes="(min-width: 1024px) 335px, 100vw"
         />
       </aside>

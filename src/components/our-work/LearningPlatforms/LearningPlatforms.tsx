@@ -73,7 +73,7 @@ export const LearningPlatforms = () => {
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/connect-reading-supporting-details.png"
-          breakpoints={[img1.width, 640, 768, 1024]}
+          breakpoints={[315, 640, 768, 1024]}
           sizes="(min-width: 1024px) 315px, 100vw"
         />
 
@@ -82,7 +82,7 @@ export const LearningPlatforms = () => {
           imgClassName="h-auto max-w-full object-top"
           alt={img2.alt}
           src="images/metrics-performance-summary.png"
-          breakpoints={[img2.width, 640, 768, 1024]}
+          breakpoints={[274, 640, 768, 1024]}
           sizes="(min-width: 1024px) 274px, 100vw"
         />
 
@@ -91,7 +91,7 @@ export const LearningPlatforms = () => {
           imgClassName="h-auto max-w-full object-top"
           alt={img3.alt}
           src="images/my-learning-homepage.png"
-          breakpoints={[img3.width, 640, 768, 1024]}
+          breakpoints={[304, 640, 768, 1024]}
           sizes="(min-width: 1024px) 304px, 100vw"
         />
 
@@ -100,7 +100,7 @@ export const LearningPlatforms = () => {
           imgClassName="h-auto max-w-full object-top"
           alt={img4.alt}
           src="images/aon-learning-dashboard.png"
-          breakpoints={[img4.width, 640, 768, 1024]}
+          breakpoints={[323, 640, 768, 1024]}
           sizes="(min-width: 1024px) 323px, 100vw"
         />
       </aside>
