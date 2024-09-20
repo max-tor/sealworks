@@ -80,7 +80,7 @@ export const DigitalHubs: React.FC = () => {
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/career-simulation-geneticist.png"
-          breakpoints={[img1.width, 640, 768, 1024]}
+          breakpoints={[317, 640, 768, 1024]}
           sizes="(min-width: 1024px) 317px, 100vw"
         />
         <StaticImage
@@ -88,7 +88,7 @@ export const DigitalHubs: React.FC = () => {
           imgClassName="object-fill"
           alt={img2.alt}
           src="images/girl.png"
-          breakpoints={[img2.width, 640, 768, 1024]}
+          breakpoints={[79, 640, 768, 1024]}
           sizes="(min-width: 1024px) 79px, 100vw"
         />
         <StaticImage
@@ -96,7 +96,7 @@ export const DigitalHubs: React.FC = () => {
           imgClassName="object-fill"
           alt={img3.alt}
           src="images/thinklaw-trending-page.png"
-          breakpoints={[img3.width, 640, 768, 1024]}
+          breakpoints={[317, 640, 768, 1024]}
           sizes="(min-width: 1024px) 317px, 100vw"
         />
 
@@ -105,7 +105,7 @@ export const DigitalHubs: React.FC = () => {
           imgClassName="object-fill"
           alt={img4.alt}
           src="images/pack-tracks-form.png"
-          breakpoints={[img4.width, 640, 768, 1024]}
+          breakpoints={[317, 640, 768, 1024]}
           sizes="(min-width: 1024px) 317px, 100vw"
         />
 
@@ -114,7 +114,7 @@ export const DigitalHubs: React.FC = () => {
           imgClassName="object-fill"
           alt={img5.alt}
           src="images/learning-hub-dashboard.png"
-          breakpoints={[img5.width, 640, 768, 1024]}
+          breakpoints={[317, 640, 768, 1024]}
           sizes="(min-width: 1024px) 317px, 100vw"
         />
       </aside>

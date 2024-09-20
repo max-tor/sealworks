@@ -61,4 +61,4 @@ export const showImagesInfo = ({
   });
 };
 
-export const getBreakpoints = (width: number) => [width, 640, 768, 1024];
+// export const getBreakpoints = (width: number) => [width, 640, 768, 1024];

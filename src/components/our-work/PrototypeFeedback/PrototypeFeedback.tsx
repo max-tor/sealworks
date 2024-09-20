@@ -69,13 +69,13 @@ export const PrototypeFeedback: React.FC = () => {
           <p className="mt-10">{description}</p>
         </div>
       </div>
-      <aside className="relative mx-auto grid h-[76.21696801112657vw] w-full gap-4 bg-green-500 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[548px] lg:w-[719px] lg:flex-[1_0_712px] lg:flex-col">
+      <aside className="relative mx-auto grid h-[76.21696801112657vw] w-full gap-4 max-lg:ml-0 max-lg:mt-10 max-lg:w-full max-lg:max-w-full lg:h-[548px] lg:w-[719px] lg:flex-[1_0_712px] lg:flex-col">
         <StaticImage
           className="!absolute left-[3.616133518776078%] top-[2.18978102189781%] h-[39.96350364963504%] w-[51.46036161335188%] shadow-lg"
           imgClassName="object-fill"
           alt={img0.alt}
           src="images/learning-platform-feedback.png"
-          breakpoints={[img0.width, 640, 768, 1024]}
+          breakpoints={[219, 640, 768, 1024]}
           sizes="(min-width: 1024px) 219px, 100vw"
         />
         <StaticImage
@@ -83,7 +83,7 @@ export const PrototypeFeedback: React.FC = () => {
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/feedback-analysis.png"
-          breakpoints={[img1.width, 640, 768, 1024]}
+          breakpoints={[299, 640, 768, 1024]}
           sizes="(min-width: 1024px) 299px, 100vw"
         />
         <StaticImage
@@ -91,7 +91,7 @@ export const PrototypeFeedback: React.FC = () => {
           imgClassName="object-fill"
           alt={img2.alt}
           src="images/sticky-notes-ideas.png"
-          breakpoints={[img2.width, 640, 768, 1024]}
+          breakpoints={[119, 640, 768, 1024]}
           sizes="(min-width: 1024px) 119px, 100vw"
         />
 
@@ -100,7 +100,7 @@ export const PrototypeFeedback: React.FC = () => {
           imgClassName="object-fill"
           alt={img3.alt}
           src="images/voting-ideas-session.png"
-          breakpoints={[img3.width, 640, 768, 1024]}
+          breakpoints={[170, 640, 768, 1024]}
           sizes="(min-width: 1024px) 170px, 100vw"
         />
         <StaticImage
@@ -108,7 +108,7 @@ export const PrototypeFeedback: React.FC = () => {
           imgClassName="object-fill"
           alt={img4.alt}
           src="images/consensus-definition-session.png"
-          breakpoints={[img4.width, 640, 768, 1024]}
+          breakpoints={[357, 640, 768, 1024]}
           sizes="(min-width: 1024px) 357px, 100vw"
         />
 
@@ -117,7 +117,7 @@ export const PrototypeFeedback: React.FC = () => {
           imgClassName="object-fill"
           alt={img5.alt}
           src="images/interactive-annotation.png"
-          breakpoints={[img5.width, 640, 768, 1024]}
+          breakpoints={[352, 640, 768, 1024]}
           sizes="(min-width: 1024px) 352px, 100vw"
         />
       </aside>
