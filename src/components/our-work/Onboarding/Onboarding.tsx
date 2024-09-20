@@ -3,46 +3,54 @@ import React from 'react';
 
 import { HeaderContainer } from '@/components/common/HeaderContainer';
 import { UnderlinedText } from '@/components/common/UnderlinedText';
+import { showImagesInfo } from '@/utils';
 
 const description =
   "We create unique onboarding experiences that are tailored to seamlessly integrate new users into your teams. By understanding your organization's culture and goals, we design onboarding processes that are engaging, informative, and user-friendly. Our team utilizes interactive elements and personalized content to ensure new users feel welcomed and confident in navigating their new environment. We prioritize clear communication and continuous support, making the transition smooth and enjoyable. With Sealworks, onboarding becomes a positive and impactful first step in the user journey, setting the stage for long-term success.";
 
-// const blockWidth = 613;
-// const blockHeight = 534;
+/*const blockWidth = 673;
+const blockHeight = 668;
+
+const img0 = {
+  top: 85,
+  left: 39,
+  width: 613,
+  height: 534,
+};*/
 
 const img1 = {
-  top: -86,
-  left: 203,
+  top: 0,
+  left: 242,
   width: 431,
   height: 235,
   alt: 'Career simulation interface showing a student character exploring becoming a geneticist, with starting salary information.',
 };
 const img2 = {
-  top: 333,
-  left: 379,
+  top: 418,
+  left: 418,
   width: 255,
   height: 182,
   alt: 'Moderna onboarding resources page for new employees, full-time employees, and managers.',
 };
 const img3 = {
-  top: 296,
-  left: 40,
+  top: 381,
+  left: 79,
   width: 304,
   height: 287,
   alt: 'Everboarding dashboard showing collected blossoms and available learning journeys.',
 };
 
 const img4 = {
-  top: 149,
-  left: 351,
+  top: 234,
+  left: 390,
   width: 283,
   height: 167,
   alt: 'Deep principles learning page with modules on direct, empathetic, earnest, and productive learning paths.',
 };
 
 const img5 = {
-  top: 43,
-  left: -39,
+  top: 128,
+  left: 0,
   width: 335,
   height: 240,
   alt: 'Lifeguarding course modules with progress tracking and completion details.',
@@ -59,9 +67,10 @@ export const Onboarding = () => {
           <p className="mt-10">{description}</p>
         </div>
       </div>
-      <aside className="relative mx-auto mb-[9.176029962546817%] ml-[6.36215334420881%] mr-[3.4257748776508974%] mt-[16.10486891385768%] grid h-[87.11256117455139vw] w-full gap-4 bg-blue lg:h-[534px] lg:w-[613px] lg:flex-[0_0_613px] lg:flex-col">
+      <aside className="relative grid h-[99.25705794947994vw] lg:h-[668px] lg:w-[673px] lg:flex-[0_0_613px] lg:flex-col">
+        <div className="!absolute left-[5.794947994056463%] top-[12.724550898203594%] h-[79.94011976047905%] w-[91.08469539375929%] bg-blue shadow-lg"></div>
         <StaticImage
-          className="!absolute -top-[16.10486891385768%] left-[33.115823817292004%] h-[44.00749063670412%] w-[70.30995106035888%] shadow-lg"
+          className="!absolute left-[35.95839524517088%] top-0 h-[35.17964071856288%] w-[64.04160475482912%] shadow-lg"
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/diversity_training_dialogues_modules.png"
@@ -69,7 +78,7 @@ export const Onboarding = () => {
           sizes="(min-width: 1024px) 431px, 100vw"
         />
         <StaticImage
-          className="!absolute left-[61.82707993474714%] top-[62.35955056179775%] h-[34.08239700374532%] w-[41.598694942903755%] shadow-lg"
+          className="!absolute left-[62.10995542347697%] top-[62.5748502994012%] h-[27.245508982035926%] w-[37.89004457652303%] shadow-lg"
           imgClassName="object-fill"
           alt={img2.alt}
           src="images/moderna_onboarding_resources.png"
@@ -78,7 +87,7 @@ export const Onboarding = () => {
         />
 
         <StaticImage
-          className="font-0 !absolute left-[6.525285481239804%] top-[55.430711610486895%] h-[53.745318352059925%] w-[49.59216965742252%] shadow-lg"
+          className="!absolute left-[11.738484398216938%] top-[57.035928143712574%] h-[42.964071856287426%] w-[45.17087667161962%] shadow-lg"
           imgClassName="object-fill"
           alt={img3.alt}
           src="images/everboarding_dashboard_blossoms.png"
@@ -87,7 +96,7 @@ export const Onboarding = () => {
         />
 
         <StaticImage
-          className="!absolute left-[57.25938009787929%] top-[27.902621722846444%] h-[31.273408239700373%] w-[46.166394779771615%] shadow-lg"
+          className="!absolute left-[57.94947994056464%] top-[35.029940119760475%] h-1/4 w-[42.050520059435364%] shadow-lg"
           imgClassName="object-fill"
           alt={img4.alt}
           src="images/deep_principles_learning.png"
@@ -96,7 +105,7 @@ export const Onboarding = () => {
         />
 
         <StaticImage
-          className="!absolute -left-[6.36215334420881%] top-[8.05243445692884%] h-[44.9438202247191%] w-[54.64926590538336%] shadow-lg"
+          className="!absolute left-0 top-[19.16167664670659%] h-[35.92814371257485%] w-[49.77711738484398%] shadow-lg"
           imgClassName="object-fill"
           alt={img5.alt}
           src="images/lifeguarding_course_modules.png"
