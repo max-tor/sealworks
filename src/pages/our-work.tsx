@@ -18,8 +18,8 @@ import { UniqueRecipeSection } from '@/components/our-work/UniqueRecipeSection';
 export const Head = () => (
   <SEO
     title="our work"
-    description="Explore our portfolio of innovative digital experiences at Sealworks Interactive Studios. From custom learning platforms to engaging digital solutions, see how our creative and technical expertise brings client visions to life. Discover the impactful work we've done for leading brands and learn how we can elevate your digital presence."
-    keywords="Sealworks Interactive Studios, digital solutions, custom learning platforms, web development, creative technology, digital experiences, client portfolio, interactive design, digital projects, innovative solutions, our work, digital transformation"
+    description="Connect with Sealworks to explore interactive digital solutions, custom apps, and content to create amazing experiences for your audience.  Start your project journey with our expert team"
+    keywords="Sealworks, connect, digital experience, brainstorming workshops, project jam sessions, design and development, digital solutions, interactive studios, scalable digital apps, platforms, ecosystems, workshops, project consultation, digital innovation, Sealworks Interactive Studios"
   />
 );
 
