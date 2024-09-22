@@ -49,6 +49,10 @@ export const showImagesInfo = ({
   images.forEach(({ top, left, width, height }, index) => {
     console.log({
       index,
+      breakpoints: JSON.stringify([
+        width,
+        Math.round((width / blockWidth) * 1024),
+      ]),
       image: getImgClasses({
         top,
         left,

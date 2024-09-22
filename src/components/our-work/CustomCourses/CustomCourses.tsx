@@ -89,48 +89,48 @@ export const CustomCourses = () => {
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/young-family-scenario.png"
-          breakpoints={[472, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 472px, 100vw"
+          breakpoints={[472, 656]}
+          sizes="(min-width: 1024px) 472px, 656px"
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInLeft opacity-100' : ''} !absolute left-0 top-[9.763313609467456%] h-[50.29585798816568%] w-[17.639077340569877%] opacity-0`}
           imgClassName="object-fill"
           alt={img2.alt}
           src="images/girl.png"
-          breakpoints={[130, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 130px, 100vw"
+          breakpoints={[130, 181]}
+          sizes="(min-width: 1024px) 130px, 181px"
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute left-[62.822252374491185%] top-0 h-[26.183431952662723%] w-[32.83582089552239%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img3.alt}
           src="images/childcare-scenario-action.png"
-          breakpoints={[242, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 242px, 100vw"
+          breakpoints={[242, 336]}
+          sizes="(min-width: 1024px) 242px, 336px"
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[13.297150610583447%] top-[64.79289940828401%] h-[35.20710059171598%] w-[54.27408412483039%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img4.alt}
           src="images/reflecting-on-privilege.png"
-          breakpoints={[400, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 400px, 100vw"
+          breakpoints={[400, 556]}
+          sizes="(min-width: 1024px) 400px, 556px"
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInLeft opacity-100' : ''} !absolute left-[2.9850746268656714%] top-[61.094674556213015%] h-[30.473372781065088%] w-[13.568521031207597%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img5.alt}
           src="images/defining-diversity-module.png"
-          breakpoints={[100, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 100px, 100vw"
+          breakpoints={[100, 139]}
+          sizes="(min-width: 1024px) 100px, 139px"
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[56.852103120759836%] top-[50.591715976331365%] h-[37.8698224852071%] w-[44.097693351424695%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img6.alt}
           src="images/credit-uses-example.png"
-          breakpoints={[325, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 325px, 100vw"
+          breakpoints={[325, 452]}
+          sizes="(min-width: 1024px) 325px, 452px"
         />
       </aside>
     </section>

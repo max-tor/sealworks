@@ -8,6 +8,9 @@ import { useOnscrollAnimation } from '@/hooks/useOnscrollAnimation';
 const description =
   "We create unique onboarding experiences that are tailored to seamlessly integrate new users into your teams. By understanding your organization's culture and goals, we design onboarding processes that are engaging, informative, and user-friendly. Our team utilizes interactive elements and personalized content to ensure new users feel welcomed and confident in navigating their new environment. We prioritize clear communication and continuous support, making the transition smooth and enjoyable. With Sealworks, onboarding becomes a positive and impactful first step in the user journey, setting the stage for long-term success.";
 
+// const blockWidth = 673;
+// const blockHeight = 668;
+
 const img1 = {
   top: 0,
   left: 242,
@@ -74,16 +77,16 @@ export const Onboarding = () => {
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/diversity_training_dialogues_modules.png"
-          breakpoints={[431, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 431px, 100vw"
+          breakpoints={[431, 656]}
+          sizes="(min-width: 1024px) 431px, 656px"
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[62.10995542347697%] top-[62.5748502994012%] h-[27.245508982035926%] w-[37.89004457652303%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img2.alt}
           src="images/moderna_onboarding_resources.png"
-          breakpoints={[317, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 317px, 100vw"
+          breakpoints={[255, 388]}
+          sizes="(min-width: 1024px) 255px, 388px"
         />
 
         <StaticImage
@@ -91,8 +94,8 @@ export const Onboarding = () => {
           imgClassName="object-fill"
           alt={img3.alt}
           src="images/everboarding_dashboard_blossoms.png"
-          breakpoints={[304, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 304px, 100vw"
+          breakpoints={[304, 463]}
+          sizes="(min-width: 1024px) 304px, 463px"
         />
 
         <StaticImage
@@ -100,8 +103,8 @@ export const Onboarding = () => {
           imgClassName="object-fill"
           alt={img4.alt}
           src="images/deep_principles_learning.png"
-          breakpoints={[283, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 283px, 100vw"
+          breakpoints={[283, 431]}
+          sizes="(min-width: 1024px) 283px, 431px"
         />
 
         <StaticImage
@@ -109,8 +112,8 @@ export const Onboarding = () => {
           imgClassName="object-fill"
           alt={img5.alt}
           src="images/lifeguarding_course_modules.png"
-          breakpoints={[335, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 335px, 100vw"
+          breakpoints={[335, 510]}
+          sizes="(min-width: 1024px) 335px, 510px"
         />
       </aside>
     </section>

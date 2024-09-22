@@ -80,24 +80,24 @@ export const DigitalHubs: React.FC = () => {
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/career-simulation-geneticist.png"
-          breakpoints={[317, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 317px, 100vw"
+          breakpoints={[317, 464]}
+          sizes="(min-width: 1024px) 317px, 464px"
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInLeft opacity-100' : ''} !absolute -left-[3.7142857142857144%] -top-[4.901960784313726%] h-[40.78431372549019%] w-[11.285714285714285%] opacity-0`}
           imgClassName="object-fill"
           alt={img2.alt}
           src="images/girl.png"
-          breakpoints={[79, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 79px, 100vw"
+          breakpoints={[79, 116]}
+          sizes="(min-width: 1024px) 79px, 116px"
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[2.857142857142857%] top-[37.254901960784316%] h-[74.11764705882354%] w-[45.285714285714285%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img3.alt}
           src="images/thinklaw-trending-page.png"
-          breakpoints={[317, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 317px, 100vw"
+          breakpoints={[317, 464]}
+          sizes="(min-width: 1024px) 317px, 464px"
         />
 
         <StaticImage
@@ -105,8 +105,8 @@ export const DigitalHubs: React.FC = () => {
           imgClassName="object-fill"
           alt={img4.alt}
           src="images/pack-tracks-form.png"
-          breakpoints={[317, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 317px, 100vw"
+          breakpoints={[317, 464]}
+          sizes="(min-width: 1024px) 317px, 464px"
         />
 
         <StaticImage
@@ -114,8 +114,8 @@ export const DigitalHubs: React.FC = () => {
           imgClassName="object-fill"
           alt={img5.alt}
           src="images/learning-hub-dashboard.png"
-          breakpoints={[317, 640, 768, 1024]}
-          sizes="(min-width: 1024px) 317px, 100vw"
+          breakpoints={[317, 464]}
+          sizes="(min-width: 1024px) 317px, 464px"
         />
       </aside>
     </section>
