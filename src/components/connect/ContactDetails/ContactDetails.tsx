@@ -23,6 +23,7 @@ export const ContactDetails = () => {
           height={294}
           breakpoints={[232]}
           sizes="(min-width: 1280px) 232px, 100vw"
+          role="presentation"
         />
 
         <div className="my-[32px] flex w-full flex-col bg-grayLight p-[24px] text-black md:-ml-[32px] md:flex-col md:pl-[100px] md:pr-[26px]">

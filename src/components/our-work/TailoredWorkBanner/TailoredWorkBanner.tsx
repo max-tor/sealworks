@@ -63,6 +63,7 @@ export const TailoredWorkBanner = () => {
           breakpoints={[662, 1024]}
           sizes="(min-width: 1024px) 662px, 1024px"
           quality={100}
+          role="presentation"
         />
         <StaticImage
           className="!absolute left-[10.42296072507553%] top-[9.358288770053475%] h-[55.3475935828877%] w-[45.61933534743202%] shadow-lg"
