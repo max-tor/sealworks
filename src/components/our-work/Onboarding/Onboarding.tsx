@@ -74,7 +74,6 @@ export const Onboarding = () => {
         <div className="!absolute left-[5.794947994056463%] top-[12.724550898203594%] h-[79.94011976047905%] w-[91.08469539375929%] bg-blue shadow-lg"></div>
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute left-[35.95839524517088%] top-0 h-[35.17964071856288%] w-[64.04160475482912%] opacity-0`}
-          imgClassName="object-fill"
           alt={img1.alt}
           src="images/diversity_training_dialogues_modules.png"
           breakpoints={[431, 656]}
@@ -82,7 +81,6 @@ export const Onboarding = () => {
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[62.10995542347697%] top-[62.5748502994012%] h-[27.245508982035926%] w-[37.89004457652303%] opacity-0 shadow-lg`}
-          imgClassName="object-fill"
           alt={img2.alt}
           src="images/moderna_onboarding_resources.png"
           breakpoints={[255, 388]}
@@ -91,7 +89,6 @@ export const Onboarding = () => {
 
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[11.738484398216938%] top-[57.035928143712574%] h-[42.964071856287426%] w-[45.17087667161962%] opacity-0 shadow-lg`}
-          imgClassName="object-fill"
           alt={img3.alt}
           src="images/everboarding_dashboard_blossoms.png"
           breakpoints={[304, 463]}
@@ -100,7 +97,6 @@ export const Onboarding = () => {
 
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__zoomIn opacity-100' : ''} !absolute left-[57.94947994056464%] top-[35.029940119760475%] h-1/4 w-[42.050520059435364%] opacity-0 shadow-lg`}
-          imgClassName="object-fill"
           alt={img4.alt}
           src="images/deep_principles_learning.png"
           breakpoints={[283, 431]}
@@ -109,7 +105,6 @@ export const Onboarding = () => {
 
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInLeft opacity-100' : ''} !absolute left-0 top-[19.16167664670659%] h-[35.92814371257485%] w-[49.77711738484398%] opacity-0 shadow-lg`}
-          imgClassName="object-fill"
           alt={img5.alt}
           src="images/lifeguarding_course_modules.png"
           breakpoints={[335, 510]}

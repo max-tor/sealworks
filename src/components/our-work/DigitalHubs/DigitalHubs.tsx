@@ -77,7 +77,6 @@ export const DigitalHubs: React.FC = () => {
       >
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute -top-[3.3333333333333335%] left-[2.857142857142857%] h-[37.05882352941177%] w-[45.285714285714285%] opacity-0 shadow-lg`}
-          imgClassName="object-fill"
           alt={img1.alt}
           src="images/career-simulation-geneticist.png"
           breakpoints={[317, 464]}
@@ -85,7 +84,6 @@ export const DigitalHubs: React.FC = () => {
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInLeft opacity-100' : ''} !absolute -left-[3.7142857142857144%] -top-[4.901960784313726%] h-[40.78431372549019%] w-[11.285714285714285%] opacity-0`}
-          imgClassName="object-fill"
           alt={img2.alt}
           src="images/girl.png"
           breakpoints={[79, 116]}
@@ -93,7 +91,6 @@ export const DigitalHubs: React.FC = () => {
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[2.857142857142857%] top-[37.254901960784316%] h-[74.11764705882354%] w-[45.285714285714285%] opacity-0 shadow-lg`}
-          imgClassName="object-fill"
           alt={img3.alt}
           src="images/thinklaw-trending-page.png"
           breakpoints={[317, 464]}
@@ -102,7 +99,6 @@ export const DigitalHubs: React.FC = () => {
 
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute -top-[2.941176470588235%] left-[51.142857142857146%] h-[54.90196078431373%] w-[45.285714285714285%] opacity-0 shadow-lg`}
-          imgClassName="object-fill"
           alt={img4.alt}
           src="images/pack-tracks-form.png"
           breakpoints={[317, 464]}
@@ -111,7 +107,6 @@ export const DigitalHubs: React.FC = () => {
 
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[51.142857142857146%] top-[56.07843137254902%] h-[49.6078431372549%] w-[45.285714285714285%] opacity-0 shadow-lg`}
-          imgClassName="object-fill"
           alt={img5.alt}
           src="images/learning-hub-dashboard.png"
           breakpoints={[317, 464]}

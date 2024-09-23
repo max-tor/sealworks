@@ -70,7 +70,6 @@ export const LearningPlatforms = () => {
       >
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute -top-[5.653021442495127%] left-[3.3707865168539324%] h-[42.49512670565302%] w-[44.241573033707866%] opacity-0 shadow-lg lg:shadow-lg`}
-          imgClassName="object-fill"
           alt={img1.alt}
           src="images/connect-reading-supporting-details.png"
           breakpoints={[315, 453]}

@@ -57,7 +57,6 @@ export const TailoredWorkBanner = () => {
       </div>
       <aside className="relative grid h-[56.49546827794561vw] bg-[#ba0202] lg:h-[374px] lg:w-[662px] lg:flex-[0_0_662px] lg:flex-col">
         <StaticImage
-          imgClassName="object-fill"
           alt=""
           src="images/back.png"
           breakpoints={[662, 1024]}
@@ -68,7 +67,6 @@ export const TailoredWorkBanner = () => {
         />
         <StaticImage
           className="!absolute left-[10.42296072507553%] top-[9.358288770053475%] h-[55.3475935828877%] w-[45.61933534743202%] shadow-lg"
-          imgClassName="object-fill"
           alt={img1.alt}
           src="images/raising-critical-thinkers.png"
           breakpoints={[302, 467]}
@@ -77,7 +75,6 @@ export const TailoredWorkBanner = () => {
         />
         <StaticImage
           className="!absolute left-[57.55287009063444%] top-0 h-[34.75935828877005%] w-[39.577039274924466%] shadow-lg"
-          imgClassName="object-fill"
           alt={img2.alt}
           src="images/red-cross.png"
           breakpoints={[262, 405]}
@@ -87,7 +84,6 @@ export const TailoredWorkBanner = () => {
 
         <StaticImage
           className="!absolute left-[41.69184290030212%] top-[51.87165775401069%] h-[48.93048128342246%] w-[43.051359516616316%] shadow-lg"
-          imgClassName="object-fill"
           alt={img3.alt}
           src="images/dialogues.png"
           breakpoints={[285, 441]}
@@ -97,7 +93,6 @@ export const TailoredWorkBanner = () => {
 
         <StaticImage
           className="!absolute left-[76.58610271903324%] top-[39.037433155080215%] h-[60.962566844919785%] w-[20.996978851963746%] shadow-lg"
-          imgClassName="object-fill"
           alt={img4.alt}
           src="images/nielsen-mountain-toggle.png"
           breakpoints={[139, 215]}
@@ -107,7 +102,6 @@ export const TailoredWorkBanner = () => {
 
         <StaticImage
           className="!absolute left-[7.099697885196375%] top-[60.962566844919785%] h-[39.037433155080215%] w-[33.23262839879154%] shadow-lg"
-          imgClassName="object-fill"
           alt={img5.alt}
           src="images/think-portal.png"
           breakpoints={[220, 340]}
