@@ -17,7 +17,7 @@ const img1 = {
   top: -29,
   left: 24,
   width: 315,
-  height: 217,
+  height: 218,
   alt: 'Video tutorial on identifying supporting details on Connect Reading platform',
 };
 const img2 = {
@@ -39,7 +39,7 @@ const img3 = {
 const img4 = {
   top: 271,
   left: 365,
-  width: 323,
+  width: 322,
   height: 221,
   alt: 'Aon learning platform with a search bar and new learning topics.',
 };
@@ -69,7 +69,7 @@ export const LearningPlatforms = () => {
         className="relative mx-auto grid h-[72.0505617977528vw] w-[64%] gap-4 bg-yellow max-lg:ml-0 max-lg:mt-[11.500974658869396%] max-lg:w-full max-lg:max-w-full lg:h-[513px] lg:w-full lg:flex-[1_0_712px] lg:flex-col"
       >
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute -top-[5.653021442495127%] left-[3.3707865168539324%] h-[42.30019493177387%] w-[44.241573033707866%] opacity-0 lg:shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute -top-[5.653021442495127%] left-[3.3707865168539324%] h-[42.49512670565302%] w-[44.241573033707866%] opacity-0 shadow-lg lg:shadow-lg`}
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/connect-reading-supporting-details.png"
@@ -96,7 +96,7 @@ export const LearningPlatforms = () => {
         />
 
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[51.26404494382022%] top-[52.826510721247566%] h-[43.07992202729044%] w-[45.36516853932584%] opacity-0 lg:shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[51.26404494382022%] top-[52.826510721247566%] h-[43.07992202729044%] w-[45.2247191011236%] opacity-0 shadow-lg lg:shadow-lg`}
           imgClassName="h-auto max-w-full object-top"
           alt={img4.alt}
           src="images/aon-learning-dashboard.png"

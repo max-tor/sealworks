@@ -10,16 +10,14 @@ const description1 =
 const description2 =
   'Our team collaborates with you to design engaging, effective learning experiences that resonate with your users, incorporating interactivity that makes educational experiences meaningful. By prioritizing your input and feedback, we ensure the final product aligns perfectly with your vision and delivers maximum impact.';
 
-/*
-const blockWidth = 737;
-const blockHeight = 676;
-*/
+// const blockWidth = 737;
+// const blockHeight = 676;
 
 const img1 = {
   top: 78,
   left: 47,
   width: 472,
-  height: 312,
+  height: 313,
   alt: "Interactive training module featuring a floor plan and a family scenario for childcare, showing rooms with Click n'Learn and scenario activities.",
 };
 const img2 = {
@@ -41,7 +39,7 @@ const img4 = {
   top: 438,
   left: 98,
   width: 400,
-  height: 238,
+  height: 239,
   alt: 'Module on reflecting on privilege, showing questions about family background and a mountain graphic illustrating privilege levels.',
 };
 const img5 = {
@@ -85,7 +83,7 @@ export const CustomCourses = () => {
       >
         <div className="!absolute left-[0.9497964721845319%] top-[4.437869822485207%] h-[94.0828402366864%] w-[95.92944369063771%] bg-blue shadow-lg"></div>
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__zoomIn opacity-100' : ''} !absolute left-[6.377204884667571%] top-[11.538461538461538%] h-[46.15384615384615%] w-[64.04341926729987%] opacity-0 shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__zoomIn opacity-100' : ''} !absolute left-[6.377204884667571%] top-[11.538461538461538%] h-[46.30177514792899%] w-[64.04341926729987%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/young-family-scenario.png"
