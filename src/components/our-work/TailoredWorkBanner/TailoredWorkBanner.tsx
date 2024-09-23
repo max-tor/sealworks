@@ -64,6 +64,7 @@ export const TailoredWorkBanner = () => {
           sizes="(min-width: 1024px) 662px, 1024px"
           quality={100}
           role="presentation"
+          loading="eager"
         />
         <StaticImage
           className="!absolute left-[10.42296072507553%] top-[9.358288770053475%] h-[55.3475935828877%] w-[45.61933534743202%] shadow-lg"
@@ -72,6 +73,7 @@ export const TailoredWorkBanner = () => {
           src="images/raising-critical-thinkers.png"
           breakpoints={[302, 467]}
           sizes="(min-width: 1024px) 302px, 467px"
+          loading="eager"
         />
         <StaticImage
           className="!absolute left-[57.55287009063444%] top-0 h-[34.75935828877005%] w-[39.577039274924466%] shadow-lg"
@@ -80,6 +82,7 @@ export const TailoredWorkBanner = () => {
           src="images/red-cross.png"
           breakpoints={[262, 405]}
           sizes="(min-width: 1024px) 262px, 405px"
+          loading="eager"
         />
 
         <StaticImage
@@ -89,6 +92,7 @@ export const TailoredWorkBanner = () => {
           src="images/dialogues.png"
           breakpoints={[285, 441]}
           sizes="(min-width: 1024px) 285px, 441px"
+          loading="eager"
         />
 
         <StaticImage
@@ -98,7 +102,7 @@ export const TailoredWorkBanner = () => {
           src="images/nielsen-mountain-toggle.png"
           breakpoints={[139, 215]}
           sizes="(min-width: 1024px) 139px, 215px"
-          width={215}
+          loading="eager"
         />
 
         <StaticImage
@@ -108,7 +112,7 @@ export const TailoredWorkBanner = () => {
           src="images/think-portal.png"
           breakpoints={[220, 340]}
           sizes="(min-width: 1024px) 220px, 340px"
-          width={340}
+          loading="eager"
         />
       </aside>
     </section>

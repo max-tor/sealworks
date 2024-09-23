@@ -24,6 +24,7 @@ export const ConnectBanner: React.FC = () => {
             src="images/session.png"
             breakpoints={[644, 640, 768, 1024, 1280]}
             sizes="(min-width: 1280px) 644px, 100vw"
+            loading="eager"
           />
         </div>
       </aside>

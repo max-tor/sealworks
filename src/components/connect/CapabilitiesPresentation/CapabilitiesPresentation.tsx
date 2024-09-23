@@ -53,6 +53,7 @@ export const CapabilitiesPresentation = () => {
           src="images/ellen-credit-score-strategy.jpg"
           breakpoints={[256, 640, 768, 1024, 1280]}
           sizes="(min-width: 1280px) 256px, 100vw"
+          loading="eager"
         />
 
         <StaticImage
@@ -62,6 +63,7 @@ export const CapabilitiesPresentation = () => {
           src="images/diversity-inclusion-definition.jpg"
           breakpoints={[256, 640, 768, 1024, 1280]}
           sizes="(min-width: 1280px) 256px, 100vw"
+          loading="eager"
         />
 
         <StaticImage
@@ -71,6 +73,7 @@ export const CapabilitiesPresentation = () => {
           src="images/lifeguarding-pre-assessment-results.jpg"
           breakpoints={[256, 640, 768, 1024, 1280]}
           sizes="(min-width: 1280px) 256px, 100vw"
+          loading="eager"
         />
 
         <StaticImage
@@ -80,6 +83,7 @@ export const CapabilitiesPresentation = () => {
           src="images/money-matters-facilitator-dashboard.jpg"
           breakpoints={[256, 640, 768, 1024, 1280]}
           sizes="(min-width: 1280px) 256px, 100vw"
+          loading="eager"
         />
 
         <StaticImage
@@ -89,6 +93,7 @@ export const CapabilitiesPresentation = () => {
           src="images/moderna-new-employee-onboarding.jpg"
           breakpoints={[256, 640, 768, 1024, 1280]}
           sizes="(min-width: 1280px) 256px, 100vw"
+          loading="eager"
         />
 
         <StaticImage
@@ -98,6 +103,7 @@ export const CapabilitiesPresentation = () => {
           src="images/deep-learning-platform.jpg"
           breakpoints={[256, 640, 768, 1024, 1280]}
           sizes="(min-width: 1280px) 256px, 100vw"
+          loading="eager"
         />
 
         <StaticImage
@@ -107,6 +113,7 @@ export const CapabilitiesPresentation = () => {
           src="images/everboarding-global-rd.jpg"
           breakpoints={[256, 640, 768, 1024, 1280]}
           sizes="(min-width: 1280px) 256px, 100vw"
+          loading="eager"
         />
 
         <StaticImage
@@ -116,6 +123,7 @@ export const CapabilitiesPresentation = () => {
           src="images/ielsen-diversity-inclusion-course.jpg"
           breakpoints={[256, 640, 768, 1024, 1280]}
           sizes="(min-width: 1280px) 256px, 100vw"
+          loading="eager"
         />
       </ResponsiveCarousel>
     </section>
