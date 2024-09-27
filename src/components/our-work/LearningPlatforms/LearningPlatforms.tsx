@@ -18,14 +18,14 @@ const img1 = {
   left: 24,
   width: 315,
   height: 218,
-  alt: 'Video tutorial on identifying supporting details on Connect Reading platform',
+  alt: 'Personalized learning plan activity based on results to help master reading.',
 };
 const img2 = {
   top: 219,
   left: 65,
   width: 274,
   height: 284,
-  alt: 'Metrics dashboard summarizing average performance and learning assignments.',
+  alt: 'Student dashboard displaying performance insights and quick links to activities.',
 };
 
 const img3 = {
@@ -33,7 +33,7 @@ const img3 = {
   left: 365,
   width: 304,
   height: 297,
-  alt: 'MyLearning homepage with learning paths and featured learning modules.',
+  alt: 'My Learning Dashboard with quick search, adaptive content, and personalized highlights based on progress and goals.',
 };
 
 const img4 = {
@@ -41,7 +41,7 @@ const img4 = {
   left: 365,
   width: 322,
   height: 221,
-  alt: 'Aon learning platform with a search bar and new learning topics.',
+  alt: 'Custom learning dashboard with quick search, adaptive content, and personalized highlights.',
 };
 
 export const LearningPlatforms = () => {
@@ -98,7 +98,7 @@ export const LearningPlatforms = () => {
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[51.26404494382022%] top-[52.826510721247566%] h-[43.07992202729044%] w-[45.2247191011236%] opacity-0 shadow-lg lg:shadow-lg`}
           imgClassName="h-auto max-w-full object-top"
           alt={img4.alt}
-          src="images/aon-learning-dashboard.png"
+          src="images/a-learning-dashboard.png"
           breakpoints={[323, 465]}
           sizes="(min-width: 1024px) 323px, 465px"
         />

@@ -21,7 +21,7 @@ import Video from '@/video/sealworks-video.mp4';
 
 export const Head = () => (
   <SEO
-    title="welcome"
+    title="Welcome"
     description="Sealworks Interactive Studios crafts innovative and immersive digital experiences. Partner with us to bring your projects from concept to launch with our creative and technical expertise."
     keywords="Sealworks, interactive studios, digital experiences, creative solutions, technical expertise, digital design, web development, immersive experiences, creative agency"
   />
@@ -42,7 +42,7 @@ const IndexPage = ({ location }: PageProps) => {
           <StaticImage
             className="animate__animated animate__zoomIn mx-11 mb-3 max-w-[580px] lg:mx-10 lg:my-3"
             src="../images/tags.png"
-            alt="Tags"
+            alt="Sealworks blending design, technology, and strategy to create custom digital solutions."
           />
         </div>
       </div>
@@ -152,7 +152,7 @@ const IndexPage = ({ location }: PageProps) => {
           <StaticImage
             className="relative z-[5]"
             src="../images/ipad.png"
-            alt="iPad"
+            alt="Sealworks takes you from concepts to reality focusing on  scalable, user-focused launches with impactful results."
           />
         </div>
       </div>
@@ -198,63 +198,63 @@ const IndexPage = ({ location }: PageProps) => {
             <StaticImage
               className="relative z-[1]"
               src="../images/expertise1.jpg"
-              alt="Pick a story"
+              alt="Engaging digital experiences with interactive 'Pick a Story' feature for personalized user interaction."
             />
           </ExpertiseCard>
           <ExpertiseCard color={'blue'}>
             <StaticImage
               className="relative z-[1]"
               src="../images/expertise2.jpg"
-              alt="Taking action to protect yourself"
+              alt="Engaging digital experiences with interactive 'Pick a Story' feature for personalized user interaction."
             />
           </ExpertiseCard>
           <ExpertiseCard color={'yellow'}>
             <StaticImage
               className="relative z-[1]"
               src="../images/expertise3.jpg"
-              alt="Calculating for Medications and Infusions"
+              alt="Engaging content that simplifies UX and focuses on user learning."
             />
           </ExpertiseCard>
           <ExpertiseCard color={'blue'}>
             <StaticImage
               className="relative z-[1]"
               src="../images/expertise4.jpg"
-              alt="Learning Assignment Name"
+              alt="Interactive accessible activities designed for easier user-focused learning."
             />
           </ExpertiseCard>
           <ExpertiseCard color={'red'}>
             <StaticImage
               className="relative z-[1]"
               src="../images/expertise5.jpg"
-              alt="Credit Card Interest"
+              alt="Immersive simulations with customizable characters for engaging user experiences."
             />
           </ExpertiseCard>
           <ExpertiseCard color={'blue'}>
             <StaticImage
               className="relative z-[1]"
               src="../images/expertise6.jpg"
-              alt="Dialogues"
+              alt="Clear navigation and striking design for seamless user experiences."
             />
           </ExpertiseCard>
           <ExpertiseCard color={'red'}>
             <StaticImage
               className="relative z-[1]"
               src="../images/expertise7.jpg"
-              alt="Lifeguard"
+              alt="Interactive experiences to simplify and understand each step of a process."
             />
           </ExpertiseCard>
           <ExpertiseCard color={'yellow'}>
             <StaticImage
               className="relative z-[1]"
               src="../images/expertise8.jpg"
-              alt="Apply how to establish Credit"
+              alt="Simplifying complex topics into bite-sized data points for easier learning."
             />
           </ExpertiseCard>
           <ExpertiseCard color={'red'}>
             <StaticImage
               className="relative z-[1]"
               src="../images/expertise9.jpg"
-              alt="Welcome to Leader Connect"
+              alt="Leader dashboards for quick navigation and task-focused insights."
             />
           </ExpertiseCard>
         </div>
@@ -285,7 +285,7 @@ const IndexPage = ({ location }: PageProps) => {
           <StaticImage
             className="-mt-20 md:mt-0"
             src="../images/award.png"
-            alt="Award"
+            alt="Recipient of the Learning Guild's coveted Guild Master Award for excellence in learning and development."
           />
         </div>
         <h2 className="mb-4 max-w-[800px] font-roboto text-[26px] font-bold leading-9">
@@ -322,7 +322,7 @@ const IndexPage = ({ location }: PageProps) => {
         <StaticImage
           className="max-w-fit"
           src="../images/partners.jpg"
-          alt="Partners"
+          alt="Collaborating with small businesses and Fortune 500 companies to create exceptional digital experiences."
         />
       </div>
     </PageLayout>

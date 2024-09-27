@@ -8,13 +8,13 @@ export const UniqueRecipeSection: React.FC = () => {
         <div className="flex">
           <div className="flex flex-1 flex-col items-center justify-center px-6 py-5 max-lg:pl-5 lg:py-10">
             <StaticImage
-              alt="Illustration showing a step-by-step process for creating a unique project recipe."
+              alt="Lofi wireframe sketch to explore design possibilities and spark imagination."
               src="images/recipe1.svg"
             />
           </div>
           <div className="flex flex-1 flex-col items-center justify-center px-7 py-5 max-lg:pl-5 lg:py-10">
             <StaticImage
-              alt="Graphic highlighting key ingredients in the methodology for custom project solutions"
+              alt="Sketch illustrating a concept to gather initial feedback."
               src="images/recipe2.svg"
             />
           </div>

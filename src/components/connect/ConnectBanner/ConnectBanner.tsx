@@ -20,8 +20,8 @@ export const ConnectBanner: React.FC = () => {
           <StaticImage
             className="lg:h-[314px] lg:w-[644px]"
             imgClassName="h-auto max-w-full lg:object-top"
-            alt="Sealworks digital workshop brainstorming session for custom solutions."
-            src="images/session.png"
+            alt="Sealworks can create a custom solution for your unique audiences through workshops and brainstorming."
+            src="images/we-can-help.png"
             breakpoints={[644, 640, 768, 1024, 1280]}
             sizes="(min-width: 1280px) 644px, 100vw"
             loading="eager"

@@ -8,7 +8,7 @@ interface SEOProps extends PropsWithChildren {
   keywords?: string;
 }
 const defaultTitle =
-  'Custom solutions for your audience | Sealworks Interactive Studios';
+  'Custom Solutions for Your Audience | Sealworks Interactive Studios';
 
 export const SEO: FC<SEOProps> = ({
   children,

@@ -53,7 +53,7 @@ export const ProcessHead: React.FC = () => {
           <StaticImage
             className="animate__animated animate__zoomIn mx-4 mb-6 md:w-[320px] lg:w-[450px] xl:w-[560px]"
             src="../../../images/process-graph.png"
-            alt="An iterative product development cycle with stages: empathize, design, develop, test, and launch."
+            alt="Harnessing the power of design thinking for innovative, user-centered solutions."
           />
         </div>
       </aside>

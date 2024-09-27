@@ -16,7 +16,7 @@ const img1 = {
   left: 0,
   width: 405,
   height: 222,
-  alt: "Money Matters Dashboard showing Jayden's financial literacy progress and upcoming events.",
+  alt: 'Gamified learning dashboard featuring priorities, badges, and upcoming events.',
 };
 
 const img2 = {
@@ -24,7 +24,7 @@ const img2 = {
   left: 33,
   width: 301,
   height: 226,
-  alt: 'Timeline of jazz history, genres, and styles from early New Orleans to contemporary jazz.',
+  alt: 'Interactive visual timeline on jazz music featuring engaging colors and fonts.',
 };
 
 const img3 = {
@@ -32,7 +32,7 @@ const img3 = {
   left: 414,
   width: 343,
   height: 188,
-  alt: 'Super Saver Contest for financial literacy with badges and progress display for Norah.',
+  alt: 'Gamified learning activity for students with status tracking and next steps.',
 };
 
 const img4 = {
@@ -40,7 +40,7 @@ const img4 = {
   left: 252,
   width: 253,
   height: 187,
-  alt: 'Illustration of New Orleans style jazz instruments with educational information on early jazz.',
+  alt: 'Interactive activity for exploring jazz music and instrument combinations.',
 };
 
 const img5 = {
@@ -48,7 +48,7 @@ const img5 = {
   left: 487,
   width: 235,
   height: 305,
-  alt: 'Belvedere Engagement Suite showing various vodka products and educational content.',
+  alt: 'Luxury brand engagement suite for mastering sales skills and product knowledge.',
 };
 
 const img6 = {
@@ -56,7 +56,7 @@ const img6 = {
   left: 423,
   width: 170,
   height: 226,
-  alt: 'Belvedere Vodka bottle tour with product details on a mobile interface.',
+  alt: 'Interactive product tour optimized for dynamic mobile experience.',
 };
 
 export const AdaptiveLearning: React.FC = () => {
@@ -86,7 +86,7 @@ export const AdaptiveLearning: React.FC = () => {
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute left-0 top-0 h-[43.614931237721024%] w-[53.5006605019815%] opacity-0 shadow-lg`}
           alt={img1.alt}
-          src="images/money-matters-dashboard.png"
+          src="images/student-dashboard.png"
           breakpoints={[405, 548]}
           sizes="(min-width: 1024px) 405px, 548px"
         />
@@ -114,14 +114,14 @@ export const AdaptiveLearning: React.FC = () => {
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[64.33289299867899%] top-[37.524557956778%] h-[59.921414538310415%] w-[31.04359313077939%] opacity-0`}
           alt={img5.alt}
-          src="images/belvedere-engagement-suite.png"
+          src="images/luxury-brand-engagement-suite.png"
           breakpoints={[235, 318]}
           sizes="(min-width: 1024px) 253px, 318px"
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__delay-1s animate__fadeInUp opacity-100' : ''} !absolute left-[55.878467635402906%] top-[55.5992141453831%] h-[44.4007858546169%] w-[22.457067371202115%] opacity-0`}
           alt={img6.alt}
-          src="images/engage-mh-sealworks.png"
+          src="images/engage-sealworks.png"
           breakpoints={[170, 230]}
           sizes="(min-width: 1024px) 170px, 230px"
         />

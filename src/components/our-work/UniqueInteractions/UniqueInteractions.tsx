@@ -33,7 +33,7 @@ const img1 = {
   left: 17,
   width: 263,
   height: 183,
-  alt: 'Classroom annotation tool with color-coded annotations on historical documents',
+  alt: 'Interactive budgeting activity for determining income and expenses with engaging design focusing on task at hand.',
 };
 
 const img2 = {
@@ -41,14 +41,14 @@ const img2 = {
   left: 17,
   width: 277,
   height: 200,
-  alt: 'Budgeting page displaying income, expenses, and additional financial resources.',
+  alt: 'Learning activity on budgeting and improving financial skills.',
 };
 const img3 = {
   top: 431,
   left: 16,
   width: 279,
   height: 193,
-  alt: 'Nielsen training on classifying dimensions with a self-check feedback form.',
+  alt: 'Students learning crisis management skills for emergency situations.',
 };
 
 const img4 = {
@@ -56,7 +56,7 @@ const img4 = {
   left: 340,
   width: 345,
   height: 371,
-  alt: 'Quick check for using a windlass rod tourniquet during first aid training.',
+  alt: 'Mastering critical thinking with interactive tools and resources.',
 };
 
 const img5 = {
@@ -64,7 +64,7 @@ const img5 = {
   left: 324,
   width: 365,
   height: 272,
-  alt: 'DBQ Online tool showing annotations on a historical document.',
+  alt: 'Engaging media for reading, thinking, and writing through interactive activities.',
 };
 
 const img6 = {
@@ -72,7 +72,7 @@ const img6 = {
   left: 209,
   width: 257,
   height: 212,
-  alt: 'Quick check for using a windlass rod tourniquet during first aid training.',
+  alt: 'Engaging design for exploring authors in fiction, poetry, and non-fiction.',
 };
 
 export const UniqueInteractions = () => {
@@ -105,7 +105,7 @@ export const UniqueInteractions = () => {
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute left-[2.4216524216524213%] top-0 h-[29.14012738853503%] w-[37.464387464387464%] opacity-0 shadow-lg`}
           alt={img1.alt}
-          src="images/classroom-annotation-tool.png"
+          src="images/interactive-activity-budgeting.png"
           breakpoints={[263, 384]}
           sizes="(min-width: 1024px) 263px, 384px"
         />
@@ -119,14 +119,14 @@ export const UniqueInteractions = () => {
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[2.2792022792022792%] top-[68.63057324840764%] h-[30.73248407643312%] w-[39.743589743589745%] opacity-0 shadow-lg`}
           alt={img3.alt}
-          src="images/diversity-training.png"
+          src="images/student-training-crisis-training.png"
           breakpoints={[279, 407]}
           sizes="(min-width: 1024px) 279px, 407px"
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute left-[48.433048433048434%] top-[1.4331210191082804%] h-[59.076433121019114%] w-[49.14529914529914%] opacity-0 shadow-lg`}
           alt={img4.alt}
-          src="images/tourniquet-training.png"
+          src="images/dbq-content-sticky-annotate.png"
           breakpoints={[345, 503]}
           sizes="(min-width: 1024px) 345px, 503px"
         />
@@ -140,7 +140,7 @@ export const UniqueInteractions = () => {
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__zoomIn opacity-100' : ''} !absolute left-[29.772079772079774%] top-[13.694267515923567%] h-[33.75796178343949%] w-[36.60968660968661%] opacity-0 shadow-lg`}
           alt={img6.alt}
-          src="images/authors-page.png"
+          src="images/dbq-background-kickoff.png"
           breakpoints={[257, 375]}
           sizes="(min-width: 1024px) 257px, 375px"
         />

@@ -14,7 +14,7 @@ import { ReactComponent as ArrowSimple } from '@/images/vector-red-arrow-simple.
 
 export const Head = () => (
   <SEO
-    title="the process"
+    title="The Process"
     description="Discover Sealworks' strategic and collaborative process that combines creative innovation with technical expertise. Learn how we transform your ideas into interactive digital experiences, from brainstorming and concept development to final launch and ongoing support."
     keywords="Sealworks process, digital experience creation, interactive solutions, creative innovation, technical expertise, project brainstorming, concept development, design and development, digital project process, collaborative process, digital solutions, project launch, ongoing support"
   />
@@ -26,7 +26,10 @@ const ProcessPage = ({ location }: PageProps) => {
       <ProcessHead />
       <div className="relative -mx-4 mb-[160px] flex flex-col items-center gap-10 bg-grayLight md:mx-0 lg:flex-row">
         <div className="max-w-[250px] md:max-w-[280px] lg:w-4/5 lg:max-w-[410px]">
-          <StaticImage src="../images/notebook.png" alt="Notebook" />
+          <StaticImage
+            src="../images/notebook.png"
+            alt="Every project begins with a blank slate for tailored, innovative solutions."
+          />
         </div>
 
         <div className="px-4 md:mr-4 lg:mr-[50px] lg:px-0">

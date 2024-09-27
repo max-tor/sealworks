@@ -22,7 +22,7 @@ export const Possibilities = () => {
         <StaticImage
           className="max-w-[200px] md:max-w-[250px] lg:max-w-[400px]"
           src="../../../images/possibilities1.png"
-          alt="Reality Store"
+          alt="Immersive scenario-based simulation for hands-on learning and real-world problem solving."
         />
       </div>
       <div
@@ -31,7 +31,7 @@ export const Possibilities = () => {
         <StaticImage
           className="max-w-[278px]"
           src="../../../images/possibilities2.png"
-          alt="phone hand"
+          alt="Employee simulation case study with real-time feedback for skill improvement and decision-making."
         />
       </div>
       <div
@@ -40,7 +40,7 @@ export const Possibilities = () => {
         <StaticImage
           className="max-w-[330px]"
           src="../../../images/possibilities3.png"
-          alt="Leader connect"
+          alt="Leader dashboard and information site for quick access to data and insights."
         />
       </div>
       <div
@@ -49,7 +49,7 @@ export const Possibilities = () => {
         <StaticImage
           className="max-w-[362px]"
           src="../../../images/possibilities4.png"
-          alt="website"
+          alt="Luxury brand education portal using storytelling to train and elevate sales teams."
         />
       </div>
       <div
@@ -58,7 +58,7 @@ export const Possibilities = () => {
         <StaticImage
           className="max-w-[150px] md:max-w-[255px]"
           src="../../../images/possibilities5.png"
-          alt="phone"
+          alt="Educational content with visual design for searchable, learner-focused experiences."
         />
       </div>
       <div
@@ -67,7 +67,7 @@ export const Possibilities = () => {
         <StaticImage
           className="max-w-[380px]"
           src="../../../images/possibilities6.png"
-          alt="Learning"
+          alt="Interactive knowledge activity to measure user understanding of content."
         />
       </div>
       <div
@@ -76,7 +76,7 @@ export const Possibilities = () => {
         <StaticImage
           className="max-w-[170px]"
           src="../../../images/possibilities7.png"
-          alt="web phone screen"
+          alt="Mobile-friendly educational content with visual design for searchable, on-the-go learning."
         />
       </div>
       <div
@@ -85,7 +85,7 @@ export const Possibilities = () => {
         <StaticImage
           className="md:max-w-[350px] lg:max-w-[560px]"
           src="../../../images/possibilities8.png"
-          alt="tablet screen"
+          alt="Child care interactive simulation with Hollywood-style animation for engaging learning."
         />
       </div>
     </section>

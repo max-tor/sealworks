@@ -9,7 +9,7 @@ const img1 = {
   left: 69,
   width: 302,
   height: 207,
-  alt: 'Raising Critical Thinkers.',
+  alt: 'Teacher portal for quick content search, access by tags, and asset downloads.',
 };
 
 const img2 = {
@@ -17,21 +17,21 @@ const img2 = {
   left: 381,
   width: 262,
   height: 130,
-  alt: 'E-learning module from the American Red Cross showing steps to protect against bloodborne pathogens, with progress indicators and action buttons.',
+  alt: 'Personalized learning plan with clear focus on areas for improvement.',
 };
 const img3 = {
   top: 194,
   left: 276,
   width: 285,
   height: 183,
-  alt: 'Ad(Vantage) Point',
+  alt: 'Mobile interactive activity exploring personal advantages and sharing insights with peers.',
 };
 const img4 = {
   top: 146,
   left: 507,
   width: 139,
   height: 228,
-  alt: 'Interactive module showing privilege reflection on a mountain graphic, with categories like Family Background, Race, and Education.',
+  alt: 'DEI interactive activity exploring personal advantages and sharing insights with peers.',
 };
 
 const img5 = {
@@ -39,7 +39,7 @@ const img5 = {
   left: 47,
   width: 220,
   height: 146,
-  alt: 'thinkPortal',
+  alt: 'Mobile login for secure and quick access to your platform.',
 };
 
 export const TailoredWorkBanner = () => {
@@ -57,7 +57,7 @@ export const TailoredWorkBanner = () => {
       </div>
       <aside className="relative grid h-[56.49546827794561vw] bg-[#ba0202] lg:h-[374px] lg:w-[662px] lg:flex-[0_0_662px] lg:flex-col">
         <StaticImage
-          alt=""
+          alt="visual element"
           src="images/back.png"
           breakpoints={[662, 1024]}
           sizes="(min-width: 1024px) 662px, 1024px"
@@ -94,7 +94,7 @@ export const TailoredWorkBanner = () => {
         <StaticImage
           className="!absolute left-[76.58610271903324%] top-[39.037433155080215%] h-[60.962566844919785%] w-[20.996978851963746%] shadow-lg"
           alt={img4.alt}
-          src="images/nielsen-mountain-toggle.png"
+          src="images/activity-mountain-toggle.png"
           breakpoints={[139, 215]}
           sizes="(min-width: 1024px) 139px, 215px"
           loading="eager"
