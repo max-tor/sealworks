@@ -80,7 +80,7 @@ export const CapabilitiesPresentation = () => {
           className="animate__animated animate__slideInUp xl:shadow-gray10 block size-full object-cover md:!absolute md:left-[871px] md:top-0 md:h-[231px] md:w-[256px] md:border md:border-gainsboro md:object-cover"
           imgClassName="h-auto max-w-full object-top"
           alt="Money Matters program facilitator dashboard with plans and activities."
-          src="images/money-matters-facilitator-dashboard.png"
+          src="images/myhub.png"
           breakpoints={[256, 640, 768, 1024, 1280]}
           sizes="(min-width: 1024px) 256px, 100vw"
           loading="eager"

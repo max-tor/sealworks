@@ -105,7 +105,7 @@ export const PrototypeFeedback: React.FC = () => {
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[11.404728789986091%] top-[68.97810218978103%] h-[31.02189781021898%] w-[42.698191933240615%] opacity-0 shadow-lg`}
           alt={img3.alt}
-          src="images/collaborative-idea-sticky-session.png"
+          src="images/sticky-brainstorming.png"
           breakpoints={[304, 433]}
           sizes="(min-width: 1024px) 304px, 433px"
         />
