@@ -55,9 +55,10 @@ export const TailoredWorkBanner = () => {
           </div>
         </div>
       </div>
-      <aside className="relative grid h-[56.49546827794561vw] bg-[#ba0202] lg:h-[374px] lg:w-[662px] lg:flex-[0_0_662px] lg:flex-col">
+      <aside className="animate__animated animate__zoomIn relative grid h-[56.49546827794561vw] bg-[#ba0202] lg:h-[374px] lg:w-[662px] lg:flex-[0_0_662px] lg:flex-col">
         <StaticImage
           alt="visual element"
+          className="hidden lg:block"
           src="images/back.png"
           breakpoints={[662, 1024]}
           sizes="(min-width: 1024px) 662px, 1024px"
