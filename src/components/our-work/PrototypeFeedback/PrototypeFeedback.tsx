@@ -16,7 +16,7 @@ const img0 = {
   left: 26,
   width: 370,
   height: 219,
-  alt: 'A half-drawn and half-digital interface showing feedback and progress analysis on a learning platform.',
+  alt: 'Collaborative activity to find patterns in feedback and determine user-focused solutions.',
 };
 
 const img1 = {
@@ -24,14 +24,14 @@ const img1 = {
   left: 393,
   width: 299,
   height: 281,
-  alt: 'Tablet view showing feedback and analysis on learning progress, including a welcome video and integration video with responses.',
+  alt: 'Dot activity to gather feedback, prioritize, and create a best-in-class custom application.',
 };
 const img2 = {
   top: 12,
   left: 2,
   width: 119,
   height: 241,
-  alt: 'Digital sticky notes brainstorming session displaying various topics like search, personalization, and content management',
+  alt: 'Sketch wireframe of an interactive app for user learning.',
 };
 
 const img3 = {
@@ -39,7 +39,7 @@ const img3 = {
   left: 82,
   width: 304,
   height: 170,
-  alt: 'Voting session for ideas with color-coded sticky notes across categories like search, content, personalization, and managing content.',
+  alt: 'Collaborative platform with sticky notes to capture ideas, analyze patterns, and plan next steps.',
 };
 
 const img4 = {
@@ -47,14 +47,14 @@ const img4 = {
   left: 53,
   width: 357,
   height: 266,
-  alt: "Consensus session showing top-voted sticky notes for defining 'MyModerna,' with keywords like 'easy to search' and 'collaboration'.",
+  alt: 'Interactive platform helping students develop critical thinking skills through critical thinking, analysis and writing.',
 };
 const img5 = {
   top: 2,
   left: 357,
   width: 352,
   height: 259,
-  alt: 'Interactive annotation tool on a tablet, with options for color coding and extra notes, illustrating an educational exercise.',
+  alt: 'User feedback and analysis screen after interactive gaming simulation with quick actions and skill tips.',
 };
 
 export const PrototypeFeedback: React.FC = () => {
@@ -91,35 +91,35 @@ export const PrototypeFeedback: React.FC = () => {
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[54.65924895688457%] top-[46.715328467153284%] h-[51.277372262773724%] w-[41.58553546592489%] opacity-0 shadow-lg`}
           alt={img1.alt}
-          src="images/feedback-analysis.png"
+          src="images/dot-activity-feedback-analysis.png"
           breakpoints={[299, 426]}
           sizes="(min-width: 1024px) 299px, 426px"
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInLeft opacity-100' : ''} !absolute left-[0.27816411682892905%] top-[2.18978102189781%] h-[43.97810218978102%] w-[16.550764951321277%] opacity-0`}
           alt={img2.alt}
-          src="images/sticky-notes-ideas.png"
+          src="images/sketch-wireframe-ux.png"
           breakpoints={[119, 169]}
           sizes="(min-width: 1024px) 119px, 169px"
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[11.404728789986091%] top-[68.97810218978103%] h-[31.02189781021898%] w-[42.698191933240615%] opacity-0 shadow-lg`}
           alt={img3.alt}
-          src="images/voting-ideas-session.png"
+          src="images/collaborative-idea-sticky-session.png"
           breakpoints={[304, 433]}
           sizes="(min-width: 1024px) 304px, 433px"
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__zoomIn opacity-100' : ''} !absolute left-[7.37134909596662%] top-[38.13868613138686%] h-[48.54014598540146%] w-[49.65229485396384%] opacity-0`}
           alt={img4.alt}
-          src="images/consensus-definition-session.png"
+          src="images/dbq-concept-reality-platform.png"
           breakpoints={[357, 508]}
           sizes="(min-width: 1024px) 357px, 508px"
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__zoomIn opacity-100' : ''} !absolute left-[49.65229485396384%] top-[0.36496350364963503%] h-[47.262773722627735%] w-[48.95688456189152%] opacity-0`}
           alt={img5.alt}
-          src="images/interactive-annotation.png"
+          src="images/sketch-feedback-analysis-simulation-results.png"
           breakpoints={[352, 501]}
           sizes="(min-width: 1024px) 352px, 501px"
         />

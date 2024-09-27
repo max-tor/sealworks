@@ -16,21 +16,21 @@ const img1 = {
   left: 242,
   width: 431,
   height: 235,
-  alt: 'Career simulation interface showing a student character exploring becoming a geneticist, with starting salary information.',
+  alt: 'Engaging learning menu with creative choices for exploration.',
 };
 const img2 = {
   top: 418,
   left: 418,
   width: 255,
   height: 182,
-  alt: 'Moderna onboarding resources page for new employees, full-time employees, and managers.',
+  alt: 'New element pages for easier content discovery and learning.',
 };
 const img3 = {
   top: 381,
   left: 79,
   width: 304,
   height: 287,
-  alt: 'Everboarding dashboard showing collected blossoms and available learning journeys.',
+  alt: 'Multilingual dashboard connecting users for focused learning across languages.',
 };
 
 const img4 = {
@@ -38,7 +38,7 @@ const img4 = {
   left: 390,
   width: 283,
   height: 167,
-  alt: 'Deep principles learning page with modules on direct, empathetic, earnest, and productive learning paths.',
+  alt: 'Multilingual dashboard connecting users for focused learning across languages.',
 };
 
 const img5 = {
@@ -46,7 +46,7 @@ const img5 = {
   left: 0,
   width: 335,
   height: 240,
-  alt: 'Lifeguarding course modules with progress tracking and completion details.',
+  alt: 'User dashboard to track progress and quickly resume learning.',
 };
 
 export const Onboarding = () => {
@@ -82,7 +82,7 @@ export const Onboarding = () => {
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[62.10995542347697%] top-[62.5748502994012%] h-[27.245508982035926%] w-[37.89004457652303%] opacity-0 shadow-lg`}
           alt={img2.alt}
-          src="images/moderna_onboarding_resources.png"
+          src="images/mod_onboarding_resources.png"
           breakpoints={[255, 388]}
           sizes="(min-width: 1024px) 255px, 388px"
         />

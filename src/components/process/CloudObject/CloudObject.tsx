@@ -24,7 +24,7 @@ export const CloudObject = () => {
         <StaticImage
           className="w-[76px]"
           src="../../../images/app.png"
-          alt="APP"
+          alt="User-friendly app designed to enhance engagement and streamline functionality."
         />
       </div>
       <div
@@ -33,7 +33,7 @@ export const CloudObject = () => {
         <StaticImage
           className="w-[150px]"
           src="../../../images/courses.png"
-          alt="Courses"
+          alt="Engaging interactive courses designed for effective learning and knowledge retention."
         />
       </div>
       <div
@@ -42,7 +42,7 @@ export const CloudObject = () => {
         <StaticImage
           className="w-[189px]"
           src="../../../images/platform.png"
-          alt="Platform"
+          alt="Scalable platform designed for seamless digital experiences and enhanced functionality."
         />
       </div>
       <div
@@ -51,7 +51,7 @@ export const CloudObject = () => {
         <StaticImage
           className="w-[253px]"
           src="../../../images/ecosystem.png"
-          alt="Ecosystem"
+          alt="Comprehensive digital ecosystem integrating tools and platforms for seamless user interaction."
         />
       </div>
       <div
@@ -60,7 +60,7 @@ export const CloudObject = () => {
         <StaticImage
           className="w-[113px]"
           src="../../../images/mobile.png"
-          alt="Mobile"
+          alt="Responsive mobile solutions for optimal user experience on any device."
         />
       </div>
       <div
@@ -69,7 +69,7 @@ export const CloudObject = () => {
         <StaticImage
           className="w-[90px]"
           src="../../../images/lxp.png"
-          alt="Lxp"
+          alt="Intuitive Learning Experience Platform with personalized learning paths and interactive content."
         />
       </div>
       <div
@@ -78,7 +78,7 @@ export const CloudObject = () => {
         <StaticImage
           className="w-[266px]"
           src="../../../images/integrations.png"
-          alt="Integrations"
+          alt="Seamless integrations to enhance functionality and streamline workflows."
         />
       </div>
     </div>

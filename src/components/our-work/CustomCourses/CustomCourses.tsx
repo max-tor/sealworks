@@ -18,14 +18,14 @@ const img1 = {
   left: 47,
   width: 472,
   height: 313,
-  alt: "Interactive training module featuring a floor plan and a family scenario for childcare, showing rooms with Click n'Learn and scenario activities.",
+  alt: 'Interactive simulation with 3D house map for free exploration and content engagement.',
 };
 const img2 = {
   top: 66,
   left: 0,
   width: 130,
   height: 340,
-  alt: '',
+  alt: '3D avatar for interactive character storytelling and immersive experiences.',
 };
 
 const img3 = {
@@ -33,28 +33,28 @@ const img3 = {
   left: 463,
   width: 242,
   height: 177,
-  alt: 'Childcare training module featuring a child with a list of actions to handle a temper tantrum.',
+  alt: 'Interactive case scenario with child tantrum to explore and learn how to navigate situations.',
 };
 const img4 = {
   top: 438,
   left: 98,
   width: 400,
   height: 239,
-  alt: 'Module on reflecting on privilege, showing questions about family background and a mountain graphic illustrating privilege levels.',
+  alt: 'Activity results and feedback showing your advantage points for self-reflection.',
 };
 const img5 = {
   top: 413,
   left: 22,
   width: 100,
   height: 206,
-  alt: 'Diversity training module defining diversity with various interactive elements and definitions.',
+  alt: 'Mobile screen with definition, beautiful visuals, and audio pronunciation for enhanced learning.',
 };
 const img6 = {
   top: 342,
   left: 419,
   width: 325,
   height: 256,
-  alt: 'Interactive module showing common uses of credit with options to select different real-life scenarios.',
+  alt: 'Interactive case study in Spanish to explore options and outcomes.',
 };
 
 export const CustomCourses = () => {

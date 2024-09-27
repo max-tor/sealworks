@@ -17,7 +17,7 @@ export const ContactDetails = () => {
         <StaticImage
           className="lg:h-[294px] lg:w-[232px] lg:flex-[0_0_232px]"
           imgClassName="h-auto max-w-full"
-          src="images/address.png"
+          src="images/sealworks-headquarters.png"
           alt=""
           width={232}
           height={294}

@@ -18,14 +18,14 @@ const img1 = {
   left: 20,
   width: 317,
   height: 189,
-  alt: 'Career simulation interface showing a student character exploring becoming a geneticist, with starting salary information.',
+  alt: 'Career exploration game helping students discover career options interactively.',
 };
 const img2 = {
   top: -25,
   left: -26,
   width: 79,
   height: 208,
-  alt: '',
+  alt: 'Custom 2D avatar designed to match your personal style.',
 };
 
 const img3 = {
@@ -33,7 +33,7 @@ const img3 = {
   left: 20,
   width: 317,
   height: 378,
-  alt: "ThinkLaw page showing trending lessons like space tourism, Halloween task cards, and what's new in critical thinking.",
+  alt: 'User dashboard for quick access to new content and updates.',
 };
 
 const img4 = {
@@ -41,14 +41,14 @@ const img4 = {
   left: 358,
   width: 317,
   height: 280,
-  alt: 'Pack Tracks form for tracking cigarette usage, with inputs for time, place, activity, and mood.',
+  alt: 'Interactive activity to track data, present insights, and break habits for a healthier lifestyle.',
 };
 const img5 = {
   top: 286,
   left: 358,
   width: 317,
   height: 253,
-  alt: "Learning Hub dashboard showing a user's progress, featured learning modules, and recommended learning paths.",
+  alt: 'Learning hub connecting platforms for simplified access and focused user growth.',
 };
 
 export const DigitalHubs: React.FC = () => {

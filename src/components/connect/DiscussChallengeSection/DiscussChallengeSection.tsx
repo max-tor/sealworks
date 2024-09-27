@@ -17,8 +17,8 @@ export const DiscussChallengeSection: React.FC = () => {
           <StaticImage
             className="lg:h-[334px] lg:w-[470px] lg:object-cover"
             imgClassName="h-auto max-w-full object-top"
-            alt="Mockup of a feedback page with handwritten elements on the left and digital interface on the right."
-            src="images/feedback-page-mockup.png"
+            alt="Going from concept to reality to fulfill user needs."
+            src="images/concept-to-reality-sketching-future.png"
             breakpoints={[470, 640, 768, 1024, 1280]}
             sizes="(min-width: 1280px) 470px, 100vw"
           />
