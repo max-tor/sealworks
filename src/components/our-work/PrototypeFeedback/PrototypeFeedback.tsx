@@ -83,6 +83,7 @@ export const PrototypeFeedback: React.FC = () => {
       >
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute left-[3.616133518776078%] top-[2.18978102189781%] h-[39.96350364963504%] w-[51.46036161335188%] opacity-0 shadow-lg`}
+          imgClassName="object-fill"
           alt={img0.alt}
           src="images/learning-platform-feedback.png"
           breakpoints={[370, 537]}
@@ -98,6 +99,7 @@ export const PrototypeFeedback: React.FC = () => {
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInLeft opacity-100' : ''} !absolute left-[0.27816411682892905%] top-[2.18978102189781%] h-[43.97810218978102%] w-[16.550764951321277%] opacity-0`}
+          imgClassName="object-fill"
           alt={img2.alt}
           src="images/sketch-wireframe-ux.png"
           breakpoints={[119, 169]}
@@ -105,6 +107,7 @@ export const PrototypeFeedback: React.FC = () => {
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[11.404728789986091%] top-[68.97810218978103%] h-[31.02189781021898%] w-[42.698191933240615%] opacity-0 shadow-lg`}
+          imgClassName="object-fill"
           alt={img3.alt}
           src="images/sticky-brainstorming.png"
           breakpoints={[304, 433]}
@@ -119,6 +122,7 @@ export const PrototypeFeedback: React.FC = () => {
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__zoomIn opacity-100' : ''} !absolute left-[49.65229485396384%] top-[0.36496350364963503%] h-[47.262773722627735%] w-[48.95688456189152%] opacity-0`}
+          imgClassName="object-fill"
           alt={img5.alt}
           src="images/sketch-feedback-analysis-simulation-results.png"
           breakpoints={[352, 501]}
