@@ -57,6 +57,7 @@ export const TailoredWorkBanner = () => {
       </div>
       <aside className="animate__animated animate__zoomIn relative grid h-[56.49546827794561vw] bg-[#ba0202] lg:h-[374px] lg:w-[662px] lg:flex-[0_0_662px] lg:flex-col">
         <StaticImage
+          imgClassName="object-fill"
           alt="visual element"
           className="hidden lg:block"
           src="images/back.png"
@@ -67,6 +68,7 @@ export const TailoredWorkBanner = () => {
           loading="eager"
         />
         <StaticImage
+          imgClassName="object-fill"
           className="!absolute left-[10.42296072507553%] top-[9.358288770053475%] h-[55.3475935828877%] w-[45.61933534743202%] shadow-lg"
           alt={img1.alt}
           src="images/raising-critical-thinkers.png"
@@ -75,6 +77,7 @@ export const TailoredWorkBanner = () => {
           loading="eager"
         />
         <StaticImage
+          imgClassName="object-fill"
           className="!absolute left-[57.55287009063444%] top-0 h-[34.75935828877005%] w-[39.577039274924466%] shadow-lg"
           alt={img2.alt}
           src="images/red-cross.png"
@@ -84,6 +87,7 @@ export const TailoredWorkBanner = () => {
         />
 
         <StaticImage
+          imgClassName="object-fill"
           className="!absolute left-[41.69184290030212%] top-[51.87165775401069%] h-[48.93048128342246%] w-[43.051359516616316%] shadow-lg"
           alt={img3.alt}
           src="images/dialogues.png"
@@ -93,6 +97,7 @@ export const TailoredWorkBanner = () => {
         />
 
         <StaticImage
+          imgClassName="object-fill"
           className="!absolute left-[76.58610271903324%] top-[39.037433155080215%] h-[60.962566844919785%] w-[20.996978851963746%] shadow-lg"
           alt={img4.alt}
           src="images/activity-mountain-toggle.png"
@@ -102,6 +107,7 @@ export const TailoredWorkBanner = () => {
         />
 
         <StaticImage
+          imgClassName="object-fill"
           className="!absolute left-[7.099697885196375%] top-[60.962566844919785%] h-[39.037433155080215%] w-[33.23262839879154%] shadow-lg"
           alt={img5.alt}
           src="images/think-portal.png"

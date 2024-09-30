@@ -70,6 +70,7 @@ export const LearningPlatforms = () => {
       >
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute -top-[5.653021442495127%] left-[3.3707865168539324%] h-[42.49512670565302%] w-[44.241573033707866%] opacity-0 shadow-lg lg:shadow-lg`}
+          imgClassName="object-fill"
           alt={img1.alt}
           src="images/connect-reading-supporting-details.png"
           breakpoints={[315, 453]}
@@ -78,7 +79,7 @@ export const LearningPlatforms = () => {
 
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[9.129213483146067%] top-[42.69005847953216%] h-[55.36062378167641%] w-[38.48314606741573%] opacity-0 lg:shadow-lg`}
-          imgClassName="h-auto max-w-full object-top"
+          imgClassName="object-fill"
           alt={img2.alt}
           src="images/metrics-performance-summary.png"
           breakpoints={[274, 394]}
@@ -87,7 +88,7 @@ export const LearningPlatforms = () => {
 
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute -top-[11.500974658869396%] left-[51.26404494382022%] h-[57.89473684210527%] w-[42.69662921348314%] opacity-0 lg:shadow-lg`}
-          imgClassName="h-auto max-w-full object-top"
+          imgClassName="object-fill"
           alt={img3.alt}
           src="images/my-learning-homepage.png"
           breakpoints={[304, 437]}
@@ -96,7 +97,7 @@ export const LearningPlatforms = () => {
 
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[51.26404494382022%] top-[52.826510721247566%] h-[43.07992202729044%] w-[45.2247191011236%] opacity-0 shadow-lg lg:shadow-lg`}
-          imgClassName="h-auto max-w-full object-top"
+          imgClassName="object-fill"
           alt={img4.alt}
           src="images/a-learning-dashboard.png"
           breakpoints={[323, 465]}

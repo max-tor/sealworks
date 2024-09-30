@@ -103,6 +103,7 @@ export const UniqueInteractions = () => {
       >
         <div className="!absolute left-0 top-[8.121019108280255%] h-[72.92993630573248%] w-full bg-blue shadow-lg"></div>
         <StaticImage
+          imgClassName="object-fill"
           className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute left-[2.4216524216524213%] top-0 h-[29.14012738853503%] w-[37.464387464387464%] opacity-0 shadow-lg`}
           alt={img1.alt}
           src="images/interactive-activity-budgeting.png"
@@ -110,6 +111,7 @@ export const UniqueInteractions = () => {
           sizes="(min-width: 1024px) 263px, 384px"
         />
         <StaticImage
+          imgClassName="object-fill"
           className={`${isVisible ? 'animate__animated animate__fadeInLeft opacity-100' : ''} !absolute left-[2.4216524216524213%] top-[32.961783439490446%] h-[31.84713375796178%] w-[39.45868945868946%] opacity-0 shadow-lg`}
           alt={img2.alt}
           src="images/budgeting-affordability-page.png"
@@ -117,6 +119,7 @@ export const UniqueInteractions = () => {
           sizes="(min-width: 1024px) 277px, 404px"
         />
         <StaticImage
+          imgClassName="object-fill"
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[2.2792022792022792%] top-[68.63057324840764%] h-[30.73248407643312%] w-[39.743589743589745%] opacity-0 shadow-lg`}
           alt={img3.alt}
           src="images/student-training-crisis-training.png"
@@ -124,6 +127,7 @@ export const UniqueInteractions = () => {
           sizes="(min-width: 1024px) 279px, 407px"
         />
         <StaticImage
+          imgClassName="object-fill"
           className={`${isVisible ? 'animate__animated animate__fadeInDown opacity-100' : ''} !absolute left-[48.433048433048434%] top-[1.4331210191082804%] h-[59.076433121019114%] w-[49.14529914529914%] opacity-0 shadow-lg`}
           alt={img4.alt}
           src="images/dbq-content-sticky-annotate.png"
@@ -131,6 +135,7 @@ export const UniqueInteractions = () => {
           sizes="(min-width: 1024px) 345px, 503px"
         />
         <StaticImage
+          imgClassName="object-fill"
           className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[46.15384615384615%] top-[56.847133757961785%] h-[43.31210191082803%] w-[51.99430199430199%] opacity-0`}
           alt={img5.alt}
           src="images/annotation-screen-dbq.png"
@@ -138,6 +143,7 @@ export const UniqueInteractions = () => {
           sizes="(min-width: 1024px) 365px, 532px"
         />
         <StaticImage
+          imgClassName="object-fill"
           className={`${isVisible ? 'animate__animated animate__zoomIn opacity-100' : ''} !absolute left-[29.772079772079774%] top-[13.694267515923567%] h-[33.75796178343949%] w-[36.60968660968661%] opacity-0 shadow-lg`}
           alt={img6.alt}
           src="images/dbq-background-kickoff.png"

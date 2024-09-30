@@ -115,6 +115,7 @@ export const PrototypeFeedback: React.FC = () => {
         />
         <StaticImage
           className={`${isVisible ? 'animate__animated animate__zoomIn opacity-100' : ''} !absolute left-[7.37134909596662%] top-[38.13868613138686%] h-[48.54014598540146%] w-[49.65229485396384%] opacity-0`}
+          imgClassName="object-fill"
           alt={img4.alt}
           src="images/dbq-concept-reality-platform.png"
           breakpoints={[357, 508]}
