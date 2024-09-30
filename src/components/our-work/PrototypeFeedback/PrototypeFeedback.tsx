@@ -21,7 +21,7 @@ const img0 = {
 
 const img1 = {
   top: 256,
-  left: 396,
+  left: 400,
   width: 299,
   height: 281,
   alt: 'Dot activity to gather feedback, prioritize, and create a best-in-class custom application.',
@@ -89,7 +89,7 @@ export const PrototypeFeedback: React.FC = () => {
           sizes="(min-width: 1024px) 370px, 537px"
         />
         <StaticImage
-          className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[55.07649513212796%] top-[46.715328467153284%] h-[51.277372262773724%] w-[41.58553546592489%] opacity-0 shadow-lg`}
+          className={`${isVisible ? 'animate__animated animate__fadeInUp opacity-100' : ''} !absolute left-[55.63282336578581%] top-[46.715328467153284%] h-[51.277372262773724%] w-[41.58553546592489%] opacity-0 shadow-lg`}
           imgClassName="object-fill"
           alt={img1.alt}
           src="images/dot-activity-feedback-analysis.png"
