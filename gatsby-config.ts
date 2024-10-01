@@ -46,15 +46,15 @@ const config: GatsbyConfig = {
     'gatsby-plugin-styled-components',
     'gatsby-plugin-image',
     ...(process.env.GATSBY_ACTIVE_ENV
-      ? [
+      ? []
+      : [
           {
             resolve: 'gatsby-plugin-google-gtag',
             options: {
               trackingIds: ['UA-177857-1', 'G-XVFVTCE1CZ'],
             },
           },
-        ]
-      : []),
+        ]),
     {
       resolve: 'gatsby-plugin-breakpoints',
       options: {
