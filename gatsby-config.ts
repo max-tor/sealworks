@@ -52,6 +52,13 @@ const config: GatsbyConfig = {
             resolve: 'gatsby-plugin-google-gtag',
             options: {
               trackingIds: ['UA-177857-1', 'G-XVFVTCE1CZ'],
+              gtagConfig: {
+                anonymize_ip: true, // This config ensures GDPR compliance
+                send_page_view: true, // Ensures tracking on all pages
+              },
+              pluginConfig: {
+                head: true, // Puts tracking script in the head instead of the body
+              },
             },
           },
         ]),

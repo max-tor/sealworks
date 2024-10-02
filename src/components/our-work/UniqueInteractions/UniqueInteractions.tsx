@@ -4,7 +4,6 @@ import React, { useEffect, useRef } from 'react';
 import { HeaderContainer } from '@/components/common/HeaderContainer';
 import { UnderlinedText } from '@/components/common/UnderlinedText';
 import { useOnscrollAnimation } from '@/hooks/useOnscrollAnimation';
-import { showImagesInfo } from '@/utils';
 
 const description1 =
   'We specialize in *creating unique interactions* that *captivate* and *engage* users. Our designs focus on intuitive, responsive elements that make every interaction seamless and enjoyable. By incorporating innovative technologies and user-centric design principles, we ensure each touchpoint is memorable and impactful.';
